@@ -1,0 +1,9 @@
+<COREF ID="X0">Susan Mills</COREF> 
+{1} {A nice feature} 
+{3} {Sue} 
+
+<COREF ID="X1">a home</COREF>  
+{1} {house has}  
+
+<COREF ID="X2">her dog</COREF> 
+{3} {dog}

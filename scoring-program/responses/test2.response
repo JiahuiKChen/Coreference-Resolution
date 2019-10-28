@@ -1,0 +1,12 @@
+<COREF ID="X0">George K. Walton</COREF>
+{1} {George Walton}
+{3} {George}
+
+<COREF ID="X1">Michael J. Felton</COREF>
+{1} {Mike Felton}
+{2} {Mike's parents}
+{3} {Mike} 
+
+<COREF ID="X2">Salt Lake City</COREF>
+
+<COREF ID="X3">St. George</COREF>
