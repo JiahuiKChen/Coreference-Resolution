@@ -1,0 +1,96 @@
+< s
+id=
+chagas
+coref id=
+x0
+> disease < /coref >
+organ <
+coref id=
+x1
+> transplant < /coref >
+< /s > < s
+id=
+> [
+chagas
+chile19990120.00901998
+chagas
+uruguay19980111.00831997
+chagas
+america
+19970114.0070chagas disease
+america19970114.0066
+chagas
+protozoan parasite _ <
+coref id=
+x2
+trypanosoma
+cruzi < /coref > _. < /s > < s
+id=
+chagas
+organ transplantation
+america
+chagas
+coref id=
+x3
+< /coref >
+< /s > < s
+id=
+coref id=
+x4
+> report < /coref >
+morbidity
+mortality weekly
+coref id=
+x5
+> cases < /coref >
+cruzi_ <
+coref id=
+x6
+> infection < /coref >
+solid <
+coref id=
+x7
+> organs < /coref >
+coref id=
+x8
+> donor < /coref >
+< /s > < s
+id=
+> <
+coref id=
+x9
+centers
+disease
+prevention
+< /coref >
+us transplant organizations
+screen potential donors
+cruzi_ infection
+positive. < /s > < s
+id=
+> [
+infection
+organ <
+coref id=
+x10
+> recipients < /coref >
+recipient. < /s > < s
+id=
+bone marrow transplantation. < /s > < s
+id=
+renal transplants
+donor. < /s > < s
+id=
+cdc
+website emphasises
+organ transplants
+medical personnel
+chagas
+possible risks
+organ transplantation. < /s > < s
+id=
+> <
+coref id=
+x11
+mod.ep
+< /coref > ] ep/sh < /s >
