@@ -8,7 +8,7 @@ import numpy as np
 
 
 # Returns a dictionary mapping initial reference to all mentions
-# Reads in answer file as the first command line argument
+# from answer file of true mentions
 def parse_true_mentions(key_file):
     # Regexes to extract words
     init_reg = '>(.*)<'
@@ -34,13 +34,13 @@ def parse_true_mentions(key_file):
     return mention_clusters
 
 
-# Given 2 words, returns their feature vector
-def get_pair_features(w1, w2):
+# Given 2 phrases (noun phrases), returns their feature vector
+def get_pair_features(p1, p2):
 
 
 
-# Given a map of all initial references to their mentions,
-# featurizes every positive pair and all negative noun phrase pairs between each mention
+# Given a map of all initial references to their mentions and the input text file,
+# returns all negative and positive features for the given references.
 # Positive Label Pairs: All pairs of intial references with each of their mentions
 # Negative Label Pairs: All pairs of extracted noun phrases from all sentences with each initial reference
 # 
@@ -49,14 +49,22 @@ def gen_features(mention_map, input_file):
     pos_features = []
     neg_features = []
 
-    # Generating positive features
+    # TODO: GET INPUT FILE'S TEXT WITH ALL COREF AND SENTENCE ID TAGS REMOVED
+
+    # TODO: GET NOUN CHUNKS FROM THE INPUT TEXT
+
+    # Generating features for each initial reference/cluster of mentions
     for initial in mention_map:
+        # Positive pairs are initial ref with each of their mentions
         references = mention_map[initial]
+        for ref in references:
+            pos_feature = get_pair_features(initial, ref)
+            pos_features.append(pos_feature)
+            # TODO: FINISH POS FEATURE GEN
 
-
-def featurize_file(answer_file, input_file):
-    mention_map = parse_true_mentions(answer_file)
-    features = gen_features(mention_map, input_file)
+        # TODO: GEN NEGATIVE FEATURES
+        # BY ALL GOING THROUGH ALL NP CHUNKS/SPANS IN INPUT TEXT (WITH REMOVED TAGS)
+        # THEN FEATURIZE EACH NP CHUNK PAIR THAT DOES NOT INCLUDE ANY VALID REFERENCE 
 
 
 ######################################## RUN FEATURIZATION OF KEY FILE

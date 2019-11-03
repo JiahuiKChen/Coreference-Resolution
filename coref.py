@@ -12,7 +12,7 @@ def run_coref(input_file):
 
 
 ###################################### RUNNING COREFERENCE ON INPUT FILES
-# Parse in the given list_file (of inputs to run coreference on)
+# Parse in the given list_file (of input file names to run coreference on)
 # and output directory
 try:
     arg_list = sys.argv
@@ -24,8 +24,7 @@ try:
     # Running coreference resolution on each input file 
     with open(list_file) as in_file:
         for input_name in in_file:
-            input_file = input_name.strip() + ".input"
-            run_coref(input_file)
+            run_coref(input_name.strip())
 except Exception as e: 
     print("\nException thrown:\n")
     print(str(e), '\n')
