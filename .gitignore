@@ -14,7 +14,9 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+#lib/
+lib/python3.6/site-packages/en_core_web_sm/
+lib/python3.6/site-packages/en_core_web_sm-2.2.0-py3.6.egg-info/
 lib64/
 parts/
 sdist/
