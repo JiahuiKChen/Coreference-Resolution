@@ -5,6 +5,8 @@ import os
 # Runs coreference resolution on all sentences in the given file
 def run_coref(input_file):
     with open(input_file) as text_file:
+        # Get noun phrases for each sentence
+        # From left to right, pass noun phrase pairs into mention-pair classifier
         for sentence in text_file:
             print(sentence)
 
