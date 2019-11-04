@@ -5,6 +5,7 @@
 import sys
 import re
 import numpy as np
+import spacy
 from util import get_input_file_text
 
 
@@ -51,15 +52,20 @@ def gen_features(mention_map, input_file):
     pos_features = []
     neg_features = []
 
-    # TODO: GET INPUT FILE'S TEXT WITH ALL COREF AND SENTENCE ID TAGS REMOVED
+    # Getting input file's text with all tags removed
+    input_txt, s_map = get_input_file_text(input_file) 
 
-    # TODO: GET NOUN CHUNKS FROM THE INPUT TEXT
+    # Passing input text through spacy model (for similarity vectors, noun phrases, etc)
+    processed_input = nlp(input_txt)
+
+    # Getting noun chunks/spans using spacy from the input text
+    np_chunks = list(chunk for chunk in processed_input.noun_chunks)
+    print(np_chunks)
 
     # Generating features for each initial reference/cluster of mentions
     for initial in mention_map:
         # Positive pairs are initial ref with each of their mentions
         references = mention_map[initial]
-        print(references)
         for ref in references:
             pos_feature = get_pair_features(initial, ref)
             pos_features.append(pos_feature)
@@ -75,10 +81,12 @@ def gen_features(mention_map, input_file):
 def featurize_file(answer_file, input_file):
     mention_map = parse_true_mentions(answer_file)
     pos_features, neg_features = gen_features(mention_map, input_file)
-    print(len(pos_features), len(mention_map))
 
 
 ######################################## RUN FEATURIZATION OF KEY FILE
+# Load in large English model from spacy
+nlp = spacy.load("en_core_web_lg")
+
 # Load in input and key files, corresponding to same text
 args = sys.argv
 key_file = args[1]
