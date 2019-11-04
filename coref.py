@@ -37,7 +37,24 @@ def extract_initial_refs(sentence_txt):
         return ref_map, refs, sentence_txt
 
 
+# Creates string of coreference extractions in specified format
+def format_response(coref_map, initial_refs_map, ordered_initials):
+    #print(initial_refs_map, ordered_initials)
+    response_str = ""
+    for initial in ordered_initials:
+        if initial not in coref_map:
+            continue
+        corefs = coref_map[initial]
+        full_tag = initial_refs_map[initial]
+        print(full_tag)
+        print(corefs)
+
+
 # Runs coreference resolution on all sentences in the given file
+#
+# Returns:      Responses as map of initial references to a list of (coreference text, sentence ID)
+#               Map of all initial references (text only) to their full coreference tag wrapping
+#               List of initial references IN ORDER IN WHICH THEY APPEAR IN INPUT
 def run_coref(input_file, nlp_model):
     # Get input text 
     input_txt, sentence_map = get_input_file_text(input_file)
@@ -68,13 +85,9 @@ def run_coref(input_file, nlp_model):
             for init_ind in range(len(possible_initials)-1, -1, -1):
                 init_ref = possible_initials[init_ind]
                 potential_ref = nlp_model(init_ref)
-
-                print(f"Trying NP {np.text}  with  Initial Reference: {init_ref}")
-
+                #print(f"Trying NP {np.text}  with  Initial Reference: {init_ref}")
                 sim_score = get_pair_features(potential_ref, np)
-
-                print(sim_score)
-
+                #print(sim_score)
                 # IF THRESHOLD IS ABOVE 0.5, CONSIDER IT A COREFERENCE
                 if sim_score > 0.5:
                     if init_ref not in found_corefs:
@@ -82,8 +95,11 @@ def run_coref(input_file, nlp_model):
                     found_corefs[init_ref].append((np.text, s))
                     break 
 
-    print(found_corefs)
-    return found_corefs
+    #print(found_corefs)
+    #return found_corefs, initials_map, possible_initials
+    # Generating formatted coreference responses
+    response_str = format_response(found_corefs, initials_map, possible_initials)
+    return response_str
 
 
 ###################################### RUNNING COREFERENCE ON INPUT FILES
