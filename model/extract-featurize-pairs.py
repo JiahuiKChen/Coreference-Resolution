@@ -45,14 +45,13 @@ def get_pair_features(p1, p2):
     #return 'yeet'
 
 
-
 # Given a map of all initial references to their mentions and the input text file,
 # returns all negative and positive features for the given references.
 # Positive Label Pairs: All pairs of intial references with each of their mentions
 # Negative Label Pairs: All pairs of extracted noun phrases from all sentences with each initial reference
 # 
 # Returns list of positive features and list of negative features
-def gen_features(mention_map, input_file):
+def gen_features(mention_map, input_file, nlp_model):
     pos_features = []
     neg_features = []
 
@@ -60,19 +59,21 @@ def gen_features(mention_map, input_file):
     input_txt, s_map = get_input_file_text(input_file) 
 
     # Passing input text through spacy model (for similarity vectors, noun phrases, etc)
-    processed_input = nlp(input_txt)
+    processed_input = nlp_model(input_txt)
 
     # Getting noun chunks/spans using spacy from the input text
     np_chunks = list(chunk for chunk in processed_input.noun_chunks)
 
     # Generating features for each initial reference/cluster of mentions
     for initial in mention_map:
-        processed_initial = nlp(initial)
+        processed_initial = nlp_model(initial)
         # Positive pairs are initial ref with each of their mentions
         references = mention_map[initial]
         for ref in references:
-            processed_ref = nlp(ref)
+            processed_ref = nlp_model(ref)
             pos_feature = get_pair_features(processed_initial, processed_ref)
+
+            print(f"Initial Ref: {initial}    Mention: {ref}")
             print(pos_feature)
             pos_features.append(pos_feature)
 
@@ -83,9 +84,9 @@ def gen_features(mention_map, input_file):
     return pos_features, neg_features
 
 
-def featurize_file(answer_file, input_file):
+def featurize_file(answer_file, input_file, nlp_model):
     mention_map = parse_true_mentions(answer_file)
-    pos_features, neg_features = gen_features(mention_map, input_file)
+    pos_features, neg_features = gen_features(mention_map, input_file, nlp_model)
 
 
 ######################################## RUN FEATURIZATION OF KEY FILE
@@ -97,4 +98,4 @@ args = sys.argv
 key_file = args[1]
 input_file = args[2]
 
-featurize_file(key_file, input_file)
+featurize_file(key_file, input_file, nlp)
