@@ -45,6 +45,8 @@ def run_coref(input_file, nlp_model):
     possible_initials = []
     # Holds all initial references mapped to their coreference ID tag string
     initials_map = {}
+    # Tracks found coreferences: <intial reference, (NP that matched, sentence_id)
+    found_corefs = {}
 
     # For each sentence, run best-first coreference resolution
     for s in sentence_map:
@@ -59,8 +61,29 @@ def run_coref(input_file, nlp_model):
         # Get all np chunks/spans from sentence (excluding initial references, so all these NPs should be checked for coreference)
         parsed_sentence = nlp_model(sentence)
         np_chunks = list(chunk for chunk in parsed_sentence.noun_chunks)
-        print(possible_initials, np_chunks)
+        # For each np, pair with the most recent intiial reference - run pair through the mention-pair classifier 
+        for np in np_chunks:
+            # Try mention pairs with initial references (trying most recent first), until all are tried OR positive match is found
+            # NOTE: FOR NOW, THE "CLASSIFIER" IS JUST GETTING SIMILARITY OF THE PAIR AND TESTING THRESHOLD
+            for init_ind in range(len(possible_initials)-1, -1, -1):
+                init_ref = possible_initials[init_ind]
+                potential_ref = nlp_model(init_ref)
 
+                print(f"Trying NP {np.text}  with  Initial Reference: {init_ref}")
+
+                sim_score = get_pair_features(potential_ref, np)
+
+                print(sim_score)
+
+                # IF THRESHOLD IS ABOVE 0.5, CONSIDER IT A COREFERENCE
+                if sim_score > 0.5:
+                    if init_ref not in found_corefs:
+                        found_corefs[init_ref] = []
+                    found_corefs[init_ref].append((np.text, s))
+                    break 
+
+    print(found_corefs)
+    return found_corefs
 
 
 ###################################### RUNNING COREFERENCE ON INPUT FILES
