@@ -36,9 +36,13 @@ def parse_true_mentions(key_file):
     return mention_clusters
 
 
-# Given 2 phrases (noun phrases), returns their feature vector
+# Given 2 Spacy-processed phrases (noun phrases that are either Spans or Docs), returns their feature vector
+#
+# FOR NOW: RETURNS THEIR SIMILARITY SCORE
+# TODO???: RETURN A BUNCH OF FEATURES (NOT JUST SIMILARITY SCORE)
 def get_pair_features(p1, p2):
-    return 'yeet'
+    return p1.similarity(p2)
+    #return 'yeet'
 
 
 
@@ -60,16 +64,17 @@ def gen_features(mention_map, input_file):
 
     # Getting noun chunks/spans using spacy from the input text
     np_chunks = list(chunk for chunk in processed_input.noun_chunks)
-    print(np_chunks)
 
     # Generating features for each initial reference/cluster of mentions
     for initial in mention_map:
+        processed_initial = nlp(initial)
         # Positive pairs are initial ref with each of their mentions
         references = mention_map[initial]
         for ref in references:
-            pos_feature = get_pair_features(initial, ref)
+            processed_ref = nlp(ref)
+            pos_feature = get_pair_features(processed_initial, processed_ref)
+            print(pos_feature)
             pos_features.append(pos_feature)
-            # TODO: FINISH POS FEATURE GEN
 
         # TODO: GEN NEGATIVE FEATURES
         # BY ALL GOING THROUGH ALL NP CHUNKS/SPANS IN INPUT TEXT (WITH REMOVED TAGS)
