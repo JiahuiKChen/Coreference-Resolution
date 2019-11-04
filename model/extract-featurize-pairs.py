@@ -5,6 +5,7 @@
 import sys
 import re
 import numpy as np
+from util import get_input_file_text
 
 
 # Returns a dictionary mapping initial reference to all mentions
@@ -36,6 +37,7 @@ def parse_true_mentions(key_file):
 
 # Given 2 phrases (noun phrases), returns their feature vector
 def get_pair_features(p1, p2):
+    return 'yeet'
 
 
 
@@ -57,6 +59,7 @@ def gen_features(mention_map, input_file):
     for initial in mention_map:
         # Positive pairs are initial ref with each of their mentions
         references = mention_map[initial]
+        print(references)
         for ref in references:
             pos_feature = get_pair_features(initial, ref)
             pos_features.append(pos_feature)
@@ -66,9 +69,17 @@ def gen_features(mention_map, input_file):
         # BY ALL GOING THROUGH ALL NP CHUNKS/SPANS IN INPUT TEXT (WITH REMOVED TAGS)
         # THEN FEATURIZE EACH NP CHUNK PAIR THAT DOES NOT INCLUDE ANY VALID REFERENCE 
 
+    return pos_features, neg_features
+
+
+def featurize_file(answer_file, input_file):
+    mention_map = parse_true_mentions(answer_file)
+    pos_features, neg_features = gen_features(mention_map, input_file)
+    print(len(pos_features), len(mention_map))
+
 
 ######################################## RUN FEATURIZATION OF KEY FILE
-# Load in key file
+# Load in input and key files, corresponding to same text
 args = sys.argv
 key_file = args[1]
 input_file = args[2]
