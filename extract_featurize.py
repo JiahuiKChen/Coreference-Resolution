@@ -90,12 +90,12 @@ def featurize_file(answer_file, input_file, nlp_model):
 
 
 ######################################## RUN FEATURIZATION OF KEY FILE
-# Load in large English model from spacy
-nlp = spacy.load("en_core_web_lg")
-
-# Load in input and key files, corresponding to same text
-args = sys.argv
-key_file = args[1]
-input_file = args[2]
-
-featurize_file(key_file, input_file, nlp)
+## Load in large English model from spacy
+#nlp = spacy.load("en_core_web_lg")
+#
+## Load in input and key files, corresponding to same text
+#args = sys.argv
+#key_file = args[1]
+#input_file = args[2]
+#
+#featurize_file(key_file, input_file, nlp)

@@ -10,6 +10,7 @@ import re
 def get_input_file_text(input_file):
     sentence_splits_regex = '(<S ID.*?>.*?</S>)'
     sentence_txt_regex = '<S ID.*?>(.*?)</S>'
+    sentence_id_regex = '<S ID=(.*?)>'
     coref_end_reg = '(</COREF>)'
     coref_start_reg = '(<COREF ID.*?>)'
     sentence_map = {}
@@ -21,7 +22,8 @@ def get_input_file_text(input_file):
     sentences = re.split(sentence_splits_regex, raw_text)
     for s in sentences:
         if len(s) > 0 and s[0] == '<':
-            sentence_id = s[7]
+            #sentence_id = s[7]
+            sentence_id = re.findall(sentence_id_regex, s)[0].strip('"').strip()
             sentence_text = re.split(sentence_txt_regex, s)[1]
             sentence_map[sentence_id] = sentence_text
 
