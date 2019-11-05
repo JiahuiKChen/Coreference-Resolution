@@ -1,0 +1,10 @@
+<COREF ID="X1"}>a home</COREF>
+{1} {A nice feature}
+{1} {the 2-story house}
+
+<COREF ID="X2"}>her dog</COREF>
+{1} {a big yard}
+{2} {The German Shepherd}
+{3} {the dog}
+{3} {the new house}
+

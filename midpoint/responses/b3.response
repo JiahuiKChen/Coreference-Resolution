@@ -1,0 +1,318 @@
+<COREF ID="X18">TWA</COREF>
+{7} {TWA U PIE}
+{14} {TWA}
+{14} {TWA}
+{15} {TWA}
+{17} {TWA}
+{18} {TWA}
+{28} {TWA}
+{29} {TWA's offer}
+{30} {TWA}
+{34} {TWA}
+{35} {TWA}
+{37} {TWA}
+{38} {TWA stock}
+{39} {TWA}
+{42} {TWA}
+{44} {TWA}
+{44} {TWA's money}
+{52} {TWA}
+{52} {TWA}
+{53} {TWA}
+{54} {TWA}
+{55} {TWA}
+{56} {TWA}
+{56} {TWA}
+{57} {TWA}
+{58} {TWA}
+{59} {TWA}
+
+<COREF ID="X2">USAir</COREF>
+{10} {USAir Group Inc.}
+{11} {USAir}
+{14} {USAir}
+{16} {USAir}
+{17} {USAir}
+{17} {USAir}
+{18} {USAir}
+{21} {USAir}
+{21} {USAir}
+{22} {USAir}
+{23} {USAir}
+{24} {USAir}
+{24} {USAir}
+{24} {USAir}
+{24} {USAir's acquisition}
+{28} {USAir}
+{28} {USAir}
+{29} {USAir}
+{30} {USAir}
+{31} {USAir}
+{35} {USAir}
+{41} {USAir}
+{42} {USAir}
+{42} {USAir}
+{45} {USAir}
+{47} {USAir}
+{48} {USAir}
+{51} {USAir}
+{51} {USAir}
+
+<COREF ID="X3">Additional Blow to Bid</COREF>
+{10} {additional shares}
+{11} {TWA's bid}
+{35} {a 4.9% stake}
+
+<COREF ID="X4">a temporary restraining order</COREF>
+{10} {A federal judge}
+{11} {The order}
+{11} {a suit}
+{11} {another blow}
+{11} {the company}
+{13} {The proposed transaction}
+{13} {an indicated value}
+{22} {court}
+
+<COREF ID="X5">Piedmont Aviation Inc.</COREF>
+{12} {N.C.,-based Piedmont}
+{16} {Piedmont}
+{17} {Piedmont}
+{17} {Philadelphia-based Janney Montgomery Scott Inc. Mr. Marckesano}
+{17} {Piedmont}
+{25} {Piedmont}
+
+<COREF ID="X6">share tender offer</COREF>
+{12} {which}
+{12} {an agreement}
+{12} {all the stock}
+{15} {a 15% stake}
+
+<COREF ID="X7">Carl C. Icahn</COREF>
+{15} {Mr. Icahn}
+{16} {Mr. Icahn}
+{17} {Mr. Icahn}
+{23} {Mr. Icahn}
+{24} {Mr. Icahn}
+{25} {Mr. Icahn}
+{26} {Mr. Icahn}
+{27} {Mr. Icahn}
+{28} {Mr. Icahn}
+{29} {Mr. Icahn}
+{30} {Mr. Icahn}
+{31} {Carl}
+{33} {Mr. Icahn}
+{34} {Mr. Icahn}
+{36} {Mr. Icahn}
+{39} {Mr. Icahn}
+{43} {Mr. Icahn}
+{54} {Mr. Icahn}
+{55} {Mr. Icahn}
+{56} {Mr. Icahn}
+
+<COREF ID="X8">its attempt</COREF>
+{16} {Some Wall Street sources}
+{16} {they}
+{16} {the attempt}
+{17} {the wherewithal}
+{17} {the merger}
+{21} {a ploy}
+{27} {he}
+{29} {he}
+{32} {He}
+{32} {he}
+{42} {they}
+{56} {anything}
+{58} {they}
+
+<COREF ID="X10">second application</COREF>
+{34} {a loss}
+{37} {a loss}
+{56} {an affidavit}
+
+<COREF ID="X11">Department of Transportation</COREF>
+{19} {such important information}
+{21} {Wall Street and airline industry sources}
+{23} {chief executive officer}
+{26} {a tough competitive position}
+
+<COREF ID="X12">TWA's first application</COREF>
+{19} {The department}
+{19} {it}
+{19} {the merger's potential impact}
+{20} {It}
+{20} {a serious application}
+{20} {a department official}
+{20} {the new filing}
+{21} {it}
+{22} {That view}
+{22} {another document}
+{31} {a source}
+{32} {one}
+{32} {what}
+{34} {it}
+{35} {nearly a year}
+{35} {its position}
+{36} {A source}
+{42} {any problem}
+{42} {it}
+{44} {it}
+{46} {a letter}
+
+<COREF ID="X13">TWA's bid</COREF>
+{21} {TWA}
+{24} {TWA}
+{24} {TWA's acquisition}
+{24} {TWA}
+{25} {the USAir bid}
+{26} {TWA}
+
+<COREF ID="X14">Securities and Exchange Commission</COREF>
+{22} {a tender-offer document}
+{30} {the tender offer}
+{38} {composite New York Stock Exchange trading}
+{39} {an Icahn-led investor group}
+{41} {market uncertainty}
+{42} {approval}
+{42} {enough cash}
+{43} {that money}
+{43} {USX Corp. shares}
+{43} {which}
+{48} {banks}
+{49} {subordinated debt offerings}
+{51} {that chairman}
+{57} {approval}
+{59} {which}
+
+<COREF ID="X15">The filings</COREF>
+{24} {the filings}
+{24} {the benefits}
+{25} {the documents}
+{26} {the documents}
+{29} {several investment bankers}
+{29} {the last week}
+{29} {any investment banking firm}
+{29} {the bid}
+{36} {the latest stake}
+{39} {The drop}
+{39} {the market value}
+{39} {the 22 million shares}
+{41} {federal regulatory approval}
+{42} {the company}
+{42} {its tender Paragraphing Error Sources}
+{43} {the purchase}
+{44} {documents}
+{46} {the purchase}
+{47} {the remainder}
+{47} {the funds}
+{54} {regulatory approvals}
+
+<COREF ID="X17">merger between Piedmont and USAir</COREF>
+{30} {Piedmont}
+{30} {Piedmont}
+{34} {the airline}
+{34} {USAir shares}
+{37} {its USAir shares}
+{40} {USAir stock}
+{40} {Piedmont}
+{41} {Piedmont shares}
+{41} {a merger}
+{42} {the merger}
+{42} {Piedmont}
+{42} {more USAir shares}
+{44} {its USAir holding}
+{44} {USAir shares}
+{45} {the Piedmont acquisition}
+{50} {The airline}
+{50} {Piedmont's headquarters}
+{51} {Piedmont}
+{58} {the airline}
+{59} {Eastern Airlines}
+
+<COREF ID="X18">TWA</COREF>
+{7} {TWA U PIE}
+{14} {TWA}
+{14} {TWA}
+{15} {TWA}
+{17} {TWA}
+{18} {TWA}
+{28} {TWA}
+{29} {TWA's offer}
+{30} {TWA}
+{34} {TWA}
+{35} {TWA}
+{37} {TWA}
+{38} {TWA stock}
+{39} {TWA}
+{42} {TWA}
+{44} {TWA}
+{44} {TWA's money}
+{52} {TWA}
+{52} {TWA}
+{53} {TWA}
+{54} {TWA}
+{55} {TWA}
+{56} {TWA}
+{56} {TWA}
+{57} {TWA}
+{58} {TWA}
+{59} {TWA}
+
+<COREF ID="X19">down $2.50</COREF>
+{55} {more than 10%}
+{56} {a 15% stake}
+{59} {more than 9.9%}
+
+<COREF ID="X20">its SEC filing</COREF>
+{45} {its plans}
+{46} {it}
+{48} {it}
+{48} {the acquisition}
+{49} {It}
+{50} {the filing}
+{50} {it}
+{51} {the merger}
+{57} {it}
+{58} {a separate application}
+{59} {it}
+{59} {the shares}
+
+<COREF ID="X21">New York-based Manufacturers Hanover Trust Co.</COREF>
+{46} {The company}
+{46} {the bank's willingness}
+{47} {Manufacturers Hanover}
+{49} {the bank loans}
+{49} {public or private equity}
+{59} {a trust}
+
+<COREF ID="X23">court in Pittsburgh</COREF>
+{52} {Lawyers}
+{53} {the court}
+{53} {a preliminary injunction}
+{55} {the Transportation Department}
+{56} {A lawyer}
+{57} {the Transportation Department}
+{58} {Lawyers}
+{58} {the department}
+{59} {the department}
+
+<COREF ID="X24">more USAir stock</COREF>
+{52} {USAir}
+{53} {USAir}
+{53} {more USAir shares}
+{53} {USAir's tender offer}
+{53} {Piedmont stock}
+{54} {USAir}
+{54} {USAir stock}
+{55} {USAir}
+{55} {USAir's stock}
+{56} {USAir}
+{58} {USAir stock}
+{58} {USAir}
+
+<COREF ID="X25">Hart-Scott-Rodino Act</COREF>
+{57} {Hart-Scott-Rodino regulations}
+{58} {the voting-trust application}
+
+<COREF ID="X26">Houston-based Texas Air Corp.</COREF>
+{59} {Texas Air's application}
+

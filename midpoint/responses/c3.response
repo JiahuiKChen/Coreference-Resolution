@@ -1,0 +1,63 @@
+<COREF ID="X0">me</COREF>
+{1} {this time}
+{1} {I}
+{10} {a contact dermatitis picture}
+
+<COREF ID="X2">hundreds</COREF>
+{0} {people}
+
+<COREF ID="X3">Western Berlin</COREF>
+{6} {Berlin}
+
+<COREF ID="X5">Department of Infectious Diseases</COREF>
+{1} {a young doctor}
+{2} {the etiology}
+{3} {the management}
+{4} {a distinguished virological institute}
+{5} {the Department}
+{5} {Health}
+{9} {a possible food allergen}
+{9} {the culprit}
+{10} {the individual state outbreaks}
+{10} {an environmental irritant}
+{10} {a common "food irritant}
+
+<COREF ID="X6">we</COREF>
+{2} {no idea}
+{3} {our department}
+{3} {we}
+{4} {our own surprise}
+{4} {I}
+{4} {some patients}
+{5} {It}
+{5} {about a week}
+{5} {we}
+{5} {our colleagues}
+{6} {that}
+{6} {the western part}
+{6} {that time}
+{7} {that lot}
+{7} {the market}
+{7} {the problem}
+{8} {you}
+{8} {this very interesting and thought-provoking account}
+{9} {It}
+{9} {these current outbreak}
+{9} {perhaps a common food preparation product}
+{10} {the details}
+{10} {the possibility}
+{11} {We}
+{11} {further information}
+
+<COREF ID="X7">virus</COREF>
+{4} {such a virus}
+{5} {the disease}
+{8} {a similar type rash illness outbreak}
+{10} {the outbreaks}
+
+<COREF ID="X8">brand</COREF>
+{6} {A big food company}
+
+<COREF ID="X9">occurrences</COREF>
+{11} {these outbreaks}
+

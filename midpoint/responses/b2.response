@@ -1,0 +1,118 @@
+<COREF ID="X0">American Airlines</COREF>
+{8} {AIRLINES}
+{10} {Amr corp.'s American Airlines unit}
+{15} {american}
+{21} {American}
+
+<COREF ID="X1">Mediation In Its Union Talks</COREF>
+{2} {Calls}
+{4} {The Wall Street Journal}
+{10} {it}
+{10} {federal mediation}
+{10} {its contract talks}
+{10} {unions}
+{11} {A spokesman}
+{11} {the company}
+{11} {American officials}
+{11} {talks}
+{11} {a point}
+{11} {mediation}
+{12} {Negotiations}
+{12} {talks}
+{13} {a lockout}
+
+<COREF ID="X3">flight attendants</COREF>
+{12} {the pilots}
+{12} {flight attendants}
+{13} {Professional Flight Attendants}
+
+<COREF ID="X5">the request for mediation</COREF>
+{13} {the Association}
+{13} {which}
+{13} {American's more than 10,000 flight attendants}
+{13} {it}
+{13} {a bargaining tactic}
+{13} {that}
+{14} {mediation}
+{15} { issue}
+{19} {binding arbitration}
+{21} {response}
+
+<COREF ID="X6">talks with the company</COREF>
+{14} {president}
+{14} {the association}
+{14} {the call}
+{14} {a surprise}
+{15} {the flight attendants}
+{15} {who}
+{23} {she}
+{24} {she}
+
+<COREF ID="X7">The major outstanding</COREF>
+{15} {the negotiations}
+{15} {a two-tier wage scale}
+{15} {which}
+{15} {recent employees' salaries}
+{15} {a different scale}
+{15} {the salaries}
+{15} {a longer time}
+
+<COREF ID="X8">The union</COREF>
+{16} {the differences}
+{16} {the new scale}
+{17} {The company}
+{17} {the negotiations}
+{17} {the outstanding issues}
+{18} {Representatives}
+{18} {the 5,400-member Allied Pilots Association}
+
+<COREF ID="X9">the two sides</COREF>
+{19} {the mediator}
+
+<COREF ID="X10">a 30-day cooling-off period</COREF>
+{19} {the Federal Railway Labor Act}
+{19} {the two sides}
+{21} {months}
+
+<COREF ID="X11">the union</COREF>
+{20} {the company}
+{20} {the union}
+{21} {the company's move}
+{21} {her union}
+{21} {its "corporate campaign}
+{21} {the next couple}
+
+<COREF ID="X12">a corporate campaign</COREF>
+{23} {our women}
+
+<COREF ID="X13">a union</COREF>
+{22} {union demands}
+{23} {her members}
+
+<COREF ID="X14">a company</COREF>
+{22} {other financial partners}
+{22} {the company}
+{23} {A corporate campaign}
+{23} {it}
+{23} {a nice, clean way}
+{23} {a job action}
+{24} {the union}
+{25} {a number}
+{25} {professional consultants}
+{25} {who}
+{26} {which}
+{26} {a strike}
+{26} {new workers}
+
+<COREF ID="X15">Ray Rogers of Corporate Campaign Inc.</COREF>
+{25} {The union}
+{25} {its battle}
+{25} {the company}
+{25} {the New York labor consultant}
+{25} {the strategy}
+{26} {That campaign}
+{26} {the company}
+{26} {the International Meatpacking Union}
+{26} {the local union}
+{26} {Rogers' supporters}
+

@@ -1,0 +1,63 @@
+<COREF ID="X0">disease</COREF>
+{1} {Chagas disease}
+{1} {Chagas disease}
+{1} {interrupted - Uruguay19980111.00831997 --- Chagas disease}
+{1} {(02)19970114.0070Chagas disease - Latin America19970114.0066}
+{1} {Chagas disease}
+{2} {Chagas disease}
+{2} {Chagas disease}
+
+<COREF ID="X1">transplant</COREF>
+{2} {organ transplantation}
+
+<COREF ID="X3">the United States</COREF>
+{2} {it}
+{3} {the United States}
+{6} {countries}
+{8} {the comment}
+
+<COREF ID="X4">report</COREF>
+{3} {the latest Morbidity and Mortality Weekly Report}
+
+<COREF ID="X6">infection</COREF>
+{4} {_T. cruzi_ infection}
+{8} {Chagas disease}
+
+<COREF ID="X7">organs</COREF>
+{5} {organ}
+{7} {renal transplants}
+{8} {organs}
+
+<COREF ID="X8">donor</COREF>
+{3} {transplantation}
+{4} {donors}
+{6} {bone marrow transplantation}
+{8} {organ transplants}
+{8} {organ transplantation}
+
+<COREF ID="X9">The Centers for Disease Control and Prevention</COREF>
+{4} {US transplant organizations}
+{4} {potential donors}
+{4} {which}
+{4} {what}
+{4} {the screening tests}
+{5} {Infection}
+{5} {the organ}
+{6} {The first situation}
+{7} {The second situation}
+{7} {the kidney}
+{8} {The three cases}
+{8} {the US}
+{8} {the same donor}
+{8} {the CDC website}
+{8} {life}
+{8} {medical personnel}
+{8} {the possible risks}
+
+<COREF ID="X10">recipients</COREF>
+{5} {the recipient}
+{7} {donor}
+
+<COREF ID="X11">Mod.EP</COREF>
+{9} {] ep}
+

@@ -1,0 +1,59 @@
+<COREF ID="X7">area</COREF>
+{1} {A second infected area}
+{1} {the relevant Infected Area Order}
+{5} {the infected area}
+{13} {place}
+
+<COREF ID="X1">classical swine fever</COREF>
+{1} {classical swine fever}
+
+<COREF ID="X2">Pigs</COREF>
+{8} {animal welfare problems}
+{8} {pigs}
+{9} {pigs}
+{13} {live pigs}
+{13} {pig semen}
+
+<COREF ID="X3">Norfolk</COREF>
+{4} {north Essex}
+{13} {Norfolk}
+{13} {Suffolk}
+
+<COREF ID="X5">the outbreak</COREF>
+{2} {the Infected Area}
+{3} {the outbreak}
+{4} {the disease}
+{5} {The decision}
+{5} {full veterinary investigation}
+{11} {this number}
+{11} {the outbreak}
+{14} {the Standing Veterinary Committee}
+{16} {the MAFF website}
+{17} {The address}
+
+<COREF ID="X6">start</COREF>
+{3} {It}
+{6} {them}
+{9} {They}
+{14} {It}
+{14} {the next meeting}
+
+<COREF ID="X7">area</COREF>
+{1} {A second infected area}
+{1} {the relevant Infected Area Order}
+{5} {the infected area}
+{13} {place}
+
+<COREF ID="X8">areas</COREF>
+{8} {the remaining infected areas}
+{8} {the same surveillance zone}
+{8} {an infected area}
+{10} {both options}
+{11} {infected areas}
+
+<COREF ID="X9">Farmers</COREF>
+{11} {Farmers}
+
+<COREF ID="X11">EU</COREF>
+{14} {the EU}
+
