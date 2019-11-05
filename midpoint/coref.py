@@ -95,7 +95,7 @@ def run_coref(input_file, nlp_model):
                 sim_score = get_pair_features(potential_ref, np)
                 #print(sim_score)
                 # IF THRESHOLD IS ABOVE 0.5, CONSIDER IT A COREFERENCE
-                if sim_score > 0.5:
+                if sim_score > 0.75:
                     if init_ref not in found_corefs:
                         found_corefs[init_ref] = []
                     found_corefs[init_ref].append((np.text, s))
