@@ -46,8 +46,14 @@ def format_response(coref_map, initial_refs_map, ordered_initials):
             continue
         corefs = coref_map[initial]
         full_tag = initial_refs_map[initial]
-        print(full_tag)
-        print(corefs)
+        response_str += full_tag + '\n'
+        for coref in corefs:
+            coref_txt = coref[0]
+            sentence_id = coref[1]
+            response_str += "{" + sentence_id + "} " + "{" + coref_txt + "}\n" 
+        response_str += '\n'
+    #print(response_str)
+    return response_str
 
 
 # Runs coreference resolution on all sentences in the given file
@@ -102,6 +108,16 @@ def run_coref(input_file, nlp_model):
     return response_str
 
 
+# Writes given response coreference string to output dir
+def write_response(response_str, input_file, output_dir):
+    # Getting name of input file
+    input_name = input_file.split('/')[-1]
+    prefix = input_name.split('.')[0].strip()
+    output_file = output_dir + prefix + ".response"
+    out_file = open(output_file, "w")
+    out_file.write(response_str)
+
+
 ###################################### RUNNING COREFERENCE ON INPUT FILES
 # Load in large English model from spacy
 nlp_model = spacy.load("en_core_web_lg")
@@ -118,7 +134,8 @@ try:
     # Running coreference resolution on each input file 
     with open(list_file) as in_file:
         for input_name in in_file:
-            run_coref(input_name.strip(), nlp_model)
+            response = run_coref(input_name.strip(), nlp_model)
+            write_response(response, input_name.strip(), output_dir)        
 except Exception as e: 
    print("\nException thrown:\n")
    print(str(e), '\n')
