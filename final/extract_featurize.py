@@ -36,13 +36,70 @@ def parse_true_mentions(key_file):
     return mention_clusters
 
 
-# Given 2 Spacy-processed phrases (noun phrases that are either Spans or Docs), returns their feature vector
-#
-# FOR NOW: RETURNS THEIR SIMILARITY SCORE
-# TODO???: RETURN A BUNCH OF FEATURES (NOT JUST SIMILARITY SCORE)
-def get_pair_features(p1, p2):
+# FEATURE VALUES ##########################################################################################
+
+# Cosine similarity of 2 spacy noun phrase chunks/spans
+def similarity(p1, p2):
     return p1.similarity(p2)
-    #return 'yeet'
+
+
+# 1 if either noun phrase is substring of the other, 0 otherwise
+def substring(p1, p2):
+    text1 = p1.text
+    text2 = p2.text
+    if text1 in text2:
+        return 1
+    elif text2 in text1:
+        return 1
+    else: 
+        return 0
+
+
+# Returns count of phrases that match in number/plurality 
+# implemented by counting matching lemmas of all tokens in each phrase
+def plurality(p1, p2):
+    min_len = min(len(p1), len(p2))
+    match_count = 0
+    for i in range(min_len):
+        lemma1 = p1[i].lemma_
+        lemma2 = p2[i].lemma_
+        if lemma1 == lemma2:
+            match_count += 1
+    return match_count
+
+
+# Returns number of matching Named Entities 
+def ner(p1, p2):
+    ner1 = list(p1.ents)
+    ner2 = list(p2.ents)
+    min_len = min(len(ner1), len(ner2))
+    match_count = 0
+    for i in range(min_len):
+        n1 = ner1[i]
+        n2 = ner2[i]
+        if n1.label == n2.label:
+            match_count += 1
+    return match_count
+
+
+# Returns number of differently capitalized words in noun phrases
+def cap_diffs(p1, p2):
+    words1 = p1.text.split()
+    words2 = p2.text.split()
+    min_len = min(len(words1), len(words2))
+    diff_count = 0
+    for i in range(min_len):
+        w1 = words1[i]
+        w2 = words2[i]
+        if w1[0].isupper() != w2[0].isupper():
+            diff_count += 1
+    return diff_count
+
+
+# Given 2 Spacy-processed phrases (noun phrases that are either Spans or Docs), returns their feature vector
+def get_pair_features(p1, p2):
+    features = [ similarity(p1, p2), substring(p1, p2), plurality(p1, p2), ner(p1, p2), cap_diffs(p1, p2) ] 
+    return np.array(features)
 
 
 # Given a map of all initial references to their mentions and the input text file,
@@ -73,8 +130,9 @@ def gen_features(mention_map, input_file, nlp_model):
             processed_ref = nlp_model(ref)
             pos_feature = get_pair_features(processed_initial, processed_ref)
 
-            print(f"Initial Ref: {initial}    Mention: {ref}")
-            print(pos_feature)
+            #print(f"Initial Ref: {initial}    Mention: {ref}")
+            #print(pos_feature)
+
             pos_features.append(pos_feature)
 
         # TODO: GEN NEGATIVE FEATURES
