@@ -12,7 +12,7 @@ from joblib import dump, load
 
 # Loading in features 
 args = sys.argv
-feature_list = args[0]
+feature_list = args[1]
 pos_features = []
 neg_features = []
 
@@ -26,12 +26,11 @@ with open(feature_list) as feature_file:
             pos_features.append(features)
         else:
             raise Exception("UNKNOWN FEATURE FILE FOUND")
-            return
 
 pos_data = np.concatenate(pos_features, axis=0)
 neg_data = np.concatenate(neg_features, axis=0)
 all_data = np.concatenate((pos_data, neg_data), axis=0)
-all_labels = np.concatenate((np.ones((pos_data.shape[0])), np.zeroes(neg_data.shape[0])))
+all_labels = np.concatenate((np.ones((pos_data.shape[0])), np.zeros(neg_data.shape[0])))
 
 ######################################Train model
 # Cross validate on tree depth and minimum samples needed to split a node
@@ -39,7 +38,7 @@ depths = [2, 4, 6, 8]
 min_samples = [2, 4, 6, 8]
 
 best_acc = 0
-best_params = () # (best depth, best min sample split)
+best_params = [0, 0] # (best depth, best min sample split)
 for depth in depths: 
     for min_sample in min_samples:
         tree = DecisionTreeClassifier(max_depth=depth, min_samples_split=min_sample)
