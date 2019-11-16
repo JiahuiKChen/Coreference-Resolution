@@ -1,8 +1,11 @@
 # Decision Tree classifier to determine if pairs of words 
 # are coreference pairs
 
-import sklearn
+from sklearn.tree import DecisionTreeClassifier 
 import sys
+
+# Loading in features
+
 
 ######################################Train model
 
