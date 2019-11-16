@@ -1,0 +1,83 @@
+<COREF ID="X0">GROUNDED-JETS</COREF>
+{5} {BC-GROUNDED-JETS-BOS}
+
+<COREF ID="X2">NAVY</COREF>
+{10} {The Navy}
+{21} {Navy personnel}
+
+<COREF ID="X3">THIRD RECENT CRASH</COREF>
+{19} {the crash}
+{19} {the third Tomcat crash}
+
+<COREF ID="X4">entire fleet of F-14 airplanes</COREF>
+{23} {aircraft}
+
+<COREF ID="X5">Thursday</COREF>
+{16} {Sunday}
+
+<COREF ID="X8">the two Naval aviators on board</COREF>
+{12} {The Navy}
+{12} {the aircraft}
+{13} {The Navy}
+{14} {One aviator}
+{15} {The Navy}
+{16} {the coast}
+{16} {the aircraft carrier}
+{17} {Both crew members}
+{18} {both crew members}
+{18} {the ground}
+{19} {the Navy}
+{19} {the aircraft}
+{20} {the military}
+{21} {the three classes}
+{21} {each aircraft}
+{22} {the aircraft carrier}
+{26} {the entire fleet}
+{27} {the Navy}
+{30} {The Navy}
+{31} {the standard fighter plane}
+{31} {the Navy}
+{32} {The aircraft}
+{35} {the Navy}
+{36} {The Navy}
+
+<COREF ID="X9">Defense Department spokesman Kenneth Bacon</COREF>
+{24} {Bacon}
+{26} {Bacon}
+{27} {Bacon}
+{35} {Bacon}
+{36} {Bacon}
+
+<COREF ID="X10">A safety stand-down</COREF>
+{21} {this three-day period}
+{25} {the stand-down}
+{31} {close-in air combat}
+
+<COREF ID="X12">Carrier</COREF>
+{23} {the carrier docks}
+{29} {an aircraft carrier}
+
+<COREF ID="X13">these three crashes this year</COREF>
+{25} {a time}
+{26} {the latest crash}
+{26} {he}
+{27} {these accidents}
+{28} {the past five years}
+{30} {that crash}
+{36} {they}
+{36} {these accidents}
+
+<COREF ID="X16">One</COREF>
+{29} {the Navy's first female pilots}
+{35} {no single explanation}
+{36} {a common thread}
+
+<COREF ID="X17">The oldest version of the aircraft</COREF>
+{33} {the F-14A}
+{33} {the year}
+
+<COREF ID="X18">the initial years of deployment</COREF>
+{34} {The crash rate}
+{35} {the increases}
+{36} {me}
+
