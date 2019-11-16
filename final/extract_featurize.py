@@ -1,6 +1,7 @@
 ### Given an answer and corresponding input file,
 ### featurizes pairs into negative and positive label features
-# RUN WITH : extract-featurize-pairs.py <answer_file> <input_file>
+# RUN (1): extract-featurize-pairs.py <answer_file> <input_file>
+# OR (2): extract-featurize-pairs.py <list of answer files> <list of input files>
 # OR PASS IN FILES BY NAME TO featurize_file() METHOD
 import sys
 import re
@@ -151,21 +152,45 @@ def gen_features(mention_map, input_file, nlp_model):
     return pos_features, neg_features
 
 
-def featurize_file(answer_file, input_file, nlp_model):
+def featurize_file(answer_file, input_file, nlp_model, save_dir=''):
     mention_map = parse_true_mentions(answer_file)
     pos_features, neg_features = gen_features(mention_map, input_file, nlp_model)
-        
-    np.save(input_file + ".pos_features", pos_features)
-    np.save(input_file + ".neg_features", neg_features)
+    file_name = input_file.split('/')[-1].split('.')[0]
+
+    np.save(save_dir + file_name + ".pos_features", pos_features)
+    np.save(save_dir + file_name + ".neg_features", neg_features)
+
+
+# Given a python list of input and output files (indices must correspond)
+# Featurizes each pair, outputting features to save_dir 
+def featurize_list(in_files, key_files, nlp_model, save_dir):
+    if len(in_files) != len(key_files):
+        raise Exception("MISTMATCHED NUMBER OF INPUT AND KEY FILES")
+        return
+    for i in range(len(in_files)):
+        input_file = in_files[i].strip()
+        key_file = key_files[i].strip()
+        featurize_file(key_file, input_file, nlp_model, save_dir)
 
 
 ######################################## RUN FEATURIZATION OF KEY FILE
 # Load in large English model from spacy
 nlp = spacy.load("en_core_web_lg")
 
+# RUN (1)
 # Load in input and key files, corresponding to same text
-args = sys.argv
-key_file = args[1]
-input_file = args[2]
+#args = sys.argv
+#key_file = args[1]
+#input_file = args[2]
+#featurize_file(key_file, input_file, nlp)
 
-pos_features, neg_features = featurize_file(key_file, input_file, nlp)
+# RUN (2)
+# Load in list of input files and ouptut files
+args = sys.argv
+key_list = args[1]
+input_list = args[2]
+with open(key_list) as keys:
+    key_files = keys.readlines()
+with open(input_list) as inputs:
+    in_files = inputs.readlines()
+featurize_list(in_files, key_files, nlp, "features/")

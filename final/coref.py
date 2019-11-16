@@ -86,20 +86,23 @@ def run_coref(input_file, nlp_model):
         np_chunks = list(chunk for chunk in parsed_sentence.noun_chunks)
         # For each np, pair with the most recent intiial reference - run pair through the mention-pair classifier 
         for np in np_chunks:
+
             # Try mention pairs with initial references (trying most recent first), until all are tried OR positive match is found
-            # NOTE: FOR NOW, THE "CLASSIFIER" IS JUST GETTING SIMILARITY OF THE PAIR AND TESTING THRESHOLD
+            # TODO: LOAD IN DECISION TREE AND GET DECISION FROM IT
+
             for init_ind in range(len(possible_initials)-1, -1, -1):
                 init_ref = possible_initials[init_ind]
                 potential_ref = nlp_model(init_ref)
-                #print(f"Trying NP {np.text}  with  Initial Reference: {init_ref}")
-                sim_score = get_pair_features(potential_ref, np)
-                #print(sim_score)
-                # IF THRESHOLD IS ABOVE 0.5, CONSIDER IT A COREFERENCE
-                if sim_score > 0.75:
-                    if init_ref not in found_corefs:
-                        found_corefs[init_ref] = []
-                    found_corefs[init_ref].append((np.text, s))
-                    break 
+
+                #print(f"Trying NP {np.text} with Initial Reference: {init_ref}")
+
+                # This no longer works... this just get numerical feature vector back
+                #sim_score = get_pair_features(potential_ref, np)
+                #if sim_score > 0.75:
+                #    if init_ref not in found_corefs:
+                #        found_corefs[init_ref] = []
+                #    found_corefs[init_ref].append((np.text, s))
+                #    break 
 
     #print(found_corefs)
     #return found_corefs, initials_map, possible_initials
