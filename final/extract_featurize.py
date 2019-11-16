@@ -121,6 +121,7 @@ def gen_features(mention_map, input_file, nlp_model):
     # Getting noun chunks/spans using spacy from the input text
     np_chunks = list(chunk for chunk in processed_input.noun_chunks)
 
+    # Positive labelled features gen
     # Generating features for each initial reference/cluster of mentions
     for initial in mention_map:
         processed_initial = nlp_model(initial)
@@ -130,14 +131,22 @@ def gen_features(mention_map, input_file, nlp_model):
             processed_ref = nlp_model(ref)
             pos_feature = get_pair_features(processed_initial, processed_ref)
 
-            #print(f"Initial Ref: {initial}    Mention: {ref}")
-            #print(pos_feature)
+            print(f"Initial Ref: {initial}    Mention: {ref}")
+            print(pos_feature)
 
             pos_features.append(pos_feature)
 
-        # TODO: GEN NEGATIVE FEATURES
-        # BY ALL GOING THROUGH ALL NP CHUNKS/SPANS IN INPUT TEXT (WITH REMOVED TAGS)
-        # THEN FEATURIZE EACH NP CHUNK PAIR THAT DOES NOT INCLUDE ANY VALID REFERENCE 
+        # Negative labelled features gen
+        # Generaing features for all non-reference pairs (each initial reference with each non-reference word)
+        for non_ref in np_chunks:
+            for initial in mention_map:
+                processed_initial = nlp_model(initial)
+                neg_feature = get_pair_features(non_ref, processed_initial)
+
+                print(f"Initial Ref: {initial}    Non-reference noun phrase: {non_ref}")
+                print(neg_feature)
+
+                neg_features.append(neg_feature)
 
     return pos_features, neg_features
 
@@ -148,12 +157,12 @@ def featurize_file(answer_file, input_file, nlp_model):
 
 
 ######################################## RUN FEATURIZATION OF KEY FILE
-## Load in large English model from spacy
-#nlp = spacy.load("en_core_web_lg")
-#
-## Load in input and key files, corresponding to same text
-#args = sys.argv
-#key_file = args[1]
-#input_file = args[2]
-#
-#featurize_file(key_file, input_file, nlp)
+# Load in large English model from spacy
+nlp = spacy.load("en_core_web_lg")
+
+# Load in input and key files, corresponding to same text
+args = sys.argv
+key_file = args[1]
+input_file = args[2]
+
+featurize_file(key_file, input_file, nlp)
