@@ -118,8 +118,8 @@ def run_coref(input_file, nlp_model, tree_model_file):
     #return found_corefs, initials_map, possible_initials
 
     # Generating formatted coreference responses
-    #response_str = format_response(found_corefs, initials_map, possible_initials)
-    #return response_str
+    response_str = format_response(found_corefs, initials_map, possible_initials)
+    return response_str
 
 
 # Writes given response coreference string to output dir
@@ -152,7 +152,7 @@ try:
     with open(list_file) as in_file:
         for input_name in in_file:
             response = run_coref(input_name.strip(), nlp_model, tree_model)
-            #write_response(response, input_name.strip(), output_dir)        
+            write_response(response, input_name.strip(), output_dir)        
 except Exception as e: 
    print("\nException thrown:\n")
    print(str(e), '\n')
