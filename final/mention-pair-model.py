@@ -27,6 +27,7 @@ with open(feature_list) as feature_file:
         else:
             raise Exception("UNKNOWN FEATURE FILE FOUND")
 
+# TODO: DON'T USE ALL NEGATIVES. CLAMP TO JUST POSITIVES???
 pos_data = np.concatenate(pos_features, axis=0)
 neg_data = np.concatenate(neg_features, axis=0)
 all_data = np.concatenate((pos_data, neg_data), axis=0)

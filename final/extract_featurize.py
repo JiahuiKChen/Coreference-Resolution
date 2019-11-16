@@ -174,23 +174,23 @@ def featurize_list(in_files, key_files, nlp_model, save_dir):
 
 
 ######################################## RUN FEATURIZATION OF KEY FILE
-# Load in large English model from spacy
-nlp = spacy.load("en_core_web_lg")
-
-# RUN (1)
-# Load in input and key files, corresponding to same text
-args = sys.argv
-key_file = args[1]
-input_file = args[2]
-featurize_file(key_file, input_file, nlp)
-
-# RUN (2)
-# Load in list of input files and ouptut files
+## Load in large English model from spacy
+#nlp = spacy.load("en_core_web_lg")
+#
+## RUN (1)
+## Load in input and key files, corresponding to same text
 #args = sys.argv
-#key_list = args[1]
-#input_list = args[2]
-#with open(key_list) as keys:
-#    key_files = keys.readlines()
-#with open(input_list) as inputs:
-#    in_files = inputs.readlines()
-#featurize_list(in_files, key_files, nlp, "features/")
+#key_file = args[1]
+#input_file = args[2]
+#featurize_file(key_file, input_file, nlp)
+#
+## RUN (2)
+## Load in list of input files and ouptut files
+##args = sys.argv
+##key_list = args[1]
+##input_list = args[2]
+##with open(key_list) as keys:
+##    key_files = keys.readlines()
+##with open(input_list) as inputs:
+##    in_files = inputs.readlines()
+##featurize_list(in_files, key_files, nlp, "features/")

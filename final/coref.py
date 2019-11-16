@@ -3,6 +3,7 @@ import spacy
 import re
 from extract_featurize import get_pair_features
 from util import get_input_file_text
+from joblib import dump, load
 
 
 # Finds and removes initial references given a sentence
@@ -61,7 +62,7 @@ def format_response(coref_map, initial_refs_map, ordered_initials):
 # Returns:      Responses as map of initial references to a list of (coreference text, sentence ID)
 #               Map of all initial references (text only) to their full coreference tag wrapping
 #               List of initial references IN ORDER IN WHICH THEY APPEAR IN INPUT
-def run_coref(input_file, nlp_model):
+def run_coref(input_file, nlp_model, tree_model_file):
     # Get input text 
     input_txt, sentence_map = get_input_file_text(input_file)
     # Tracks possible initial references (as an initial coref is encountered, it's added)
@@ -84,19 +85,28 @@ def run_coref(input_file, nlp_model):
         # Get all np chunks/spans from sentence (excluding initial references, so all these NPs should be checked for coreference)
         parsed_sentence = nlp_model(sentence)
         np_chunks = list(chunk for chunk in parsed_sentence.noun_chunks)
+
+        # Pre-trained mention-pair model loaded in
+        tree = load(tree_model_file)
+
         # For each np, pair with the most recent intiial reference - run pair through the mention-pair classifier 
         for np in np_chunks:
 
             # Try mention pairs with initial references (trying most recent first), until all are tried OR positive match is found
-            # TODO: LOAD IN DECISION TREE AND GET DECISION FROM IT
-
             for init_ind in range(len(possible_initials)-1, -1, -1):
                 init_ref = possible_initials[init_ind]
                 potential_ref = nlp_model(init_ref)
 
                 #print(f"Trying NP {np.text} with Initial Reference: {init_ref}")
 
-                # This no longer works... this just get numerical feature vector back
+                pair_features = get_pair_features(potential_ref, np).reshape(1, -1)
+                prediction = tree.predict(pair_features)
+                if prediction == 1:
+                    if init_ref not in found_corefs:
+                        found_corefs[init_ref] = []
+                    found_corefs[init_ref].append((np.text, s))
+                    break
+                # Previous approach that just uses similarity...
                 #sim_score = get_pair_features(potential_ref, np)
                 #if sim_score > 0.75:
                 #    if init_ref not in found_corefs:
@@ -104,11 +114,12 @@ def run_coref(input_file, nlp_model):
                 #    found_corefs[init_ref].append((np.text, s))
                 #    break 
 
-    #print(found_corefs)
+    print(found_corefs)
     #return found_corefs, initials_map, possible_initials
+
     # Generating formatted coreference responses
-    response_str = format_response(found_corefs, initials_map, possible_initials)
-    return response_str
+    #response_str = format_response(found_corefs, initials_map, possible_initials)
+    #return response_str
 
 
 # Writes given response coreference string to output dir
@@ -125,6 +136,9 @@ def write_response(response_str, input_file, output_dir):
 # Load in large English model from spacy
 nlp_model = spacy.load("en_core_web_lg")
 
+# The saved pre-trained mention pair decision tree model
+tree_model = "partial-tree.joblib"
+
 # Parse in the given list_file (of input file names to run coreference on)
 # and output directory
 try:
@@ -137,8 +151,8 @@ try:
     # Running coreference resolution on each input file 
     with open(list_file) as in_file:
         for input_name in in_file:
-            response = run_coref(input_name.strip(), nlp_model)
-            write_response(response, input_name.strip(), output_dir)        
+            response = run_coref(input_name.strip(), nlp_model, tree_model)
+            #write_response(response, input_name.strip(), output_dir)        
 except Exception as e: 
    print("\nException thrown:\n")
    print(str(e), '\n')
