@@ -154,6 +154,9 @@ def gen_features(mention_map, input_file, nlp_model):
 def featurize_file(answer_file, input_file, nlp_model):
     mention_map = parse_true_mentions(answer_file)
     pos_features, neg_features = gen_features(mention_map, input_file, nlp_model)
+        
+    np.save(input_file + ".pos_features", pos_features)
+    np.save(input_file + ".neg_features", neg_features)
 
 
 ######################################## RUN FEATURIZATION OF KEY FILE
@@ -166,5 +169,3 @@ key_file = args[1]
 input_file = args[2]
 
 pos_features, neg_features = featurize_file(key_file, input_file, nlp)
-np.save(input_file + ".pos_features", pos_features)
-np.save(input_file + ".neg_features", neg_features)
