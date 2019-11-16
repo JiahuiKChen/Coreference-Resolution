@@ -137,7 +137,7 @@ def write_response(response_str, input_file, output_dir):
 nlp_model = spacy.load("en_core_web_lg")
 
 # The saved pre-trained mention pair decision tree model
-tree_model = "partial-tree.joblib"
+tree_model = "balanced-mention-pair-tree.joblib"
 
 # Parse in the given list_file (of input file names to run coreference on)
 # and output directory

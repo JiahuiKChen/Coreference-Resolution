@@ -27,11 +27,18 @@ with open(feature_list) as feature_file:
         else:
             raise Exception("UNKNOWN FEATURE FILE FOUND")
 
-# TODO: DON'T USE ALL NEGATIVES. CLAMP TO JUST POSITIVES???
 pos_data = np.concatenate(pos_features, axis=0)
 neg_data = np.concatenate(neg_features, axis=0)
+
+#all_data = np.concatenate((pos_data, neg_data), axis=0)
+#all_labels = np.concatenate((np.ones((pos_data.shape[0])), np.zeros(neg_data.shape[0])))
+
+# Using same amounts of neg and pos vectors in training
+np.random.shuffle(neg_data)
+neg_data = neg_data[:pos_data.shape[0]]
 all_data = np.concatenate((pos_data, neg_data), axis=0)
 all_labels = np.concatenate((np.ones((pos_data.shape[0])), np.zeros(neg_data.shape[0])))
+
 
 ######################################Train model
 # Cross validate on tree depth and minimum samples needed to split a node
@@ -57,4 +64,4 @@ tree = DecisionTreeClassifier(max_depth=best_params[0], min_samples_split=best_p
 tree.fit(all_data, all_labels)
 
 #####################################Save Model...
-dump(tree, "mention-pair-tree.joblib")
+dump(tree, "balanced-mention-pair-tree.joblib")

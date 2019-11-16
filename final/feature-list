@@ -68,3 +68,17 @@ features/c1.neg_features.npy
 features/c1.pos_features.npy
 features/c2.neg_features.npy
 features/c2.pos_features.npy
+features/c3.neg_features.npy
+features/c3.pos_features.npy
+features/c4.neg_features.npy
+features/c4.pos_features.npy
+features/c5.neg_features.npy
+features/c5.pos_features.npy
+features/c6.neg_features.npy
+features/c6.pos_features.npy
+features/c7.neg_features.npy
+features/c7.pos_features.npy
+features/test1.neg_features.npy
+features/test1.pos_features.npy
+features/test2.neg_features.npy
+features/test2.pos_features.npy
