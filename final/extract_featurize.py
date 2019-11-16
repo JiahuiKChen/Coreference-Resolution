@@ -131,8 +131,8 @@ def gen_features(mention_map, input_file, nlp_model):
             processed_ref = nlp_model(ref)
             pos_feature = get_pair_features(processed_initial, processed_ref)
 
-            print(f"Initial Ref: {initial}    Mention: {ref}")
-            print(pos_feature)
+            #print(f"Initial Ref: {initial}    Mention: {ref}")
+            #print(pos_feature)
 
             pos_features.append(pos_feature)
 
@@ -143,8 +143,8 @@ def gen_features(mention_map, input_file, nlp_model):
                 processed_initial = nlp_model(initial)
                 neg_feature = get_pair_features(non_ref, processed_initial)
 
-                print(f"Initial Ref: {initial}    Non-reference noun phrase: {non_ref}")
-                print(neg_feature)
+                #print(f"Initial Ref: {initial}    Non-reference noun phrase: {non_ref}")
+                #print(neg_feature)
 
                 neg_features.append(neg_feature)
 
@@ -165,4 +165,6 @@ args = sys.argv
 key_file = args[1]
 input_file = args[2]
 
-featurize_file(key_file, input_file, nlp)
+pos_features, neg_features = featurize_file(key_file, input_file, nlp)
+np.save(input_file + ".pos_features", pos_features)
+np.save(input_file + ".neg_features", neg_features)
