@@ -35,7 +35,7 @@ neg_data = np.concatenate(neg_features, axis=0)
 
 # Using same amounts of neg and pos vectors in training
 np.random.shuffle(neg_data)
-neg_data = neg_data[:pos_data.shape[0]]
+neg_data = neg_data[:(pos_data.shape[0])*1000]
 all_data = np.concatenate((pos_data, neg_data), axis=0)
 all_labels = np.concatenate((np.ones((pos_data.shape[0])), np.zeros(neg_data.shape[0])))
 
@@ -64,4 +64,4 @@ tree = DecisionTreeClassifier(max_depth=best_params[0], min_samples_split=best_p
 tree.fit(all_data, all_labels)
 
 #####################################Save Model...
-dump(tree, "balanced-mention-pair-tree.joblib")
+dump(tree, "1000x-neg-mention-pair-tree.joblib")
