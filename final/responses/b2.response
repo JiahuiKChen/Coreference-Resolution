@@ -13,11 +13,22 @@
 <COREF ID="X4">The president</COREF>
 {14} {president}
 
+<COREF ID="X5">the request for mediation</COREF>
+{14} {mediation}
+
 <COREF ID="X6">talks with the company</COREF>
 {20} {the company}
 {22} {the company}
+{23} {it}
 {25} {the company}
 {26} {the company}
+
+<COREF ID="X7">The major outstanding</COREF>
+{17} {the outstanding issues}
+
+<COREF ID="X8">The union</COREF>
+{21} {her union}
+{26} {the local union}
 
 <COREF ID="X9">the two sides</COREF>
 {19} {the two sides}
@@ -25,8 +36,11 @@
 <COREF ID="X11">the union</COREF>
 {20} {the union}
 {24} {the union}
-{25} {The union}
+{26} {the International Meatpacking Union}
 
 <COREF ID="X12">a corporate campaign</COREF>
 {23} {A corporate campaign}
+
+<COREF ID="X13">a union</COREF>
+{25} {The union}
 

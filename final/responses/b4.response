@@ -1,58 +1,50 @@
-<COREF ID="X0">senior director of UAL</COREF>
-{6} {UAL's chief executive officer}
-{16} {UAL}
-{16} {UAL}
-{26} {UAL}
-{27} {UAL}
-
-<COREF ID="X1">its board</COREF>
-{7} {it}
-
 <COREF ID="X2">the Journal's April 17 article</COREF>
-{7} {The UAL board}
 {8} {the Journal article}
+{16} {The Journal's reference to 's reputed desire}
+{17} {the Journal's reference}
 
 <COREF ID="X3">Richard Ferris</COREF>
 {7} {Mr. Ferris}
 {9} {Mr. Ferris}
 {12} {Mr. Ferris}
 {14} {Mr. Ferris}
-{22} {Neither Mr. Ferris}
 
 <COREF ID="X4">United</COREF>
+{7} {it}
+{17} {United's service}
 {19} {United cockpits}
 {21} {United management}
 
 <COREF ID="X8">the earnings of United Airlines</COREF>
 {12} {United}
 {14} {United}
-{17} {United's service}
-{18} {United}
-{19} {United}
-{20} {United}
-{21} {United}
-{25} {United}
 
 <COREF ID="X12">the Century Plaza Hotel in Los Angeles</COREF>
-{16} {The Journal's reference to 's reputed desire}
+{16} {he}
 {16} {the Century Plaza}
-{17} {the Journal's reference}
-{20} {the U.S. Supreme Court}
 {26} {the Century Plaza}
 
 <COREF ID="X13">the "570 newly hired pilots" whom United "tried to fire" because they "refused to cross picket lines. "</COREF>
+{17} {pilots}
+{17} {who}
 {17} {they}
-{19} {the 570 individuals}
+{18} {United}
+{19} {United}
 {19} {they}
-{20} {the 570 pilots}
+{20} {United}
 {21} {it}
-{21} {the 570 pilots}
 {21} {they}
+{21} {United}
+{24} {who}
 {25} {they}
+{25} {us}
+{25} {United}
 
 <COREF ID="X14">the pilots' strike</COREF>
 {23} {the 1985 pilot strike}
 
 <COREF ID="X18">we</COREF>
+{24} {We}
 {24} {we}
+{25} {We}
 

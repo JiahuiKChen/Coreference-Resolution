@@ -99,7 +99,7 @@ def cap_diffs(p1, p2):
 
 # Given 2 Spacy-processed phrases (noun phrases that are either Spans or Docs), returns their feature vector
 def get_pair_features(p1, p2):
-    features = [ similarity(p1, p2), substring(p1, p2), plurality(p1, p2), ner(p1, p2), cap_diffs(p1, p2) ] 
+    features = [ similarity(p1, p2), substring(p1, p2) ] #plurality(p1, p2), ner(p1, p2), cap_diffs(p1, p2) ] 
     return np.array(features)
 
 
@@ -175,7 +175,7 @@ def featurize_list(in_files, key_files, nlp_model, save_dir):
 
 ######################################## RUN FEATURIZATION OF KEY FILE
 ## Load in large English model from spacy
-#nlp = spacy.load("en_core_web_lg")
+nlp = spacy.load("en_core_web_lg")
 #
 ## RUN (1)
 ## Load in input and key files, corresponding to same text
@@ -184,13 +184,13 @@ def featurize_list(in_files, key_files, nlp_model, save_dir):
 #input_file = args[2]
 #featurize_file(key_file, input_file, nlp)
 #
-## RUN (2)
-## Load in list of input files and ouptut files
-##args = sys.argv
-##key_list = args[1]
-##input_list = args[2]
-##with open(key_list) as keys:
-##    key_files = keys.readlines()
-##with open(input_list) as inputs:
-##    in_files = inputs.readlines()
-##featurize_list(in_files, key_files, nlp, "features/")
+# RUN (2)
+# Load in list of input files and ouptut files
+args = sys.argv
+key_list = args[1]
+input_list = args[2]
+with open(key_list) as keys:
+    key_files = keys.readlines()
+with open(input_list) as inputs:
+    in_files = inputs.readlines()
+featurize_list(in_files, key_files, nlp, "features/")

@@ -1,11 +1,11 @@
 <COREF ID="X1">BROWN</COREF>
+{5} {BC-CRASH-BROWN-NYT}
 {14} {Ron Brown}
 {16} {Brown}
 
 <COREF ID="X6">DUBROVNIK</COREF>
 {10} {Dubrovnik}
-{14} {Croatia}
-{29} {Dubrovnik}
+{14} {I}
 
 <COREF ID="X8">Saturday</COREF>
 {17} {Saturday}
@@ -16,12 +16,23 @@
 {13} {who}
 
 <COREF ID="X10">President Franjo Tudjman of Croatia</COREF>
-{14} {Tudjman}
+{14} {Croatia}
 
 <COREF ID="X12">the families of those who have perished</COREF>
 {19} {who}
 {24} {who}
 
+<COREF ID="X14">the peacemakers</COREF>
+{19} {peace}
+{24} {peace}
+
+<COREF ID="X16">The Air Force T-43 plane</COREF>
+{27} {the planes}
+{30} {the plane}
+
 <COREF ID="X19">Americans</COREF>
 {25} {Americans}
+
+<COREF ID="X20">The Roman Catholic archbishop of Dubrovnik</COREF>
+{29} {Dubrovnik}
 

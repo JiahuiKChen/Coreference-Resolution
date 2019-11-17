@@ -1,9 +1,18 @@
 <COREF ID="X0">REID</COREF>
 {6} {JOE REID}
+{11} {I}
+{20} {I}
+{20} {I}
 
 <COREF ID="X2">HALF MOON BAY</COREF>
 {11} {Half Moon Bay Airport}
 {23} {the Half Moon Bay community}
+
+<COREF ID="X3">the airplane</COREF>
+{10} {he}
+{10} {he}
+{14} {he}
+{20} {he}
 
 <COREF ID="X4">Jessica Dubroff</COREF>
 {19} {Jessica}

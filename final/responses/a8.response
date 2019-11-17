@@ -1,12 +1,19 @@
+<COREF ID="X1">FLIGHTS</COREF>
+{5} {BC-PANTEX-FLIGHTS-TEX}
+
 <COREF ID="X3">FAA</COREF>
 {12} {The FAA}
+{19} {the FAA air traffic manager}
+
+<COREF ID="X5">PLUTONIUM</COREF>
+{15} {Plutonium}
+{20} {plutonium}
 
 <COREF ID="X7">Amarillo</COREF>
 {23} {The Amarillo airport}
 
 <COREF ID="X9">Energy Department</COREF>
 {14} {Energy}
-{21} {the Energy Department}
 
 <COREF ID="X10">each flight</COREF>
 {13} {flight}
@@ -20,6 +27,10 @@
 {26} {planes}
 
 <COREF ID="X15">me</COREF>
+{21} {the Energy Department}
+{22} {the former weapons assembly plant}
+{28} {late summer}
+{28} {a new instrument landing system}
 {32} {something}
 
 <COREF ID="X16">land near the plant</COREF>
@@ -33,11 +44,13 @@
 {32} {McNulty}
 
 <COREF ID="X19">air traffic controllers</COREF>
-{19} {the FAA air traffic manager}
 {26} {air traffic controllers}
 
 <COREF ID="X21">About half the aircraft</COREF>
-{27} {the airport's dozen flight paths}
+{24} {he}
+{26} {he}
+{28} {he}
+{29} {he}
 
 <COREF ID="X22">Oklahoma</COREF>
 {24} {Texas}

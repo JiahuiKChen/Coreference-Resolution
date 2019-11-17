@@ -1,5 +1,8 @@
-<COREF ID="X1">02-22</COREF>
-{21} {two-engines}
+<COREF ID="X0">F14-CRASHES</COREF>
+{5} {BC-F14-CRASHES-BLOOM}
+
+<COREF ID="X2">NORTHROP GRUMMAN F-14S</COREF>
+{29} {now Northrop Grumman}
 
 <COREF ID="X4">Navy</COREF>
 {12} {the Navy}
@@ -20,11 +23,8 @@
 {18} {the Persian Gulf}
 
 <COREF ID="X8">Lt. Greg Geisen</COREF>
-{28} {Geisen}
-{32} {Geisen}
-
-<COREF ID="X14">Grumman Corp.</COREF>
-{29} {now Northrop Grumman}
+{18} {Geisen}
+{27} {Geisen}
 
 <COREF ID="X15">Northrop Grumman spokesman John Vosilla</COREF>
 {33} {Northrop Grumman shares}

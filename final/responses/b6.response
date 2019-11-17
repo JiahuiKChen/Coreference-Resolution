@@ -1,11 +1,9 @@
-<COREF ID="X0">NBC</COREF>
-{9} {NBC}
-{11} {NBC}
-{13} {NBC}
-
 <COREF ID="X4">the union's 2,800 NBC members</COREF>
 {8} {the company's work force}
-{10} {the three major networks}
+{9} {NBC}
+{10} {members}
+{11} {NBC}
 {11} {the union}
 {11} {the union's four-year contract}
+{13} {NBC}
 

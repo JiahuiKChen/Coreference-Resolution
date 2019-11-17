@@ -1,8 +1,18 @@
+<COREF ID="X0">ProMED</COREF>
+{15} {[ProMED thanks Dr Arzey}
+
+<COREF ID="X2">Psittacosis</COREF>
+{1} {it}
+{3} {it}
+{8} {it}
+{19} {it}
+
 <COREF ID="X4">I</COREF>
 {2} {It}
 {8} {It}
 {9} {I}
 {14} {It}
+{18} {Springfield IL}
 
 <COREF ID="X5">the source</COREF>
 {14} {the source}

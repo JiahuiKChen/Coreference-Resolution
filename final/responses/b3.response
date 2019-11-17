@@ -7,7 +7,6 @@
 {17} {TWA}
 {18} {TWA}
 {28} {TWA}
-{29} {TWA's offer}
 {30} {TWA}
 {34} {TWA}
 {35} {TWA}
@@ -31,8 +30,8 @@
 <COREF ID="X2">USAir</COREF>
 {10} {USAir Group Inc.}
 {11} {USAir}
+{12} {Washington-based USAir}
 {14} {USAir}
-{15} {USAir's largest shareholder}
 {16} {USAir}
 {17} {USAir}
 {17} {USAir}
@@ -44,26 +43,14 @@
 {24} {USAir}
 {24} {USAir}
 {24} {USAir}
-{28} {USAir}
-{28} {USAir}
-{29} {USAir}
-{30} {USAir}
-{31} {USAir}
+{24} {USAir's acquisition}
+{25} {the USAir bid}
 {34} {USAir shares}
-{35} {USAir}
 {37} {its USAir shares}
 {40} {USAir stock}
-{41} {USAir}
-{42} {USAir}
-{42} {USAir}
 {42} {more USAir shares}
 {44} {its USAir holding}
 {44} {USAir shares}
-{45} {USAir}
-{47} {USAir}
-{48} {USAir}
-{51} {USAir}
-{51} {USAir}
 
 <COREF ID="X5">Piedmont Aviation Inc.</COREF>
 {16} {Piedmont}
@@ -77,6 +64,7 @@
 <COREF ID="X7">Carl C. Icahn</COREF>
 {15} {Mr. Icahn}
 {16} {Mr. Icahn}
+{17} {I}
 {17} {Mr. Icahn}
 {23} {Mr. Icahn}
 {24} {Mr. Icahn}
@@ -99,13 +87,6 @@
 <COREF ID="X8">its attempt</COREF>
 {19} {it}
 {21} {it}
-{34} {it}
-{42} {it}
-{44} {it}
-
-<COREF ID="X11">Department of Transportation</COREF>
-{55} {the Transportation Department}
-{57} {the Transportation Department}
 
 <COREF ID="X12">TWA's first application</COREF>
 {59} {Texas Air's application}
@@ -114,25 +95,42 @@
 {21} {TWA}
 {24} {TWA}
 {24} {TWA's acquisition}
-{24} {USAir's acquisition}
 {24} {TWA}
-{25} {the USAir bid}
 {26} {TWA}
-{53} {USAir's tender offer}
+{29} {TWA's offer}
 
 <COREF ID="X14">Securities and Exchange Commission</COREF>
-{38} {composite New York Stock Exchange trading}
+{34} {it}
+{42} {it}
+{44} {it}
 
 <COREF ID="X15">The filings</COREF>
 {24} {the filings}
+{27} {he}
+{29} {he}
+{32} {he}
 {50} {the filing}
 
 <COREF ID="X17">merger between Piedmont and USAir</COREF>
+{28} {USAir}
+{28} {USAir}
+{29} {USAir}
+{30} {USAir}
 {30} {Piedmont}
 {30} {Piedmont}
+{31} {USAir}
+{35} {USAir}
 {40} {Piedmont}
+{41} {USAir}
+{42} {USAir}
+{42} {USAir}
 {42} {Piedmont}
+{45} {USAir}
+{47} {USAir}
+{48} {USAir}
+{51} {USAir}
 {51} {Piedmont}
+{51} {USAir}
 
 <COREF ID="X18">TWA</COREF>
 {7} {TWA U PIE}
@@ -143,7 +141,6 @@
 {17} {TWA}
 {18} {TWA}
 {28} {TWA}
-{29} {TWA's offer}
 {30} {TWA}
 {34} {TWA}
 {35} {TWA}
@@ -168,11 +165,13 @@
 {46} {it}
 {48} {it}
 {50} {it}
-{57} {it}
-{59} {it}
 
 <COREF ID="X21">New York-based Manufacturers Hanover Trust Co.</COREF>
 {47} {Manufacturers Hanover}
+
+<COREF ID="X23">court in Pittsburgh</COREF>
+{57} {it}
+{59} {it}
 
 <COREF ID="X24">more USAir stock</COREF>
 {52} {USAir}

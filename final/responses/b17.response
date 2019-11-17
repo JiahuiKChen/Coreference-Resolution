@@ -5,6 +5,13 @@
 {9} {Mr. Reagan}
 {11} {Mr. Reagan}
 
+<COREF ID="X2">Summit</COREF>
+{7} {it}
+
+<COREF ID="X4">Soviet leader Mikhail Gorbachev</COREF>
+{6} {he}
+{10} {he}
+
 <COREF ID="X5">an agreement eliminating intermediate-range nuclear missiles, signed at a summit meeting in Washington last December</COREF>
-{10} {the Washington summit}
+{11} {it}
 

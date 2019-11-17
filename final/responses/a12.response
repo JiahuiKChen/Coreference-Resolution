@@ -3,6 +3,10 @@
 {21} {The NTSB}
 {24} {The NTSB}
 
+<COREF ID="X6">Seattle's Museum of Flight</COREF>
+{12} {Flight}
+{20} {Museum}
+
 <COREF ID="X8">Pittsburgh</COREF>
 {12} {the Pittsburgh airport}
 {14} {Seattle}
@@ -10,7 +14,6 @@
 
 <COREF ID="X9">the plane's rudder</COREF>
 {13} {the plane's tail}
-{13} {the jet's deadly roll}
 {18} {the plane}
 {20} {the plane}
 
@@ -20,13 +23,18 @@
 
 <COREF ID="X11">the rudder</COREF>
 {15} {rudder}
+{16} {he}
 
 <COREF ID="X12">NTSB Chairman Jim Hall</COREF>
 {14} {Hall}
 
 <COREF ID="X13">board spokesman Mike Benson</COREF>
 {15} {Benson}
+{18} {Benson}
 {25} {Benson}
+
+<COREF ID="X14">Newer models of flight data recorders</COREF>
+{18} {older-model flight recorders}
 
 <COREF ID="X16">tests</COREF>
 {21} {tests}

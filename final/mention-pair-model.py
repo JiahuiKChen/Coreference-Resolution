@@ -2,7 +2,8 @@
 # are coreference pairs
 # RUN BY: python mention-pair-model.py <feature-list> - where feature-list is a text file with a feature file on each line
 
-from sklearn.tree import DecisionTreeClassifier 
+#from sklearn.tree import DecisionTreeClassifier 
+from sklearn.svm import SVC
 from sklearn.model_selection import cross_val_score
 import numpy as np
 
@@ -41,27 +42,47 @@ all_labels = np.concatenate((np.ones((pos_data.shape[0])), np.zeros(neg_data.sha
 
 
 ######################################Train model
+# TREE MENTION PAIR MODEL
 # Cross validate on tree depth and minimum samples needed to split a node
-depths = [2, 4, 6, 8]
-min_samples = [2, 4, 6, 8]
+#depths = [2, 4, 6, 8]
+#min_samples = [2, 4, 6, 8]
+#
+#best_acc = 0
+#best_params = [0, 0] # (best depth, best min sample split)
+#for depth in depths: 
+#    for min_sample in min_samples:
+#        tree = DecisionTreeClassifier(max_depth=depth, min_samples_split=min_sample)
+#        cv_scores = cross_val_score(tree, all_data, all_labels, cv=5) 
+#        cv_mean = np.mean(cv_scores)
+#        if cv_mean > best_acc:
+#            best_acc = cv_mean
+#            best_params[0] = depth
+#            best_params[1] = min_sample
+
+## Train model on entire dataset with best parameters
+#tree = DecisionTreeClassifier(max_depth=best_params[0], min_samples_split=best_params[1])
+#tree.fit(all_data, all_labels)
+
+# SVM MENTION PAIR MODEL
+c_vals = np.arange(0.1, 1.6, 0.1)
 
 best_acc = 0
-best_params = [0, 0] # (best depth, best min sample split)
-for depth in depths: 
-    for min_sample in min_samples:
-        tree = DecisionTreeClassifier(max_depth=depth, min_samples_split=min_sample)
-        cv_scores = cross_val_score(tree, all_data, all_labels, cv=5) 
-        cv_mean = np.mean(cv_scores)
-        if cv_mean > best_acc:
-            best_acc = cv_mean
-            best_params[0] = depth
-            best_params[1] = min_sample
+best_c = 0
+for c in c_vals:
+   svm = SVC(C=c) 
+   cv_scores = cross_val_score(svm, all_data, all_labels, cv=5)
+   cv_mean = np.mean(cv_scores)
+   if cv_mean > best_acc:
+       best_acc = cv_mean
+       best_c = c 
 
 print(f"BEST CROSS VALIDATION MEAN ACC: {best_acc}")
 
 # Train model on entire dataset with best parameters
-tree = DecisionTreeClassifier(max_depth=best_params[0], min_samples_split=best_params[1])
-tree.fit(all_data, all_labels)
+svm = SVC(C=best_c) 
+svm.fit(all_data, all_labels) 
+
 
 #####################################Save Model...
-dump(tree, "3x-neg-mention-pair-tree.joblib")
+#dump(tree, "3x-neg-mention-pair-tree.joblib")
+dump(svm, "svm-mention-pair-tree.joblib")

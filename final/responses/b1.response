@@ -1,12 +1,15 @@
 <COREF ID="X0">Eastern Air</COREF>
 {7} {Eastern Airlines executives}
 {9} {Eastern}
-{10} {Eastern's president}
 
 <COREF ID="X2">union</COREF>
 {9} {its unions}
+{11} {The airline's three major labor unions}
 {12} {the unions}
 {13} {unions}
+
+<COREF ID="X4">Union representatives who could be reached</COREF>
+{12} {he}
 
 <COREF ID="X7">Robert Callahan</COREF>
 {14} {Mr. Callahan}

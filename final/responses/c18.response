@@ -1,11 +1,14 @@
 <COREF ID="X0">Lassa fever</COREF>
 {1} {Lassa fever}
 {2} {fever}
+{5} {up to 41 C. Lassa fever}
 {12} {Lassa fever}
 {14} {Lassa fever endemic areas}
 {14} {rural Lassa fever -carrying rodents}
 
 <COREF ID="X2">force</COREF>
+{2} {UNAMSIL peacekeeping forces}
+{14} {UN peacekeeping forces}
 {17} {UNAMSIL forces}
 
 <COREF ID="X3">Daru</COREF>
@@ -15,6 +18,7 @@
 
 <COREF ID="X4">case</COREF>
 {1} {the four cases}
+{18} {other sub-clinical/ undiagnosed cases}
 {20} {suspect cases}
 
 <COREF ID="X5">Freetown</COREF>
@@ -30,9 +34,12 @@
 
 <COREF ID="X9">We</COREF>
 {15} {We}
+{19} {we}
 
 <COREF ID="X10">The first</COREF>
 {14} {the first case}
+{20} {the following:(1)How}
+{23} {the time}
 
 <COREF ID="X11">virus</COREF>
 {21} {Lassa fever virus-infected laboratory specimens}
@@ -42,6 +49,7 @@
 
 <COREF ID="X13">I</COREF>
 {20} {I}
+{22} {3)Is the lab}
 
 <COREF ID="X14">confirmation</COREF>
 {25} {Laboratory confirmation}

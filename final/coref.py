@@ -56,13 +56,12 @@ def format_response(coref_map, initial_refs_map, ordered_initials):
     #print(response_str)
     return response_str
 
-
 # Runs coreference resolution on all sentences in the given file
 #
 # Returns:      Responses as map of initial references to a list of (coreference text, sentence ID)
 #               Map of all initial references (text only) to their full coreference tag wrapping
 #               List of initial references IN ORDER IN WHICH THEY APPEAR IN INPUT
-def run_coref(input_file, nlp_model, tree_model_file):
+def run_coref(input_file, nlp_model, model_file):
     # Get input text 
     input_txt, sentence_map = get_input_file_text(input_file)
     # Tracks possible initial references (as an initial coref is encountered, it's added)
@@ -86,9 +85,9 @@ def run_coref(input_file, nlp_model, tree_model_file):
         parsed_sentence = nlp_model(sentence)
         np_chunks = list(chunk for chunk in parsed_sentence.noun_chunks)
 
-        # TREE APPROACH
+        # MENTION PAIR MODEL APPROACH
         # Pre-trained mention-pair model loaded in
-        #tree = load(tree_model_file)
+        model = load(model_file)
 
         # For each np, pair with the most recent intiial reference - run pair through the mention-pair classifier 
         for np in np_chunks:
@@ -101,38 +100,42 @@ def run_coref(input_file, nlp_model, tree_model_file):
                 #print(f"Trying NP {np.text} with Initial Reference: {init_ref}")
                 
                 # THE TREE APPROACH (doesn't work as well as just using similarity) :( 
-                #pair_features = get_pair_features(potential_ref, np).reshape(1, -1)
-                #prediction = tree.predict(pair_features)
-                #if prediction == 1:
-                #    if init_ref not in found_corefs:
-                #        found_corefs[init_ref] = []
-                #    found_corefs[init_ref].append((np.text, s))
-                #    break
-
-                # Primitive approach that just uses similarity...
-                pair_features = get_pair_features(potential_ref, np)
-                sim_score = pair_features[0]
-                contains = pair_features[1] 
-                match_lemmas = pair_features[2]
-                match_ners = pair_features[3]
-
-                # Number of matching lemmas is a plus 
-                sim_score += 0.5 * match_lemmas
-    
-                # Containment is a huge plus
-                sim_score += 0.8 * contains 
-
-                # Matching NER is a huge plus
-                sim_score += 0.8 * match_ners
-                    
-                if sim_score > 1.5:
+                pair_features = get_pair_features(potential_ref, np).reshape(1, -1)
+                prediction = model.predict(pair_features)
+                if prediction > 0:
                     if init_ref not in found_corefs:
                         found_corefs[init_ref] = []
                     found_corefs[init_ref].append((np.text, s))
-                    break 
+                    break
+
+                ## Primitive approach that just uses similarity...
+                #pair_features = get_pair_features(potential_ref, np)
+                #sim_score = pair_features[0]
+                #contains = pair_features[1] 
+                #match_lemmas = pair_features[2]
+                #match_ners = pair_features[3]
+                #match_caps = pair_features[4]
+
+                ## Number of matching lemmas is a plus 
+                #sim_score += 0.5 * match_lemmas
+    
+                ## Containment is a huge plus
+                #sim_score += contains 
+
+                ## Matching NER is a huge plus
+                #sim_score += 0.8 * match_ners
+
+                ## Same number of capitals is (minor) plus
+                #if match_caps == 0:
+                #    sim_score += 0.1
+                #    
+                #if sim_score > 1.75:
+                #    if init_ref not in found_corefs:
+                #        found_corefs[init_ref] = []
+                #    found_corefs[init_ref].append((np.text, s))
+                #    break 
 
     print(found_corefs)
-    #return found_corefs, initials_map, possible_initials
 
     # Generating formatted coreference responses
     response_str = format_response(found_corefs, initials_map, possible_initials)
@@ -155,6 +158,7 @@ nlp_model = spacy.load("en_core_web_lg")
 
 # The saved pre-trained mention pair decision tree model
 tree_model = "3x-neg-mention-pair-tree.joblib"
+svm_model = "svm-mention-pair-model.joblib"
 
 # Parse in the given list_file (of input file names to run coreference on)
 # and output directory
@@ -168,7 +172,7 @@ try:
     # Running coreference resolution on each input file 
     with open(list_file) as in_file:
         for input_name in in_file:
-            response = run_coref(input_name.strip(), nlp_model, tree_model)
+            response = run_coref(input_name.strip(), nlp_model, svm_model)
             write_response(response, input_name.strip(), output_dir)        
 except Exception as e: 
    print("\nException thrown:\n")

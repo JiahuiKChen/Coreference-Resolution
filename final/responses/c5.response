@@ -2,6 +2,10 @@
 {0} {poultry}
 {11} {domestic poultry}
 
+<COREF ID="X2">mutation</COREF>
+{1} {a very similar mutation event}
+{9} {mutational steps}
+
 <COREF ID="X10">viruses</COREF>
 {0} {virulent  viruses}
 {0} {these viruses}
@@ -9,6 +13,8 @@
 
 <COREF ID="X4">virulence</COREF>
 {5} {virulence}
+{8} {high, intermediate, or low virulence}
+{9} {avirulence}
 {9} {high virulence}
 {9} {high virulence}
 {9} {low virulence}
@@ -25,9 +31,11 @@
 {4} {a notoriously variable virus}
 {5} {Newcastle disease virus}
 {8} {Newcastle disease virus}
+{9} {a closely related) precursor virus}
 {11} {the precursor viruses}
 
 <COREF ID="X8">Victoria</COREF>
+{1} {these Victorian flocks}
 {12} {Victoria}
 {12} {Victoria}
 
@@ -36,6 +44,7 @@
 {4} {a notoriously variable virus}
 {5} {Newcastle disease virus}
 {8} {Newcastle disease virus}
+{9} {a closely related) precursor virus}
 {11} {the precursor viruses}
 
 <COREF ID="X10">viruses</COREF>
@@ -52,6 +61,7 @@
 {4} {a notoriously variable virus}
 {5} {Newcastle disease virus}
 {8} {Newcastle disease virus}
+{9} {a closely related) precursor virus}
 {11} {the precursor viruses}
 
 <COREF ID="X15">proteins</COREF>

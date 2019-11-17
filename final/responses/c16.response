@@ -1,5 +1,14 @@
+<COREF ID="X1">Children</COREF>
+{7} {children}
+{8} {children}
+{9} {children}
+{11} {children}
+
 <COREF ID="X4">the Netherlands</COREF>
 {6} {the Netherlands}
+
+<COREF ID="X5">Metapneumovirus</COREF>
+{10} {_Metapneumovirus_}
 
 <COREF ID="X6">member</COREF>
 {10} {the founder member}

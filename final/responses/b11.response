@@ -2,13 +2,11 @@
 {16} {R@amp;V ALLGEMEINE VERSICHERUNGS AG}
 
 <COREF ID="X1">1987</COREF>
-{13} {1987 net income}
 {18} {1987 sales}
 
 <COREF ID="X2">a year earlier</COREF>
 {13} {the past month}
 {18} {1987's first nine months}
-{18} {the fourth quarter}
 {20} {last year's 106 million marks}
 {21} {the next few weeks}
 
@@ -22,8 +20,7 @@
 <COREF ID="X9">an insurance concern it controls</COREF>
 {15} {it}
 {17} {it}
-{21} {it}
 
-<COREF ID="X13">Ireland's largest insurer, </COREF>
-{22} {The Netherlands' biggest insurance group}
+<COREF ID="X12">MIDWESTERN UNITED LIFE INSURANCE CO., one of its U.S. subsidiaries,</COREF>
+{21} {it}
 
