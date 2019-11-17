@@ -2,16 +2,18 @@
 {10} {a plane crash}
 
 <COREF ID="X1">BROWN</COREF>
-{5} {BC-CRASH-BROWN-NYT}
 {14} {Ron Brown}
 {16} {Brown}
 
 <COREF ID="X3">SOMBER FAREWELL</COREF>
 {10} {a somber farewell ceremony}
 
+<COREF ID="X4">CROATIA</COREF>
+{14} {Croatia}
+
 <COREF ID="X6">DUBROVNIK</COREF>
 {10} {Dubrovnik}
-{14} {I}
+{29} {Dubrovnik}
 
 <COREF ID="X8">Saturday</COREF>
 {17} {Saturday}
@@ -19,59 +21,24 @@
 {29} {Saturday}
 
 <COREF ID="X9">Two of those who died in the crash</COREF>
-{13} {who}
-{13} {his nation}
-{16} {He}
-{25} {He}
+{25} {that}
 {28} {the crash site}
-{29} {The investigating team}
-{29} {the causes}
+{29} {that}
 {29} {the accident}
-{31} {the body}
-
-<COREF ID="X10">President Franjo Tudjman of Croatia</COREF>
-{14} {Croatia}
-{14} {Tudjman}
 
 <COREF ID="X12">the families of those who have perished</COREF>
-{14} {our leave}
-{14} {all other senior  officials}
-{14} {the whole}
 {18} {they}
 {19} {who}
 {22} {the only victims}
-{22} {whose bodies}
-{23} {The remaining bodies}
-{24} {the most fitting memorial}
 {24} {people}
 {24} {who}
 {24} {the last five years}
-{25} {the ``decent, honorable and wonderfully ordinary lives}
-{25} {that}
-{26} {the remains}
-{29} {that}
-{30} {the only large pieces}
-
-<COREF ID="X13">the American ambassador to Croatia</COREF>
-{18} {the ambassador}
-{23} {the United States}
-
-<COREF ID="X14">the peacemakers</COREF>
-{19} {peace}
-{24} {peace}
 
 <COREF ID="X16">The Air Force T-43 plane</COREF>
-{24} {the ground}
 {27} {the planes}
 {30} {the plane}
 {31} {the aircraft}
 
-<COREF ID="X17">a rocky hill named after St. John the Baptist</COREF>
-{32} {the steep, rocky hillside}
-
 <COREF ID="X19">Americans</COREF>
 {25} {Americans}
-
-<COREF ID="X20">The Roman Catholic archbishop of Dubrovnik</COREF>
-{29} {Dubrovnik}
 

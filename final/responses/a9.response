@@ -1,37 +1,18 @@
-<COREF ID="X0">F14-CRASHES</COREF>
-{5} {BC-F14-CRASHES-BLOOM}
-
 <COREF ID="X4">Navy</COREF>
 {12} {the Navy}
 {16} {the Navy}
-{16} {a Navy spokesman}
 {17} {the Navy}
-{20} {the Navy's first-line fighter aircraft}
 {22} {The Navy}
 {26} {The Navy}
-{27} {Navy jet fighter aircraft}
 {30} {the Navy}
 {31} {the Navy}
 
 <COREF ID="X5">three days</COREF>
 {14} {three people}
-{32} {the three recent crashes}
 {32} {three days}
 
 <COREF ID="X6">Persian Gulf</COREF>
 {18} {the Persian Gulf}
-
-<COREF ID="X7">a 72-hour safety standdown</COREF>
-{18} {the standdown}
-
-<COREF ID="X8">Lt. Greg Geisen</COREF>
-{18} {Geisen}
-{27} {Geisen}
-{28} {Geisen}
-{32} {Geisen}
-
-<COREF ID="X9">the F-14</COREF>
-{17} {F-14 operations}
 
 <COREF ID="X14">Grumman Corp.</COREF>
 {29} {now Northrop Grumman}

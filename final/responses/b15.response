@@ -1,6 +1,5 @@
 <COREF ID="X0">Northwest Attendants</COREF>
 {6} {Northwest}
-{6} {the attendants}
 {7} {Northwest}
 {7} {Northwest}
 
@@ -13,15 +12,9 @@
 <COREF ID="X4">leaders of the unions representing Northwest pilots and machinists</COREF>
 {8} {The union}
 {9} {the other unions}
-{10} {An Air Line Pilots Association spokesman}
 {10} {union leaders}
-{11} {Northwest's largest union}
-{12} {the union's threat}
 {14} {The attendants union}
 
 <COREF ID="X5">strategy meeting</COREF>
 {10} {the meeting}
-
-<COREF ID="X6">The Teamsters</COREF>
-{13} {he}
 

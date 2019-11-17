@@ -1,20 +1,8 @@
 <COREF ID="X0">senior director of UAL</COREF>
 {6} {UAL's chief executive officer}
-{16} {UAL}
-{16} {UAL}
-{26} {UAL}
-{27} {UAL}
-
-<COREF ID="X1">its board</COREF>
-{6} {the executive committee}
-{7} {The UAL board}
-{9} {the directors}
-{14} {the outside directors}
 
 <COREF ID="X2">the Journal's April 17 article</COREF>
 {8} {the Journal article}
-{14} {your article}
-{16} {The Journal's reference to 's reputed desire}
 {17} {the Journal's reference}
 
 <COREF ID="X3">Richard Ferris</COREF>
@@ -22,64 +10,46 @@
 {9} {Mr. Ferris}
 {12} {Mr. Ferris}
 {14} {Mr. Ferris}
-{22} {Neither Mr. Ferris}
 
 <COREF ID="X4">United</COREF>
-{7} {it}
-{19} {United cockpits}
+{12} {United}
+{14} {United}
+{18} {United}
+{19} {United}
+{20} {United}
 {21} {United management}
+{21} {United}
+{25} {United}
+
+<COREF ID="X5">the premier hotel company</COREF>
+{24} {the business}
 
 <COREF ID="X7">board members</COREF>
 {22} {the board}
 
 <COREF ID="X8">the earnings of United Airlines</COREF>
-{11} {non-union airline competitors}
-{12} {United}
-{12} {its earnings}
 {13} {the airline}
-{14} {United}
-{17} {United's service}
 
 <COREF ID="X10">independent legal and financial counsel</COREF>
-{15} {The employment}
 {15} {independent counsel}
-{15} {proposed corporate buyout situations}
-{24} {the business}
-{25} {a strong and prosperous employer}
 
 <COREF ID="X12">the Century Plaza Hotel in Los Angeles</COREF>
-{16} {he}
 {16} {the Century Plaza}
 {26} {the Century Plaza}
 
 <COREF ID="X13">the "570 newly hired pilots" whom United "tried to fire" because they "refused to cross picket lines. "</COREF>
-{17} {pilots}
-{17} {who}
 {17} {they}
-{18} {United}
-{18} {them}
 {19} {that}
-{19} {United}
 {19} {they}
-{20} {United}
-{21} {it}
 {21} {they}
-{21} {United}
-{23} {them}
-{23} {them}
-{24} {who}
-{25} {United}
+{24} {their right}
 
 <COREF ID="X14">the pilots' strike</COREF>
 {19} {the strike}
-{20} {the 570 pilots}
-{21} {the 570 pilots}
 
 <COREF ID="X15">a federal district court</COREF>
 {20} {the U.S. Supreme Court}
-{20} {a circuit court reversal}
 {20} {the district court}
-{21} {its court victory}
 
 <COREF ID="X16">the pilots</COREF>
 {23} {the 1985 pilot strike}
@@ -88,7 +58,6 @@
 <COREF ID="X18">we</COREF>
 {24} {We}
 {24} {we}
-{24} {their right}
 {25} {We}
 {25} {they}
 {25} {us}

@@ -1,5 +1,4 @@
 <COREF ID="X0">Mediator</COREF>
-{8} {A federal mediator}
 {9} {The mediator}
 
 <COREF ID="X1">Talks</COREF>
@@ -14,9 +13,5 @@
 <COREF ID="X4">a Big Board spokesman</COREF>
 {10} {The spokesman}
 {11} {the Big Board}
-{11} {the a unit}
 {11} {the Big Board}
-
-<COREF ID="X5">New York Futures Exchange, </COREF>
-{11} {the exchange}
 

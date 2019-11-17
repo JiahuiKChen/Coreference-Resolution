@@ -1,42 +1,25 @@
 <COREF ID="X1">CHINA</COREF>
-{5} {BC-HK-AIRCRASH-CHINA-SCMP}
 {6} {CHINA}
 {16} {China}
 {22} {China}
 
-<COREF ID="X3">TWO</COREF>
-{8} {Two Chinese crew members}
-
 <COREF ID="X4">Macau</COREF>
 {9} {Macau}
-{13} {Macau Marine Police}
-{17} {Macau authorities}
 
 <COREF ID="X6">their helicopter</COREF>
+{10} {The China Southern Helicopter Company aircraft}
 {11} {the helicopter}
 {13} {Two Government Flying Service helicopters}
 {16} {a helicopter}
-{17} {the pilots}
-
-<COREF ID="X7">Zhuhai</COREF>
-{18} {Zhuhai officials}
 
 <COREF ID="X8">Hong Kong's Civil Aviation Department</COREF>
-{10} {The China Southern Helicopter Company aircraft}
-{12} {Hong Kong airspace}
 {12} {Civil Aviation Department rescuers}
-{14} {the department's Aeronautical Rescue Co-ordination Centre}
-{15} {a Macau aviation source}
 {22} {the Civil Aviation Department}
 
 <COREF ID="X9">a search</COREF>
 {13} {the search}
-{17} {the site}
 
 <COREF ID="X10">the Chinese island</COREF>
 {15} {the island}
 {16} {the island}
-
-<COREF ID="X11">poor weather</COREF>
-{21} {poor visibility}
 

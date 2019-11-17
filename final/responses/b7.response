@@ -1,22 +1,19 @@
 <COREF ID="X0">Western Union Corp.</COREF>
 {6} {Western Union Corp.}
+{6} {Western Union Telegraph Co.}
+{11} {4,400 Western Union employees}
+
+<COREF ID="X2">labor contracts</COREF>
+{7} {The contracts}
 
 <COREF ID="X3">the United Telegraph Workers and the Communications Workers of America</COREF>
-{6} {Western Union Telegraph Co.}
-{7} {The contracts}
 {7} {the unions}
-{9} {the first and second years}
 {9} {the unions}
-{10} {the second and third years}
 {11} {The United Telegraph Workers union}
-{11} {4,400 Western Union employees}
+{11} {the country}
 {12} {The Communications Workers}
-{12} {America}
 
 <COREF ID="X4">The agreement</COREF>
 {8} {the existing contracts}
-{9} {the end}
 {9} {the company}
-{10} {The accord}
-{11} {the country}
 

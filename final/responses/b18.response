@@ -1,16 +1,5 @@
-<COREF ID="X0">U.S. Mediator</COREF>
-{5} {a federal mediator}
-
-<COREF ID="X2">negotiators in the bitter labor battle at Eastern Airlines</COREF>
-{7} {he}
+<COREF ID="X1">Eastern Negotiations</COREF>
 {17} {Eastern officials}
-{24} {the airline}
-{26} {the airline}
-
-<COREF ID="X3">We</COREF>
-{7} {we}
-
-<COREF ID="X4">Eastern, a unit of Texas Air Corp.,</COREF>
 {19} {Eastern}
 {21} {Eastern}
 {22} {Eastern}
@@ -21,80 +10,54 @@
 {28} {Eastern}
 {30} {Eastern}
 
-<COREF ID="X5">steep wage cuts from its roughly 10,000 machinists and baggage handlers</COREF>
-{9} {it}
-{9} {the cost concessions}
+<COREF ID="X3">We</COREF>
+{7} {we}
+{14} {We}
 
 <COREF ID="X6">the bargaining table</COREF>
 {16} {the bargaining table}
 
 <COREF ID="X7">that</COREF>
-{12} {the extent}
 {12} {which}
 {12} {it}
-{12} {this case}
-{13} {anything}
 {13} {it}
-{14} {We}
-{14} {the exception}
-{15} {the growing perception}
-{17} {their part}
 {17} {which}
 {18} {which}
 {20} {it}
-{25} {neither side}
-{30} {things}
 
 <COREF ID="X8">the mediation process</COREF>
 {16} {mediation}
+{18} {the mediator}
 {21} {mediation}
 
 <COREF ID="X9">Florida Gov. Bob Martinez</COREF>
 {29} {Gov. Martinez}
 
 <COREF ID="X10">the National Mediation Board</COREF>
-{18} {the mediator}
-{18} {the union}
-{26} {the federal investigation}
+{28} {the National Mediation Board}
 
 <COREF ID="X11">management</COREF>
 {18} {management}
 {23} {management}
 
 <COREF ID="X12">an agreement on a wage-concession package</COREF>
-{17} {a deadline}
 {18} {its last contract offer}
-{19} {a negotiated settlement}
-{19} {a firm date}
-{19} {the existing contract}
-{19} {an end}
-{21} {A settlement}
-{29} {a lunch-time demonstration}
 
 <COREF ID="X13">I</COREF>
 {22} {I}
 
 <COREF ID="X14">The union</COREF>
 {21} {the machinists' union}
-{22} {he}
 {23} {the Machinists union}
-{24} {non-union workers}
-{28} {the National Mediation Board}
 
 <COREF ID="X16">a strike</COREF>
 {23} {a strike}
 
 <COREF ID="X17">the pilot</COREF>
-{26} {the former astronaut}
-{30} {he}
-{30} {he}
+{27} {the Machinist and pilot unions}
 
 <COREF ID="X19">Texas Air</COREF>
 {27} {Texas Air's stock price}
 {28} {Texas Air}
 {29} {Texas Air}
-
-<COREF ID="X20">union</COREF>
-{27} {the Machinist and pilot unions}
-{29} {about 3,000 union members}
 

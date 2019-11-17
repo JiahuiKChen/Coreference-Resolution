@@ -1,8 +1,3 @@
-<COREF ID="X7">area</COREF>
-{1} {A second infected area}
-{5} {the infected area}
-{8} {an infected area}
-
 <COREF ID="X1">classical swine fever</COREF>
 {1} {classical swine fever}
 
@@ -10,25 +5,15 @@
 {8} {pigs}
 {9} {pigs}
 {13} {live pigs}
-{13} {pig semen}
 
 <COREF ID="X3">Norfolk</COREF>
 {13} {Norfolk}
-{13} {Suffolk}
 
 <COREF ID="X5">the outbreak</COREF>
-{2} {the Infected Area}
 {3} {the outbreak}
-{4} {the disease}
 {11} {the outbreak}
 
-<COREF ID="X7">area</COREF>
-{1} {A second infected area}
-{5} {the infected area}
-{8} {an infected area}
-
 <COREF ID="X8">areas</COREF>
-{8} {the remaining infected areas}
 {11} {infected areas}
 
 <COREF ID="X9">Farmers</COREF>

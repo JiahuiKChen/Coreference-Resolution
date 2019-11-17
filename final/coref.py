@@ -86,8 +86,9 @@ def run_coref(input_file, nlp_model, tree_model_file):
         parsed_sentence = nlp_model(sentence)
         np_chunks = list(chunk for chunk in parsed_sentence.noun_chunks)
 
+        # TREE APPROACH
         # Pre-trained mention-pair model loaded in
-        tree = load(tree_model_file)
+        #tree = load(tree_model_file)
 
         # For each np, pair with the most recent intiial reference - run pair through the mention-pair classifier 
         for np in np_chunks:
@@ -98,21 +99,23 @@ def run_coref(input_file, nlp_model, tree_model_file):
                 potential_ref = nlp_model(init_ref)
 
                 #print(f"Trying NP {np.text} with Initial Reference: {init_ref}")
-
-                pair_features = get_pair_features(potential_ref, np).reshape(1, -1)
-                prediction = tree.predict(pair_features)
-                if prediction == 1:
-                    if init_ref not in found_corefs:
-                        found_corefs[init_ref] = []
-                    found_corefs[init_ref].append((np.text, s))
-                    break
-                # Previous approach that just uses similarity...
-                #sim_score = get_pair_features(potential_ref, np)
-                #if sim_score > 0.75:
+                
+                # THE TREE APPROACH (doesn't work as well as just using similarity) :( 
+                #pair_features = get_pair_features(potential_ref, np).reshape(1, -1)
+                #prediction = tree.predict(pair_features)
+                #if prediction == 1:
                 #    if init_ref not in found_corefs:
                 #        found_corefs[init_ref] = []
                 #    found_corefs[init_ref].append((np.text, s))
-                #    break 
+                #    break
+
+                # Primitive approach that just uses similarity...
+                sim_score = get_pair_features(potential_ref, np)[0]
+                if sim_score > 0.75:
+                    if init_ref not in found_corefs:
+                        found_corefs[init_ref] = []
+                    found_corefs[init_ref].append((np.text, s))
+                    break 
 
     print(found_corefs)
     #return found_corefs, initials_map, possible_initials

@@ -4,6 +4,7 @@
 
 <COREF ID="X2">Winter Vomiting Disease</COREF>
 {2} {winter vomiting disease}
+{14} {"winter vomiting disease}
 
 <COREF ID="X4">Monday</COREF>
 {4} {Monday afternoon}
@@ -19,45 +20,32 @@
 {12} {vomiting}
 
 <COREF ID="X8">symptoms</COREF>
+{11} {Winter vomiting disease}
 {12} {Symptoms}
 {12} {severe nausea}
-{14} {"winter vomiting disease}
+{18} {Winter vomiting disease}
 
 <COREF ID="X18">infection</COREF>
 {5} {the infection}
-{11} {Winter vomiting disease}
-{18} {Winter vomiting disease}
+{11} {an infection}
 
 <COREF ID="X11">We</COREF>
-{5} {what}
 {6} {We}
-{6} {it}
 {7} {we}
-{12} {that}
-{19} {that}
-
-<COREF ID="X12">Craig DuHamel</COREF>
-{8} {DuHamel}
-{13} {DuHamel}
 
 <COREF ID="X14">hospital</COREF>
 {10} {the hospital}
 {15} {hospitals}
 
 <COREF ID="X15">a virus</COREF>
-{11} {an infection}
 {13} {the virus}
 {13} {the  virus}
-
-<COREF ID="X16">Norwalk</COREF>
 {18} {a Norwalk-like virus}
-{19} {Norwalk-like viruses}
 
 <COREF ID="X17">ProMED-mail</COREF>
 {20} {ProMED-mail}
 
 <COREF ID="X18">infection</COREF>
 {5} {the infection}
-{11} {Winter vomiting disease}
-{18} {Winter vomiting disease}
+{11} {an infection}
 

@@ -2,19 +2,14 @@
 {0} {poultry}
 {11} {domestic poultry}
 
-<COREF ID="X2">mutation</COREF>
-{1} {a very similar mutation event}
-{9} {mutational steps}
-
 <COREF ID="X10">viruses</COREF>
 {0} {virulent  viruses}
 {0} {these viruses}
 {3} {any APMV-1 viruses}
+{11} {the precursor viruses}
 
 <COREF ID="X4">virulence</COREF>
 {5} {virulence}
-{8} {high, intermediate, or low virulence}
-{9} {avirulence}
 {9} {high virulence}
 {9} {high virulence}
 {9} {low virulence}
@@ -28,31 +23,23 @@
 
 <COREF ID="X12">virus</COREF>
 {1} {this virulent virus}
-{4} {a notoriously variable virus}
 {5} {Newcastle disease virus}
-{7} {infection}
 {8} {Newcastle disease virus}
-{9} {a closely related) precursor virus}
-{11} {the precursor viruses}
 
 <COREF ID="X8">Victoria</COREF>
-{1} {these Victorian flocks}
 {12} {Victoria}
 {12} {Victoria}
 
 <COREF ID="X12">virus</COREF>
 {1} {this virulent virus}
-{4} {a notoriously variable virus}
 {5} {Newcastle disease virus}
-{7} {infection}
 {8} {Newcastle disease virus}
-{9} {a closely related) precursor virus}
-{11} {the precursor viruses}
 
 <COREF ID="X10">viruses</COREF>
 {0} {virulent  viruses}
 {0} {these viruses}
 {3} {any APMV-1 viruses}
+{11} {the precursor viruses}
 
 <COREF ID="X11">Australia</COREF>
 {12} {Australia}
@@ -60,12 +47,8 @@
 
 <COREF ID="X12">virus</COREF>
 {1} {this virulent virus}
-{4} {a notoriously variable virus}
 {5} {Newcastle disease virus}
-{7} {infection}
 {8} {Newcastle disease virus}
-{9} {a closely related) precursor virus}
-{11} {the precursor viruses}
 
 <COREF ID="X14">the cleavability</COREF>
 {7} {the spread}
@@ -79,7 +62,6 @@
 <COREF ID="X15">proteins</COREF>
 {6} {inactive precursor proteins}
 {6} {virulent  the precursor proteins}
-{7} {specific cellular proteases}
 
 <COREF ID="X16">strains</COREF>
 {6} {Avirulent strains}

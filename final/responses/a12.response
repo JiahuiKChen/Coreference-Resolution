@@ -3,55 +3,35 @@
 {21} {The NTSB}
 {24} {The NTSB}
 
-<COREF ID="X4">CRASH PROBE</COREF>
+<COREF ID="X1">CRASH</COREF>
 {18} {the crash}
 {24} {the crash}
 
 <COREF ID="X6">Seattle's Museum of Flight</COREF>
 {11} {The museum's aircraft}
-{11} {the airplane}
-{12} {Flight}
-{20} {Museum}
+{12} {the Pittsburgh airport}
 {21} {the museum}
 
 <COREF ID="X8">Pittsburgh</COREF>
-{12} {the Pittsburgh airport}
 {14} {Seattle}
-{19} {the Pittsburgh crash}
 
 <COREF ID="X9">the plane's rudder</COREF>
 {13} {the plane's tail}
 {13} {the jet's deadly roll}
-{21} {an intact plane}
+{18} {the plane}
+{20} {the plane}
 {24} {another plane}
-
-<COREF ID="X10">Aviation safety investigators</COREF>
-{15} {investigators}
-{18} {investigators}
 
 <COREF ID="X11">the rudder</COREF>
 {15} {rudder}
-{16} {he}
-
-<COREF ID="X12">NTSB Chairman Jim Hall</COREF>
-{14} {Hall}
-
-<COREF ID="X13">board spokesman Mike Benson</COREF>
-{15} {Benson}
-{18} {Benson}
-{20} {Flight spokesman Bill Hayes}
-{25} {Benson}
 
 <COREF ID="X14">Newer models of flight data recorders</COREF>
 {18} {older-model flight recorders}
 {19} {improved flight recorders}
 
 <COREF ID="X15">the angle of the rudder and the pedal controlling it</COREF>
-{18} {the plane}
 {18} {the force}
-{18} {that}
 {19} {the board}
-{20} {the plane}
 
 <COREF ID="X16">tests</COREF>
 {21} {tests}
