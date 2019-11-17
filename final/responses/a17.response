@@ -1,23 +1,9 @@
 <COREF ID="X0">REID</COREF>
 {6} {JOE REID}
-{10} {Calif. Joe Reid}
-{13} {Reid}
-{14} {Reid}
-{15} {Reid}
-{19} {Reid}
-{23} {Reid}
 
 <COREF ID="X2">HALF MOON BAY</COREF>
 {11} {Half Moon Bay Airport}
-{13} {the Half Moon Bay Pilots Association}
 {23} {the Half Moon Bay community}
-{24} {the annual Half Moon Bay Fly-In}
-{26} {Half Moon Bay}
-
-<COREF ID="X3">the airplane</COREF>
-{14} {the aircraft}
-{14} {a small plane}
-{16} {the plane}
 
 <COREF ID="X4">Jessica Dubroff</COREF>
 {19} {Jessica}

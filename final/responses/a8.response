@@ -1,13 +1,8 @@
 <COREF ID="X3">FAA</COREF>
 {12} {The FAA}
 
-<COREF ID="X5">PLUTONIUM</COREF>
-{15} {Plutonium}
-{20} {plutonium}
-
 <COREF ID="X7">Amarillo</COREF>
-{17} {Amarillo}
-{29} {Amarillo}
+{23} {The Amarillo airport}
 
 <COREF ID="X9">Energy Department</COREF>
 {14} {Energy}
@@ -15,24 +10,19 @@
 
 <COREF ID="X10">each flight</COREF>
 {13} {flight}
-{16} {current flight data}
 
 <COREF ID="X11">Amarillo International Airport</COREF>
+{17} {Amarillo}
 {19} {Amarillo International}
-{23} {The Amarillo airport}
+{29} {Amarillo}
 
 <COREF ID="X12">military training planes</COREF>
-{24} {military planes}
+{26} {planes}
 
-<COREF ID="X13">Defense Nuclear Facilities Safety Board</COREF>
-{27} {the nuclear storage area}
-
-<COREF ID="X14">The risk of that scenario</COREF>
-{28} {One approach}
-{31} {the dangers}
+<COREF ID="X15">me</COREF>
+{32} {something}
 
 <COREF ID="X16">land near the plant</COREF>
-{22} {the former weapons assembly plant}
 {32} {the plant}
 
 <COREF ID="X17">Mike McNulty</COREF>
@@ -46,12 +36,8 @@
 {19} {the FAA air traffic manager}
 {26} {air traffic controllers}
 
-<COREF ID="X20">flight patterns</COREF>
-{25} {a flight pattern}
-
 <COREF ID="X21">About half the aircraft</COREF>
 {27} {the airport's dozen flight paths}
-{29} {The second flight path}
 
 <COREF ID="X22">Oklahoma</COREF>
 {24} {Texas}

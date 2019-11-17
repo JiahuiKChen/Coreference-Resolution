@@ -1,21 +1,22 @@
 <COREF ID="X18">TWA</COREF>
+{7} {TWA U PIE}
+{11} {TWA's bid}
 {14} {TWA}
 {14} {TWA}
 {15} {TWA}
 {17} {TWA}
 {18} {TWA}
-{21} {TWA}
-{24} {TWA}
-{24} {TWA}
-{26} {TWA}
 {28} {TWA}
+{29} {TWA's offer}
 {30} {TWA}
 {34} {TWA}
 {35} {TWA}
 {37} {TWA}
+{38} {TWA stock}
 {39} {TWA}
 {42} {TWA}
 {44} {TWA}
+{44} {TWA's money}
 {52} {TWA}
 {52} {TWA}
 {53} {TWA}
@@ -28,8 +29,10 @@
 {59} {TWA}
 
 <COREF ID="X2">USAir</COREF>
+{10} {USAir Group Inc.}
 {11} {USAir}
 {14} {USAir}
+{15} {USAir's largest shareholder}
 {16} {USAir}
 {17} {USAir}
 {17} {USAir}
@@ -46,31 +49,29 @@
 {29} {USAir}
 {30} {USAir}
 {31} {USAir}
+{34} {USAir shares}
 {35} {USAir}
+{37} {its USAir shares}
+{40} {USAir stock}
 {41} {USAir}
 {42} {USAir}
 {42} {USAir}
+{42} {more USAir shares}
+{44} {its USAir holding}
+{44} {USAir shares}
 {45} {USAir}
 {47} {USAir}
 {48} {USAir}
 {51} {USAir}
 {51} {USAir}
-{52} {USAir}
-{53} {USAir}
-{54} {USAir}
-{55} {USAir}
-{56} {USAir}
-{58} {USAir}
 
-<COREF ID="X3">Additional Blow to Bid</COREF>
-{11} {another blow}
-{29} {the bid}
-
-<COREF ID="X4">a temporary restraining order</COREF>
-{11} {The order}
+<COREF ID="X5">Piedmont Aviation Inc.</COREF>
+{16} {Piedmont}
+{17} {Piedmont}
+{17} {Piedmont}
+{25} {Piedmont}
 
 <COREF ID="X6">share tender offer</COREF>
-{22} {a tender-offer document}
 {30} {the tender offer}
 
 <COREF ID="X7">Carl C. Icahn</COREF>
@@ -96,47 +97,62 @@
 {56} {Mr. Icahn}
 
 <COREF ID="X8">its attempt</COREF>
-{16} {the attempt}
-{35} {its position}
-{45} {its plans}
-
-<COREF ID="X10">second application</COREF>
-{20} {a serious application}
-{58} {a separate application}
+{19} {it}
+{21} {it}
+{34} {it}
+{42} {it}
+{44} {it}
 
 <COREF ID="X11">Department of Transportation</COREF>
-{19} {The department}
 {55} {the Transportation Department}
 {57} {the Transportation Department}
-{58} {the department}
-{59} {the department}
+
+<COREF ID="X12">TWA's first application</COREF>
+{59} {Texas Air's application}
 
 <COREF ID="X13">TWA's bid</COREF>
+{21} {TWA}
+{24} {TWA}
 {24} {TWA's acquisition}
-{29} {TWA's offer}
-{44} {TWA's money}
+{24} {USAir's acquisition}
+{24} {TWA}
+{25} {the USAir bid}
+{26} {TWA}
+{53} {USAir's tender offer}
+
+<COREF ID="X14">Securities and Exchange Commission</COREF>
+{38} {composite New York Stock Exchange trading}
 
 <COREF ID="X15">The filings</COREF>
 {24} {the filings}
+{50} {the filing}
+
+<COREF ID="X17">merger between Piedmont and USAir</COREF>
+{30} {Piedmont}
+{30} {Piedmont}
+{40} {Piedmont}
+{42} {Piedmont}
+{51} {Piedmont}
 
 <COREF ID="X18">TWA</COREF>
+{7} {TWA U PIE}
+{11} {TWA's bid}
 {14} {TWA}
 {14} {TWA}
 {15} {TWA}
 {17} {TWA}
 {18} {TWA}
-{21} {TWA}
-{24} {TWA}
-{24} {TWA}
-{26} {TWA}
 {28} {TWA}
+{29} {TWA's offer}
 {30} {TWA}
 {34} {TWA}
 {35} {TWA}
 {37} {TWA}
+{38} {TWA stock}
 {39} {TWA}
 {42} {TWA}
 {44} {TWA}
+{44} {TWA's money}
 {52} {TWA}
 {52} {TWA}
 {53} {TWA}
@@ -149,20 +165,27 @@
 {59} {TWA}
 
 <COREF ID="X20">its SEC filing</COREF>
-{50} {the filing}
+{46} {it}
+{48} {it}
+{50} {it}
+{57} {it}
+{59} {it}
 
-<COREF ID="X23">court in Pittsburgh</COREF>
-{53} {the court}
+<COREF ID="X21">New York-based Manufacturers Hanover Trust Co.</COREF>
+{47} {Manufacturers Hanover}
 
 <COREF ID="X24">more USAir stock</COREF>
+{52} {USAir}
+{53} {USAir}
 {53} {more USAir shares}
+{54} {USAir}
 {54} {USAir stock}
+{55} {USAir}
 {55} {USAir's stock}
+{56} {USAir}
 {58} {USAir stock}
+{58} {USAir}
 
 <COREF ID="X25">Hart-Scott-Rodino Act</COREF>
 {57} {Hart-Scott-Rodino regulations}
-
-<COREF ID="X26">Houston-based Texas Air Corp.</COREF>
-{59} {Texas Air's application}
 

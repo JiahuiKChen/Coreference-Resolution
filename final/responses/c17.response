@@ -1,20 +1,20 @@
-<COREF ID="X3">one significant misleading fact and a few questionable elements</COREF>
-{1} {the less accurate elements}
-{12} {the same human health risk}
-{12} {only a small number}
-{20} {a common occurrence}
-
 <COREF ID="X4">I</COREF>
+{2} {It}
+{8} {It}
 {9} {I}
+{14} {It}
 
 <COREF ID="X5">the source</COREF>
 {14} {the source}
 
 <COREF ID="X6">transmission</COREF>
 {5} {Interhuman transmission}
+{8} {experimental disease transmission}
 
 <COREF ID="X7">species</COREF>
 {10} {different species}
-{11} {some species}
 {12} {Highly resistant species}
+
+<COREF ID="X8">some</COREF>
+{11} {some species}
 

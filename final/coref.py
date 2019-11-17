@@ -110,8 +110,22 @@ def run_coref(input_file, nlp_model, tree_model_file):
                 #    break
 
                 # Primitive approach that just uses similarity...
-                sim_score = get_pair_features(potential_ref, np)[0]
-                if sim_score > 0.75:
+                pair_features = get_pair_features(potential_ref, np)
+                sim_score = pair_features[0]
+                contains = pair_features[1] 
+                match_lemmas = pair_features[2]
+                match_ners = pair_features[3]
+
+                # Number of matching lemmas is a plus 
+                sim_score += 0.5 * match_lemmas
+    
+                # Containment is a huge plus
+                sim_score += 0.8 * contains 
+
+                # Matching NER is a huge plus
+                sim_score += 0.8 * match_ners
+                    
+                if sim_score > 1.5:
                     if init_ref not in found_corefs:
                         found_corefs[init_ref] = []
                     found_corefs[init_ref].append((np.text, s))

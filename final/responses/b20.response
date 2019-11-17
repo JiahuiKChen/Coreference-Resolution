@@ -1,65 +1,56 @@
 <COREF ID="X0">OPEC</COREF>
-{17} {OPEC}
-{19} {OPEC affairs}
+{7} {OPEC's most notable quota violator}
+{22} {an OPEC spokesman}
+{23} {total OPEC output}
 
-<COREF ID="X1">a Price War</COREF>
-{5} {a possible price war}
-
-<COREF ID="X2">Output</COREF>
-{18} {OPEC output}
-{24} {OPEC output}
-
-<COREF ID="X6">a day</COREF>
-{19} {a result}
+<COREF ID="X5">a sharp rise in OPEC production</COREF>
+{14} {a higher OPEC quota}
 
 <COREF ID="X7">20 million barrels a day early this month</COREF>
 {6} {as much as one million barrels}
-{6} {the year's peak}
-{24} {the month}
-
-<COREF ID="X9">a targeted 1.5 million barrels a day</COREF>
-{15} {between 1.2 million and 1.5 million barrels}
 
 <COREF ID="X10">Saudi Arabia</COREF>
 {23} {Saudi Arabia}
 
-<COREF ID="X11">its government</COREF>
-{14} {the government}
-{14} {its demand}
-{19} {its war}
-
 <COREF ID="X14">Abu Dhabi</COREF>
 {20} {Abu Dhabi}
+
+<COREF ID="X15">OPEC's new secretary-general, </COREF>
+{11} {OPEC's president}
+{12} {OPEC's "unity}
+{12} {OPEC decisions}
+{17} {OPEC}
+{18} {OPEC output}
+{19} {OPEC affairs}
+{20} {OPEC's price-monitoring committee}
+{21} {OPEC's headquarters}
+{24} {OPEC output}
+{26} {OPEC's comfort zone}
 
 <COREF ID="X16">Sheik Zayed Al Nahyyan, </COREF>
 {12} {Sheik Zayed}
 
+<COREF ID="X18">its assigned quota of 948,000 barrels a day</COREF>
+{17} {it}
+{18} {it}
+{22} {it}
+
 <COREF ID="X20">the Emirates' official news agency</COREF>
 {12} {the Emirates' support}
-{13} {The news agency report}
+{13} {the Emirates' production level}
+{14} {the Emirates}
 {15} {the Emirates' current production}
 {17} {Emirates' officials}
+{19} {the UAE}
+{20} {the Emirates' unilateral quota decision}
+{22} {the UAE}
 
 <COREF ID="X21">oil</COREF>
+{20} {world oil prices}
 {25} {OPEC oil}
 
 <COREF ID="X23">the world oil markets</COREF>
-{20} {five leading oil ministers}
-{20} {world oil prices}
 {25} {world oil markets}
-
-<COREF ID="X24">That</COREF>
-{18} {which}
-{18} {it}
-{19} {they}
-{19} {the others}
-{22} {It}
-{22} {it}
-{24} {that}
-
-<COREF ID="X26">the meeting</COREF>
-{22} {the talks}
-{24} {the first week}
 
 <COREF ID="X27">just over 19 million barrels a day</COREF>
 {24} {20 million barrels}
