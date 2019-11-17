@@ -3,15 +3,15 @@
 
 <COREF ID="X3">one significant misleading fact and a few questionable elements</COREF>
 {1} {it}
-{1} {this report}
 {3} {it}
 {3} {the years}
 {4} {a single fatal human case}
 {4} {18 additional human cases}
 {8} {it}
+{12} {they}
 {13} {the literature}
 {14} {an open mind}
-{20} {only 2 reports}
+{14} {all aspects}
 {20} {a common occurrence}
 
 <COREF ID="X4">I</COREF>
@@ -37,10 +37,8 @@
 
 <COREF ID="X8">some</COREF>
 {11} {some species}
-{12} {they}
 {12} {only a small number}
 {14} {It}
-{14} {all aspects}
 {19} {it}
 
 <COREF ID="X9">the organism</COREF>

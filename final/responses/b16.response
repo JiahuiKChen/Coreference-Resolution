@@ -5,17 +5,14 @@
 <COREF ID="X1">Grievance Process For Non-Union Staff</COREF>
 {6} {a formal grievance procedure}
 {6} {its non-union white-collar employees}
-{10} {many employees}
 {12} {an "alternative disputes resolution" system}
 {12} {a traditional union grievance procedure}
 {13} {a formal and impartial internal mechanism}
 {13} {discipline, discharge, and employment opportunity disputes}
 {14} {The process}
-{15} {its current cost-cutting}
 {19} {further union organizing}
 {20} {a formal grievance procedure}
 {20} {such a policy}
-{31} {the policy}
 {32} {a four-step grievance process}
 
 <COREF ID="X3">Anthony P. St. John</COREF>
@@ -23,15 +20,15 @@
 {13} {Mr. St. John}
 {31} {Mr. St. John's presentation}
 
+<COREF ID="X4">Employees</COREF>
+{23} {nonunion employees}
+
 <COREF ID="X5">these employees</COREF>
 {15} {many industrial companies}
 {16} {wage and benefit plans}
-{17} {about 31,000 white-collar employees}
 {18} {About 6,000 salaried workers}
 {20} {government employees}
-{20} {they}
 {22} {employers}
-{23} {nonunion employees}
 {23} {he}
 {24} {where "any employee}
 {28} {the employee}
@@ -43,10 +40,8 @@
 <COREF ID="X7">United Auto Workers</COREF>
 {18} {the  union}
 {20} {non-union employees}
-{32} {UAW-represented workers}
 
 <COREF ID="X8">Several management consultants</COREF>
-{20} {a major private company}
 {21} {supervisory and management responsibility}
 {21} {a management consulting firm}
 {23} {other companies}
@@ -56,10 +51,10 @@
 {31} {all "professional, administrative, management and executive employees}
 
 <COREF ID="X10">A Chrysler spokesman</COREF>
+{28} {the spokesman}
 {29} {Chrysler}
 {30} {Chrysler}
 
 <COREF ID="X12">an IBM spokesman</COREF>
 {28} {the IBM chief executive officer}
-{28} {the spokesman}
 

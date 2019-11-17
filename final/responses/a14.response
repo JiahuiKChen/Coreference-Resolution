@@ -16,22 +16,13 @@
 <COREF ID="X6">United States</COREF>
 {14} {the United States}
 {17} {the United States}
-{18} {All nations}
 {28} {The United States}
 {28} {the United States}
 
 <COREF ID="X7">This</COREF>
 {16} {it}
-{19} {general good will}
 {20} {it}
 {20} {it}
-{20} {that}
-{21} {what}
-{21} {what}
-{25} {that}
-
-<COREF ID="X9">U.S. officials</COREF>
-{21} {the Federal Aviation Administration}
 
 <COREF ID="X13">families</COREF>
 {20} {families}

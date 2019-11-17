@@ -14,9 +14,6 @@
 {31} {the Navy}
 
 <COREF ID="X5">three days</COREF>
-{12} {The two crew members}
-{13} {its two crew members}
-{14} {the two crew members}
 {14} {three people}
 {32} {the three recent crashes}
 {32} {three days}
@@ -35,9 +32,6 @@
 
 <COREF ID="X9">the F-14</COREF>
 {17} {F-14 operations}
-
-<COREF ID="X10">14 F-14s on board the USS America</COREF>
-{18} {the United States}
 
 <COREF ID="X14">Grumman Corp.</COREF>
 {29} {now Northrop Grumman}

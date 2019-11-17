@@ -5,7 +5,6 @@
 <COREF ID="X2">a year earlier</COREF>
 {11} {first 10 months}
 {12} {a rise}
-{13} {it}
 {18} {1987's first nine months}
 {18} {the fourth quarter}
 {20} {last year's 106 million marks}
@@ -29,23 +28,19 @@
 
 <COREF ID="X9">an insurance concern it controls</COREF>
 {15} {it}
-{15} {a majority stake}
-{16} {The combination}
 {16} {the insurance group}
 {16} {West Germany's second-largest retail-insurance concern}
 {17} {it}
 {18} {the result}
-{22} {its strategy}
+{22} {the Dutch concern}
 
 <COREF ID="X10">the trade-union holding company</COREF>
 {19} {The machinery maker's earnings}
 {20} {domestic group profit}
-{22} {the operations}
 
 <COREF ID="X12">MIDWESTERN UNITED LIFE INSURANCE CO., one of its U.S. subsidiaries,</COREF>
 {21} {it}
 {22} {its other U.S. units}
-{22} {the Dutch concern}
 {22} {its North American presence}
 
 <COREF ID="X13">Ireland's largest insurer, </COREF>

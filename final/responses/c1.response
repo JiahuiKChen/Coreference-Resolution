@@ -1,6 +1,5 @@
 <COREF ID="X7">area</COREF>
 {1} {A second infected area}
-{1} {the relevant Infected Area Order}
 {5} {the infected area}
 {8} {an infected area}
 
@@ -25,7 +24,6 @@
 
 <COREF ID="X7">area</COREF>
 {1} {A second infected area}
-{1} {the relevant Infected Area Order}
 {5} {the infected area}
 {8} {an infected area}
 

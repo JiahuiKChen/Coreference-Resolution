@@ -8,7 +8,6 @@
 {10} {The proposal}
 {11} {year's end}
 {11} {the cuts}
-{15} {it}
 
 <COREF ID="X2">union</COREF>
 {13} {unions}
@@ -20,13 +19,9 @@
 {8} {they}
 {8} {they}
 {9} {its unions}
-{10} {which}
 {11} {The airline's three major labor unions}
 {11} {whose contracts}
 {12} {he}
-{12} {the brief and polite letter}
-{12} {which}
-{13} {the past practice}
 
 <COREF ID="X6">one union official</COREF>
 {12} {the unions}
@@ -36,5 +31,4 @@
 
 <COREF ID="X8">Eastern's parent</COREF>
 {13} {Eastern's flight attendants union}
-{13} {the carrier's terms}
 

@@ -17,11 +17,8 @@
 <COREF ID="X3">the United States</COREF>
 {2} {it}
 {3} {the United States}
-{7} {The second situation}
+{6} {The first situation}
 {8} {the US}
-
-<COREF ID="X4">report</COREF>
-{3} {the latest Morbidity and Mortality Weekly Report}
 
 <COREF ID="X6">infection</COREF>
 {4} {_T. cruzi_ infection}
@@ -38,14 +35,12 @@
 {4} {potential donors}
 {4} {donors}
 {7} {donor}
+{8} {the same donor}
 
 <COREF ID="X9">The Centers for Disease Control and Prevention</COREF>
 {4} {US transplant organizations}
-{4} {the screening tests}
-{6} {The first situation}
 {7} {the kidney}
 {8} {The three cases}
-{8} {the same donor}
 {8} {the possible risks}
 
 <COREF ID="X10">recipients</COREF>

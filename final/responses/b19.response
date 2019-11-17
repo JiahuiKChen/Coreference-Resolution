@@ -1,6 +1,7 @@
 <COREF ID="X0">Early Aluminum Talks</COREF>
 {5} {early contract talks}
 {5} {the nation's two biggest aluminum makers}
+{11} {the early talks}
 
 <COREF ID="X1">Steel Union</COREF>
 {5} {The United Steelworkers union}
@@ -13,13 +14,9 @@
 
 <COREF ID="X7">sacrifices to help the companies over hard times</COREF>
 {8} {we}
-{8} {the current contracts}
 {9} {those gains}
 {9} {the sacrifices}
 {9} {they}
-{11} {the early talks}
-{12} {The 's action}
-{12} {which}
 
 <COREF ID="X8">George Becker, </COREF>
 {9} {Mr. Becker}

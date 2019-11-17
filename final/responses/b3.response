@@ -30,7 +30,6 @@
 
 <COREF ID="X1">More</COREF>
 {55} {more than 10%}
-{59} {more than 9.9%}
 
 <COREF ID="X2">USAir</COREF>
 {10} {USAir Group Inc.}
@@ -60,14 +59,13 @@
 
 <COREF ID="X3">Additional Blow to Bid</COREF>
 {11} {another blow}
+{29} {the bid}
+{39} {The drop}
 {42} {enough cash}
-{43} {that money}
 
 <COREF ID="X4">a temporary restraining order</COREF>
 {10} {A federal judge}
 {11} {The order}
-{11} {a suit}
-{20} {the new filing}
 {53} {a preliminary injunction}
 
 <COREF ID="X5">Piedmont Aviation Inc.</COREF>
@@ -111,32 +109,24 @@
 {19} {the merger's potential impact}
 {20} {It}
 {21} {it}
-{29} {the bid}
 {35} {its position}
-{36} {the latest stake}
-{39} {The drop}
-{42} {the company}
-{42} {its tender Paragraphing Error Sources}
 {45} {its plans}
-{46} {The company}
 {46} {the bank's willingness}
 {49} {It}
 
 <COREF ID="X10">second application</COREF>
-{22} {another document}
+{20} {a serious application}
 {58} {the voting-trust application}
 
 <COREF ID="X11">Department of Transportation</COREF>
 {19} {The department}
 {20} {a department official}
-{21} {Wall Street and airline industry sources}
 {55} {the Transportation Department}
 {57} {the Transportation Department}
 {58} {the department}
 {59} {the department}
 
 <COREF ID="X12">TWA's first application</COREF>
-{20} {a serious application}
 {58} {a separate application}
 
 <COREF ID="X13">TWA's bid</COREF>
@@ -154,7 +144,6 @@
 {42} {it}
 {44} {it}
 {47} {the funds}
-{49} {the bank loans}
 {49} {public or private equity}
 
 <COREF ID="X15">The filings</COREF>

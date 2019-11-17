@@ -3,16 +3,16 @@
 {21} {The NTSB}
 {24} {The NTSB}
 
+<COREF ID="X4">CRASH PROBE</COREF>
+{18} {the crash}
+{24} {the crash}
+
 <COREF ID="X6">Seattle's Museum of Flight</COREF>
-{10} {The National Transportation Safety Board}
 {11} {The museum's aircraft}
+{11} {the airplane}
 {12} {Flight}
 {20} {Museum}
 {21} {the museum}
-
-<COREF ID="X7">a similar jetliner</COREF>
-{10} {a Boeing}
-{11} {the airplane}
 
 <COREF ID="X8">Pittsburgh</COREF>
 {12} {the Pittsburgh airport}
@@ -20,8 +20,9 @@
 {19} {the Pittsburgh crash}
 
 <COREF ID="X9">the plane's rudder</COREF>
-{12} {The board}
+{13} {the plane's tail}
 {13} {the jet's deadly roll}
+{21} {an intact plane}
 {24} {another plane}
 
 <COREF ID="X10">Aviation safety investigators</COREF>
@@ -29,7 +30,6 @@
 {18} {investigators}
 
 <COREF ID="X11">the rudder</COREF>
-{13} {the plane's tail}
 {15} {rudder}
 {16} {he}
 
@@ -49,14 +49,9 @@
 <COREF ID="X15">the angle of the rudder and the pedal controlling it</COREF>
 {18} {the plane}
 {18} {the force}
-{18} {the crash}
 {18} {that}
-{18} {``surmise'' rudder and pedal position}
 {19} {the board}
 {20} {the plane}
-{21} {an intact plane}
-{21} {which}
-{24} {the crash}
 
 <COREF ID="X16">tests</COREF>
 {21} {tests}

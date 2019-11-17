@@ -8,7 +8,6 @@
 {11} {the number}
 
 <COREF ID="X5">PLUTONIUM</COREF>
-{14} {a plutonium storage bunker}
 {15} {Plutonium}
 {20} {plutonium}
 {21} {nuclear warheads}
@@ -18,7 +17,6 @@
 
 <COREF ID="X10">each flight</COREF>
 {13} {flight}
-{14} {a plane crash}
 {16} {current flight data}
 
 <COREF ID="X11">Amarillo International Airport</COREF>
@@ -27,9 +25,12 @@
 {19} {Amarillo International}
 {23} {The Amarillo airport}
 {29} {Dallas/Fort Worth Airport}
+{29} {Amarillo}
 
 <COREF ID="X12">military training planes</COREF>
 {18} {these planes}
+{24} {military planes}
+{24} {Air Force bases}
 {26} {planes}
 
 <COREF ID="X13">Defense Nuclear Facilities Safety Board</COREF>
@@ -38,14 +39,18 @@
 <COREF ID="X14">The risk of that scenario</COREF>
 {16} {one chance}
 {22} {the core}
+{28} {One approach}
+{30} {the transition}
 {31} {the dangers}
-{33} {a lot}
 
 <COREF ID="X15">me</COREF>
 {21} {the Energy Department}
 {28} {late summer}
 
 <COREF ID="X16">land near the plant</COREF>
+{22} {the former weapons assembly plant}
+{27} {the nuclear storage area}
+{31} {the plutonium area}
 {32} {the plant}
 
 <COREF ID="X17">Mike McNulty</COREF>
@@ -55,28 +60,21 @@
 {31} {McNulty}
 {32} {McNulty}
 
-<COREF ID="X18">the previous aircraft count</COREF>
-{22} {the former weapons assembly plant}
-
 <COREF ID="X19">air traffic controllers</COREF>
 {19} {the FAA air traffic manager}
-{24} {Air Force bases}
+{25} {the airport traffic}
 {26} {air traffic controllers}
 
 <COREF ID="X21">About half the aircraft</COREF>
-{24} {military planes}
 {24} {he}
-{25} {the airport traffic}
 {25} {a flight pattern}
 {26} {the past 14 months}
 {26} {he}
 {27} {the airport's dozen flight paths}
-{28} {One approach}
 {28} {a new instrument landing system}
 {28} {he}
 {29} {The second flight path}
 {29} {he}
-{30} {the transition}
 {31} {these planes}
 {32} {35,000 as well as 500 feet}
 {32} {a plane}
@@ -84,13 +82,7 @@
 <COREF ID="X22">Oklahoma</COREF>
 {24} {Texas}
 {24} {Kansas}
-{29} {Amarillo}
 {32} {Oklahoma}
-
-<COREF ID="X23">plutonium storage bunkers</COREF>
-{26} {the bunkers}
-{27} {the nuclear storage area}
-{31} {the plutonium area}
 
 <COREF ID="X26">They</COREF>
 {32} {something}

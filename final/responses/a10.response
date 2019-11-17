@@ -19,17 +19,13 @@
 {12} {The Navy}
 {12} {the aircraft}
 {13} {The Navy}
-{14} {One aviator}
 {15} {The Navy}
-{16} {the coast}
 {16} {the aircraft carrier}
 {17} {Both crew members}
 {18} {both crew members}
-{18} {the ground}
 {19} {the Navy}
 {19} {the aircraft}
 {20} {the military}
-{21} {the three classes}
 {21} {each aircraft}
 {22} {the aircraft carrier}
 {26} {the entire fleet}
@@ -51,6 +47,7 @@
 <COREF ID="X10">A safety stand-down</COREF>
 {21} {this three-day period}
 {25} {the stand-down}
+{25} {a time}
 {31} {close-in air combat}
 
 <COREF ID="X12">Carrier</COREF>
@@ -58,13 +55,12 @@
 {29} {an aircraft carrier}
 
 <COREF ID="X13">these three crashes this year</COREF>
-{25} {a time}
 {26} {the latest crash}
 {26} {he}
 {27} {these accidents}
 {28} {the past five years}
 {30} {that crash}
-{36} {they}
+{34} {The crash rate}
 {36} {these accidents}
 
 <COREF ID="X16">One</COREF>
@@ -77,7 +73,6 @@
 {33} {the year}
 
 <COREF ID="X18">the initial years of deployment</COREF>
-{34} {The crash rate}
 {35} {the increases}
 {36} {me}
 

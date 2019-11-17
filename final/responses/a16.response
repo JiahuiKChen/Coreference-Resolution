@@ -9,6 +9,7 @@
 
 <COREF ID="X4">Macau</COREF>
 {9} {Macau}
+{13} {Macau Marine Police}
 {17} {Macau authorities}
 
 <COREF ID="X6">their helicopter</COREF>
@@ -16,7 +17,6 @@
 {13} {Two Government Flying Service helicopters}
 {16} {a helicopter}
 {17} {the pilots}
-{18} {the crew}
 
 <COREF ID="X7">Zhuhai</COREF>
 {18} {Zhuhai officials}
@@ -25,7 +25,6 @@
 {10} {The China Southern Helicopter Company aircraft}
 {12} {Hong Kong airspace}
 {12} {Civil Aviation Department rescuers}
-{13} {Macau Marine Police}
 {14} {the department's Aeronautical Rescue Co-ordination Centre}
 {15} {a Macau aviation source}
 {22} {the Civil Aviation Department}

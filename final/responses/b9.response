@@ -4,9 +4,7 @@
 {10} {a free-trade pact}
 {11} {the trade agreement}
 {11} {Canadian Trade Minister}
-{12} {the negotiations}
-{13} {the negotiations}
-{14} {the negotiations}
+{15} {the talks}
 {15} {trade disputes}
 
 <COREF ID="X2">Treasury Secretary James Baker</COREF>
@@ -14,7 +12,6 @@
 
 <COREF ID="X4">the two sides</COREF>
 {13} {all the elements}
-{15} {the talks}
 {15} {the two countries}
 
 <COREF ID="X6">Canada</COREF>

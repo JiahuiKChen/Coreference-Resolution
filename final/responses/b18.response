@@ -1,14 +1,11 @@
 <COREF ID="X0">U.S. Mediator</COREF>
 {5} {a federal mediator}
 
-<COREF ID="X1">Eastern Negotiations</COREF>
-{26} {former Eastern president}
-
 <COREF ID="X2">negotiators in the bitter labor battle at Eastern Airlines</COREF>
-{6} {the International Association}
 {7} {he}
-{8} {the high-stakes, 16-month confrontation}
 {17} {Eastern officials}
+{24} {the airline}
+{26} {the airline}
 
 <COREF ID="X3">We</COREF>
 {7} {we}
@@ -45,9 +42,7 @@
 {17} {which}
 {18} {which}
 {20} {it}
-{23} {the coming months}
 {25} {neither side}
-{27} {them}
 {30} {things}
 
 <COREF ID="X8">the mediation process</COREF>
@@ -58,10 +53,9 @@
 {29} {Gov. Martinez}
 
 <COREF ID="X10">the National Mediation Board</COREF>
-{17} {the talks}
 {18} {the mediator}
-{28} {the talks}
-{30} {the talks}
+{18} {the union}
+{26} {the federal investigation}
 
 <COREF ID="X11">management</COREF>
 {18} {management}
@@ -70,13 +64,11 @@
 <COREF ID="X12">an agreement on a wage-concession package</COREF>
 {17} {a deadline}
 {18} {its last contract offer}
-{18} {the union}
 {19} {a negotiated settlement}
 {19} {a firm date}
 {19} {the existing contract}
 {19} {an end}
 {21} {A settlement}
-{25} {any sign}
 {29} {a lunch-time demonstration}
 
 <COREF ID="X13">I</COREF>
@@ -87,18 +79,13 @@
 {22} {he}
 {23} {the Machinists union}
 {24} {non-union workers}
-{26} {the federal investigation}
 {28} {the National Mediation Board}
 
 <COREF ID="X16">a strike</COREF>
 {23} {a strike}
-{26} {a  "whisper campaign}
-{30} {a period}
 
 <COREF ID="X17">the pilot</COREF>
-{24} {the airline}
 {26} {the former astronaut}
-{26} {the airline}
 {30} {he}
 {30} {he}
 

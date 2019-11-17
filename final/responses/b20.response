@@ -19,10 +19,12 @@
 {7} {OPEC's most notable quota violator}
 
 <COREF ID="X5">a sharp rise in OPEC production</COREF>
+{14} {a higher OPEC quota}
 {24} {production}
 
 <COREF ID="X6">a day</COREF>
 {11} {a letter}
+{25} {a current report}
 
 <COREF ID="X7">20 million barrels a day early this month</COREF>
 {6} {as much as one million barrels}
@@ -32,14 +34,16 @@
 {14} {current production}
 {19} {the system}
 
+<COREF ID="X9">a targeted 1.5 million barrels a day</COREF>
+{15} {between 1.2 million and 1.5 million barrels}
+{19} {a result}
+
 <COREF ID="X10">Saudi Arabia</COREF>
-{19} {Iran}
-{19} {the UAE}
-{22} {the UAE}
 {23} {Saudi Arabia}
 
 <COREF ID="X11">its government</COREF>
 {12} {the market}
+{14} {its demand}
 {19} {its war}
 
 <COREF ID="X14">Abu Dhabi</COREF>
@@ -54,9 +58,6 @@
 {12} {Sheik Zayed}
 
 <COREF ID="X18">its assigned quota of 948,000 barrels a day</COREF>
-{14} {its demand}
-{14} {a higher OPEC quota}
-{15} {between 1.2 million and 1.5 million barrels}
 {17} {their quota}
 
 <COREF ID="X19">the round of talks with Mr. Subroto</COREF>
@@ -83,24 +84,21 @@
 {25} {world oil markets}
 
 <COREF ID="X24">That</COREF>
-{18} {new attention}
 {18} {which}
 {18} {it}
-{19} {a result}
 {19} {they}
 {19} {the others}
 {20} {the problem}
 {22} {It}
 {22} {it}
+{24} {that}
 
 <COREF ID="X26">the meeting</COREF>
 {22} {the outcome}
 {22} {the talks}
 {23} {the recent run-up}
-{25} {a current report}
 
 <COREF ID="X27">just over 19 million barrels a day</COREF>
-{24} {that}
 {24} {20 million barrels}
 {24} {the first week}
 {24} {the month}

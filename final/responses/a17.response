@@ -23,6 +23,7 @@
 {13} {the Half Moon Bay Pilots Association}
 {14} {he}
 {14} {a small plane}
+{16} {the plane}
 {20} {he}
 {22} {the airport}
 
@@ -31,13 +32,9 @@
 
 <COREF ID="X5">flying</COREF>
 {14} {the aircraft}
-{16} {the plane}
 {17} {flying}
 {22} {flying lessons}
 
 <COREF ID="X7">George Auld</COREF>
 {17} {Auld}
-
-<COREF ID="X8">He and his wife</COREF>
-{26} {two sons}
 

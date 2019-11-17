@@ -22,9 +22,6 @@
 {5} {one confirmed case}
 {5} {all other cases}
 
-<COREF ID="X7">details</COREF>
-{6} {more information}
-
 <COREF ID="X8">Ontario</COREF>
 {2} {Quebec}
 {5} {Alberta}

@@ -19,13 +19,13 @@
 {12} {vomiting}
 
 <COREF ID="X8">symptoms</COREF>
+{12} {Symptoms}
 {12} {severe nausea}
 {14} {"winter vomiting disease}
 
 <COREF ID="X18">infection</COREF>
 {5} {the infection}
 {11} {Winter vomiting disease}
-{12} {Symptoms}
 {18} {Winter vomiting disease}
 
 <COREF ID="X11">We</COREF>
@@ -43,7 +43,6 @@
 <COREF ID="X14">hospital</COREF>
 {10} {the hospital}
 {15} {hospitals}
-{15} {health care facilities}
 
 <COREF ID="X15">a virus</COREF>
 {11} {an infection}
@@ -60,6 +59,5 @@
 <COREF ID="X18">infection</COREF>
 {5} {the infection}
 {11} {Winter vomiting disease}
-{12} {Symptoms}
 {18} {Winter vomiting disease}
 

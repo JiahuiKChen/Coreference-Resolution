@@ -18,20 +18,17 @@
 
 <COREF ID="X2">Contract Talks</COREF>
 {8} {negotiations}
+{10} {the talks}
 {15} {Negotiations}
 {18} {their talks}
 
 <COREF ID="X3">The National Mediation Board</COREF>
-{7} {the parties}
-{8} {the airline division}
 {8} {the International Brotherhood}
 {8} {he}
 {8} {he}
 {8} {the board's plans}
-{8} {the parties}
 {9} {the mediation board}
 {10} {the National Mediation Board}
-{10} {the talks}
 {11} {its recent negotiations}
 {11} {the unions}
 {11} {the board}
@@ -40,13 +37,16 @@
 {12} {the unions}
 {18} {he}
 {19} {he}
+{20} {the negotiations}
+{27} {the negotiations}
 
 <COREF ID="X4">a wage-concession agreement</COREF>
 {6} {their long-stalled contract negotiations}
 {12} {labor-cost concessions}
-{20} {the negotiations}
+{13} {The agreement}
+{13} {the agreement}
+{17} {that agreement}
 {26} {a contract}
-{27} {the negotiations}
 
 <COREF ID="X5">both sides</COREF>
 {9} {both parties}
@@ -65,11 +65,9 @@
 {14} {top management}
 
 <COREF ID="X10">a coalition of four of Pan Am's five unions</COREF>
-{13} {The agreement}
 {13} {that coalition}
 {13} {it}
 {13} {it}
-{13} {the agreement}
 {14} {the past year}
 {14} {the coalition}
 {14} {Pan Am}
@@ -77,8 +75,6 @@
 {15} {a Pan Am director}
 {16} {Pan Am's directors}
 {16} {the union's wage-concession agreement}
-{17} {It}
-{17} {that agreement}
 {18} {the company}
 {20} {Pan Am}
 {21} {the company}
@@ -94,9 +90,9 @@
 {20} {it}
 {20} {Mr. Coleman}
 {24} {it}
+{28} {it}
 
 <COREF ID="X16">an agreement to deliver concessions to the company</COREF>
-{28} {it}
 {29} {the leaders}
 {29} {the agreement}
 {30} {he}
