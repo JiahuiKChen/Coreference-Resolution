@@ -97,8 +97,9 @@ def similarity(p1, p2):
     if (p1 and p1.vector_norm) and (p2 and p2.vector_norm):
         return p1.similarity(p2)
     # If no sim vectors, use combo of plurality match, ner match, and capitalization diff features
-    return (plurality(p1, p2) * 0.7) + (0.7 * ner(p1, p2)) - (0.1 * cap_diffs(p1, p2))
-
+    manual_sim = 0.7 + (plurality(p1, p2) * 0.7) + (0.7 * ner(p1, p2)) - (0.1 * cap_diffs(p1, p2))
+    print(p1.text, p2.text, manual_sim)
+    return manual_sim
 
 # Given 2 Spacy-processed phrases (noun phrases that are either Spans or Docs), returns their feature vector
 def get_pair_features(p1, p2):

@@ -133,7 +133,7 @@ def run_coref(input_file, nlp_model, model_file):
                 #        found_corefs[init_ref] = []
                 #    found_corefs[init_ref].append((np.text, s))
                 #    break 
-                if sim_score > 1.75:
+                if sim_score > 0.75:
                     if init_ref not in found_corefs:
                         found_corefs[init_ref] = []
                     found_corefs[init_ref].append((np.text, s))
