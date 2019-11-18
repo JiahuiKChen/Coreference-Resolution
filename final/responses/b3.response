@@ -1,0 +1,168 @@
+<COREF ID="X18">TWA</COREF>
+{14} {TWA}
+{14} {TWA}
+{15} {TWA}
+{17} {TWA}
+{18} {TWA}
+{21} {TWA}
+{24} {TWA}
+{24} {TWA}
+{26} {TWA}
+{28} {TWA}
+{30} {TWA}
+{34} {TWA}
+{35} {TWA}
+{37} {TWA}
+{39} {TWA}
+{42} {TWA}
+{44} {TWA}
+{52} {TWA}
+{52} {TWA}
+{53} {TWA}
+{54} {TWA}
+{55} {TWA}
+{56} {TWA}
+{56} {TWA}
+{57} {TWA}
+{58} {TWA}
+{59} {TWA}
+
+<COREF ID="X2">USAir</COREF>
+{11} {USAir}
+{14} {USAir}
+{16} {USAir}
+{17} {USAir}
+{17} {USAir}
+{18} {USAir}
+{21} {USAir}
+{21} {USAir}
+{22} {USAir}
+{23} {USAir}
+{24} {USAir}
+{24} {USAir}
+{24} {USAir}
+{28} {USAir}
+{28} {USAir}
+{29} {USAir}
+{30} {USAir}
+{31} {USAir}
+{35} {USAir}
+{41} {USAir}
+{42} {USAir}
+{42} {USAir}
+{45} {USAir}
+{47} {USAir}
+{48} {USAir}
+{51} {USAir}
+{51} {USAir}
+{52} {USAir}
+{53} {USAir}
+{54} {USAir}
+{55} {USAir}
+{56} {USAir}
+{58} {USAir}
+
+<COREF ID="X3">Additional Blow to Bid</COREF>
+{11} {another blow}
+{29} {the bid}
+
+<COREF ID="X4">a temporary restraining order</COREF>
+{11} {The order}
+
+<COREF ID="X6">share tender offer</COREF>
+{22} {a tender-offer document}
+{30} {the tender offer}
+
+<COREF ID="X7">Carl C. Icahn</COREF>
+{15} {Mr. Icahn}
+{16} {Mr. Icahn}
+{17} {Mr. Icahn}
+{23} {Mr. Icahn}
+{24} {Mr. Icahn}
+{25} {Mr. Icahn}
+{26} {Mr. Icahn}
+{27} {Mr. Icahn}
+{28} {Mr. Icahn}
+{29} {Mr. Icahn}
+{30} {Mr. Icahn}
+{31} {Carl}
+{33} {Mr. Icahn}
+{34} {Mr. Icahn}
+{36} {Mr. Icahn}
+{39} {Mr. Icahn}
+{43} {Mr. Icahn}
+{54} {Mr. Icahn}
+{55} {Mr. Icahn}
+{56} {Mr. Icahn}
+
+<COREF ID="X8">its attempt</COREF>
+{16} {the attempt}
+{35} {its position}
+{45} {its plans}
+
+<COREF ID="X10">second application</COREF>
+{20} {a serious application}
+{58} {a separate application}
+
+<COREF ID="X11">Department of Transportation</COREF>
+{19} {The department}
+{55} {the Transportation Department}
+{57} {the Transportation Department}
+{58} {the department}
+{59} {the department}
+
+<COREF ID="X13">TWA's bid</COREF>
+{24} {TWA's acquisition}
+{29} {TWA's offer}
+{44} {TWA's money}
+
+<COREF ID="X15">The filings</COREF>
+{24} {the filings}
+
+<COREF ID="X18">TWA</COREF>
+{14} {TWA}
+{14} {TWA}
+{15} {TWA}
+{17} {TWA}
+{18} {TWA}
+{21} {TWA}
+{24} {TWA}
+{24} {TWA}
+{26} {TWA}
+{28} {TWA}
+{30} {TWA}
+{34} {TWA}
+{35} {TWA}
+{37} {TWA}
+{39} {TWA}
+{42} {TWA}
+{44} {TWA}
+{52} {TWA}
+{52} {TWA}
+{53} {TWA}
+{54} {TWA}
+{55} {TWA}
+{56} {TWA}
+{56} {TWA}
+{57} {TWA}
+{58} {TWA}
+{59} {TWA}
+
+<COREF ID="X20">its SEC filing</COREF>
+{50} {the filing}
+
+<COREF ID="X23">court in Pittsburgh</COREF>
+{53} {the court}
+
+<COREF ID="X24">more USAir stock</COREF>
+{53} {more USAir shares}
+{54} {USAir stock}
+{55} {USAir's stock}
+{58} {USAir stock}
+
+<COREF ID="X25">Hart-Scott-Rodino Act</COREF>
+{57} {Hart-Scott-Rodino regulations}
+
+<COREF ID="X26">Houston-based Texas Air Corp.</COREF>
+{59} {Texas Air's application}
+

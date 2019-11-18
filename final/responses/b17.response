@@ -1,0 +1,21 @@
+<COREF ID="X0">Reagan</COREF>
+{6} {President Reagan}
+{7} {Mr. Reagan}
+{9} {Mr. Reagan}
+{11} {Mr. Reagan}
+
+<COREF ID="X1">An Arms Pact</COREF>
+{6} {a strategic arms agreement}
+
+<COREF ID="X2">Summit</COREF>
+{6} {their summit}
+{9} {the Moscow summit}
+{10} {this Moscow summit}
+{10} {the Washington summit}
+
+<COREF ID="X4">Soviet leader Mikhail Gorbachev</COREF>
+{9} {Mr. Gorbachev}
+
+<COREF ID="X5">an agreement eliminating intermediate-range nuclear missiles, signed at a summit meeting in Washington last December</COREF>
+{10} {a START treaty}
+

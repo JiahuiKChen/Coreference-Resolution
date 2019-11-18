@@ -1,0 +1,24 @@
+<COREF ID="X1">classical swine fever</COREF>
+{1} {classical swine fever}
+
+<COREF ID="X2">Pigs</COREF>
+{8} {pigs}
+{9} {pigs}
+{13} {live pigs}
+
+<COREF ID="X3">Norfolk</COREF>
+{13} {Norfolk}
+
+<COREF ID="X5">the outbreak</COREF>
+{3} {the outbreak}
+{11} {the outbreak}
+
+<COREF ID="X8">areas</COREF>
+{11} {infected areas}
+
+<COREF ID="X9">Farmers</COREF>
+{11} {Farmers}
+
+<COREF ID="X11">EU</COREF>
+{14} {the EU}
+

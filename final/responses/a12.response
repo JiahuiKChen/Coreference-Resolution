@@ -1,0 +1,42 @@
+<COREF ID="X0">NTSB</COREF>
+{5} {-NTSB}
+{13} {@amp;MD}
+{21} {The NTSB}
+{24} {The NTSB}
+
+<COREF ID="X1">CRASH</COREF>
+{18} {the crash}
+{24} {the crash}
+
+<COREF ID="X6">Seattle's Museum of Flight</COREF>
+{11} {The museum's aircraft}
+{12} {the Pittsburgh airport}
+{21} {the museum}
+
+<COREF ID="X8">Pittsburgh</COREF>
+{14} {Seattle}
+
+<COREF ID="X9">the plane's rudder</COREF>
+{13} {the plane's tail}
+{13} {the jet's deadly roll}
+{18} {the plane}
+{20} {the plane}
+{24} {another plane}
+
+<COREF ID="X11">the rudder</COREF>
+{15} {rudder}
+
+<COREF ID="X14">Newer models of flight data recorders</COREF>
+{18} {older-model flight recorders}
+{19} {improved flight recorders}
+
+<COREF ID="X15">the angle of the rudder and the pedal controlling it</COREF>
+{18} {the force}
+{19} {the board}
+
+<COREF ID="X16">tests</COREF>
+{21} {tests}
+{22} {The tests}
+{23} {No airborne tests}
+{24} {tests}
+

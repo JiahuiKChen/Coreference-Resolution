@@ -1,0 +1,36 @@
+<COREF ID="X0">disease</COREF>
+{1} {Chagas disease}
+{2} {Chagas disease}
+
+<COREF ID="X1">transplant</COREF>
+{2} {organ transplantation}
+{3} {transplantation}
+{7} {renal transplants}
+{8} {organ transplants}
+{8} {organ transplantation}
+
+<COREF ID="X2">Trypanosoma cruzi</COREF>
+{1} {Chagas disease}
+{1} {interrupted - Uruguay19980111.00831997 --- Chagas disease}
+{1} {Chagas disease}
+{2} {Chagas disease}
+{3} {_T. cruzi}
+{8} {Chagas disease}
+
+<COREF ID="X3">the United States</COREF>
+{3} {the United States}
+
+<COREF ID="X5">cases</COREF>
+{8} {The three cases}
+
+<COREF ID="X6">infection</COREF>
+{5} {Infection}
+
+<COREF ID="X7">organs</COREF>
+{5} {organ}
+{8} {organs}
+
+<COREF ID="X8">donor</COREF>
+{4} {donors}
+{7} {donor}
+

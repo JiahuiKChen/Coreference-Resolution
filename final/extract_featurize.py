@@ -41,8 +41,8 @@ def parse_true_mentions(key_file):
 
 # 1 if either noun phrase is substring of the other, 0 otherwise
 def substring(p1, p2):
-    text1 = p1.text
-    text2 = p2.text
+    text1 = p1.text.lower()
+    text2 = p2.text.lower()
     if text1 in text2:
         return 1
     elif text2 in text1:
@@ -96,9 +96,12 @@ def cap_diffs(p1, p2):
 def similarity(p1, p2):
     if (p1 and p1.vector_norm) and (p2 and p2.vector_norm):
         return p1.similarity(p2)
-    # If no sim vectors, use combo of plurality match, ner match, and capitalization diff features
+    # If no word vectors, return yes immediately there's containment
+    if plurality(p1, p2) == 1:
+        return 10
+    # If no sim vectors or containment, use combo of plurality match, ner match, and capitalization diff features
     manual_sim = 0.7 + (plurality(p1, p2) * 0.7) + (0.7 * ner(p1, p2)) - (0.1 * cap_diffs(p1, p2))
-    print(p1.text, p2.text, manual_sim)
+    #print(p1.text, p2.text, manual_sim)
     return manual_sim
 
 # Given 2 Spacy-processed phrases (noun phrases that are either Spans or Docs), returns their feature vector
