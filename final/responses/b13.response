@@ -1,0 +1,49 @@
+<COREF ID="X0">Pan Am</COREF>
+{6} {Pan Am Corp.}
+{10} {Pan Am}
+{11} {Pan Am}
+{12} {Pan Am}
+{12} {its Pan American World Airways unit}
+{15} {a Pan Am director}
+{16} {Pan Am's directors}
+{25} {A Pan Am spokesman}
+
+<COREF ID="X1">Teamsters</COREF>
+{6} {its Teamsters union}
+{7} {the Teamsters}
+{8} {Teamsters}
+{13} {the Teamsters union}
+{17} {the Teamsters's release}
+{18} {the Teamsters}
+{20} {the Teamsters}
+{26} {The Teamsters}
+{30} {the Teamsters action}
+
+<COREF ID="X3">The National Mediation Board</COREF>
+{8} {he}
+{8} {he}
+{18} {he}
+{19} {he}
+
+<COREF ID="X6">arbitration</COREF>
+{9} {arbitration}
+{12} {it}
+{24} {arbitration}
+
+<COREF ID="X10">a coalition of four of Pan Am's five unions</COREF>
+{13} {it}
+{13} {it}
+{14} {Pan Am}
+{20} {Pan Am}
+{22} {Pan Am}
+
+<COREF ID="X14">a "cordial" initial meeting with Mr. Coleman last Thursday</COREF>
+{20} {it}
+{20} {Mr. Coleman}
+{24} {it}
+{28} {it}
+
+<COREF ID="X16">an agreement to deliver concessions to the company</COREF>
+{30} {he}
+{30} {the company}
+

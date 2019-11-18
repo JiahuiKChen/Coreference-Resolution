@@ -1,0 +1,31 @@
+<COREF ID="X1">BROWN</COREF>
+{5} {BC-CRASH-BROWN-NYT}
+
+<COREF ID="X6">DUBROVNIK</COREF>
+{14} {I}
+
+<COREF ID="X8">Saturday</COREF>
+{17} {Saturday}
+{29} {Saturday}
+
+<COREF ID="X9">Two of those who died in the crash</COREF>
+{13} {who}
+
+<COREF ID="X10">President Franjo Tudjman of Croatia</COREF>
+{14} {Croatia}
+{14} {Tudjman}
+
+<COREF ID="X12">the families of those who have perished</COREF>
+{19} {who}
+{24} {who}
+
+<COREF ID="X14">the peacemakers</COREF>
+{19} {peace}
+{24} {peace}
+
+<COREF ID="X19">Americans</COREF>
+{25} {Americans}
+
+<COREF ID="X20">The Roman Catholic archbishop of Dubrovnik</COREF>
+{29} {Dubrovnik}
+

@@ -1,0 +1,48 @@
+<COREF ID="X1">Outbreak</COREF>
+{15} {Outbreaks}
+
+<COREF ID="X4">Monday</COREF>
+{4} {Monday afternoon}
+
+<COREF ID="X5">patients</COREF>
+{4} {13 patients}
+
+<COREF ID="X6">staff</COREF>
+{4} {28 staff members}
+
+<COREF ID="X7">vomiting</COREF>
+{6} {it}
+{11} {Winter vomiting disease}
+{12} {vomiting}
+{14} {"winter vomiting disease}
+{18} {Winter vomiting disease}
+
+<COREF ID="X9">the virus</COREF>
+{13} {the virus}
+
+<COREF ID="X18">infection</COREF>
+{5} {the infection}
+{11} {an infection}
+
+<COREF ID="X11">We</COREF>
+{6} {We}
+
+<COREF ID="X12">Craig DuHamel</COREF>
+{8} {DuHamel}
+{13} {DuHamel}
+
+<COREF ID="X14">hospital</COREF>
+{10} {the hospital}
+{15} {hospitals}
+
+<COREF ID="X16">Norwalk</COREF>
+{18} {a Norwalk-like virus}
+{19} {Norwalk-like viruses}
+
+<COREF ID="X17">ProMED-mail</COREF>
+{20} {ProMED-mail}
+
+<COREF ID="X18">infection</COREF>
+{5} {the infection}
+{11} {an infection}
+

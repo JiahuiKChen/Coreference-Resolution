@@ -1,0 +1,35 @@
+<COREF ID="X0">me</COREF>
+{0} {American school children}
+{1} {this time}
+{3} {our department}
+{3} {the management}
+{4} {some patients}
+{5} {the Department}
+{6} {that time}
+{10} {an environmental irritant}
+{10} {Dr. Volkmer}
+
+<COREF ID="X1">outbreak</COREF>
+{8} {a similar type rash illness outbreak}
+{9} {these current outbreak}
+{10} {the individual state outbreaks}
+{10} {the outbreaks}
+{11} {these outbreaks}
+
+<COREF ID="X3">Western Berlin</COREF>
+{6} {Berlin}
+{11} {We}
+
+<COREF ID="X5">Department of Infectious Diseases</COREF>
+{1} {I}
+{4} {I}
+
+<COREF ID="X6">we</COREF>
+{3} {we}
+{5} {about a week}
+{5} {we}
+{6} {the western part}
+
+<COREF ID="X7">virus</COREF>
+{4} {such a virus}
+

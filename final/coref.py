@@ -111,7 +111,7 @@ def run_coref(input_file, nlp_model, model_file):
                 # Primitive approach that just uses similarity...
                 pair_features = get_pair_features(potential_ref, np)
                 sim_score = pair_features[0]
-                contains = pair_features[1] 
+                #contains = pair_features[1] 
                 #match_lemmas = pair_features[2]
                 #match_ners = pair_features[3]
                 #match_caps = pair_features[4]
@@ -128,11 +128,11 @@ def run_coref(input_file, nlp_model, model_file):
                 ## Same number of capitals is (minor) plus
                 #if match_caps == 0:
                 #    sim_score += 0.1
-                if contains == 1:
-                    if init_ref not in found_corefs:
-                        found_corefs[init_ref] = []
-                    found_corefs[init_ref].append((np.text, s))
-                    break 
+                #if contains == 1:
+                #    if init_ref not in found_corefs:
+                #        found_corefs[init_ref] = []
+                #    found_corefs[init_ref].append((np.text, s))
+                #    break 
                 if sim_score > 1.75:
                     if init_ref not in found_corefs:
                         found_corefs[init_ref] = []

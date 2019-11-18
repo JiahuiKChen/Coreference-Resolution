@@ -39,11 +39,6 @@ def parse_true_mentions(key_file):
 
 # FEATURE VALUES ##########################################################################################
 
-# Cosine similarity of 2 spacy noun phrase chunks/spans
-def similarity(p1, p2):
-    return p1.similarity(p2)
-
-
 # 1 if either noun phrase is substring of the other, 0 otherwise
 def substring(p1, p2):
     text1 = p1.text
@@ -95,6 +90,14 @@ def cap_diffs(p1, p2):
         if w1[0].isupper() != w2[0].isupper():
             diff_count += 1
     return diff_count
+
+
+# Cosine similarity of 2 spacy noun phrase chunks/spans
+def similarity(p1, p2):
+    if (p1 and p1.vector_norm) and (p2 and p2.vector_norm):
+        return p1.similarity(p2)
+    # If no sim vectors, use combo of plurality match, ner match, and capitalization diff features
+    return (plurality(p1, p2) * 0.7) + (0.7 * ner(p1, p2)) - (0.1 * cap_diffs(p1, p2))
 
 
 # Given 2 Spacy-processed phrases (noun phrases that are either Spans or Docs), returns their feature vector

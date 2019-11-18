@@ -1,0 +1,59 @@
+<COREF ID="X1">FLIGHTS</COREF>
+{5} {BC-PANTEX-FLIGHTS-TEX}
+
+<COREF ID="X3">FAA</COREF>
+{12} {The FAA}
+{19} {the FAA air traffic manager}
+
+<COREF ID="X7">Amarillo</COREF>
+{23} {The Amarillo airport}
+
+<COREF ID="X8">Texas</COREF>
+{24} {Texas}
+
+<COREF ID="X9">Energy Department</COREF>
+{14} {Energy}
+
+<COREF ID="X10">each flight</COREF>
+{13} {flight}
+
+<COREF ID="X11">Amarillo International Airport</COREF>
+{17} {Amarillo}
+{19} {Amarillo International}
+{29} {Amarillo}
+
+<COREF ID="X12">military training planes</COREF>
+{26} {planes}
+
+<COREF ID="X15">me</COREF>
+{21} {the Energy Department}
+{22} {the former weapons assembly plant}
+{28} {late summer}
+{28} {a new instrument landing system}
+{32} {something}
+
+<COREF ID="X16">land near the plant</COREF>
+{32} {the plant}
+
+<COREF ID="X17">Mike McNulty</COREF>
+{23} {McNulty}
+{25} {McNulty}
+{27} {McNulty}
+{31} {McNulty}
+{32} {McNulty}
+
+<COREF ID="X19">air traffic controllers</COREF>
+{26} {air traffic controllers}
+
+<COREF ID="X21">About half the aircraft</COREF>
+{24} {he}
+{26} {he}
+{28} {he}
+{29} {he}
+
+<COREF ID="X22">Oklahoma</COREF>
+{32} {Oklahoma}
+
+<COREF ID="X26">They</COREF>
+{33} {They}
+
