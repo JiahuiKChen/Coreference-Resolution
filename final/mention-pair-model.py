@@ -85,4 +85,4 @@ svm.fit(all_data, all_labels)
 
 #####################################Save Model...
 #dump(tree, "3x-neg-mention-pair-tree.joblib")
-dump(svm, "svm-mention-pair-tree.joblib")
+dump(svm, "2-feat-svm-mention-pair-tree.joblib")
