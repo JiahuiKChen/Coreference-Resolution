@@ -137,13 +137,14 @@ def run_coref(input_file, nlp_model, model_file):
                 if sim_score == 10 or contains == 1:
                     if init_ref not in found_corefs:
                         found_corefs[init_ref] = []
-                    # Add in only the matching word to avoid capturing too much of a phrase
+                    # Add in only (and all) matching words to avoid capturing too much of a phrase
                     for w in np:
                         for t in potential_ref:
                             np_match = w.text.lower()
                             ref_word = t.text.lower()
                             if np_match == ref_word:
                                 found_corefs[init_ref].append((w.text, s))
+                    # TODO: TRY JUST ADDING THE WORD FROM NP THAT MATCHES ONLY THE LAST WORD OF INITIAL REFERENCE
                 if sim_score > 0.75:
                     if init_ref not in found_corefs:
                         found_corefs[init_ref] = []
