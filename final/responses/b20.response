@@ -3,7 +3,6 @@
 
 <COREF ID="X1">a Price War</COREF>
 {5} {war}
-{19} {war}
 
 <COREF ID="X2">Output</COREF>
 {6} {output}
@@ -14,14 +13,13 @@
 <COREF ID="X5">a sharp rise in OPEC production</COREF>
 {13} {production}
 {14} {production}
-{15} {production}
 {24} {production}
 
 <COREF ID="X6">a day</COREF>
-{24} {the first week}
 
 <COREF ID="X7">20 million barrels a day early this month</COREF>
 {6} {as much as one million barrels}
+{24} {the first week}
 {24} {month}
 
 <COREF ID="X8">its own output</COREF>
@@ -35,6 +33,7 @@
 <COREF ID="X11">its government</COREF>
 {14} {government}
 {14} {its demand}
+{19} {its war}
 
 <COREF ID="X12">conciliatory gestures to OPEC</COREF>
 {11} {OPEC}
@@ -70,7 +69,9 @@
 {22} {the talks}
 
 <COREF ID="X20">the Emirates' official news agency</COREF>
+{12} {the Emirates' support}
 {13} {agency}
+{15} {the Emirates' current production}
 
 <COREF ID="X21">oil</COREF>
 {20} {oil}

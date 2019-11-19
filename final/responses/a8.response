@@ -25,7 +25,6 @@
 {29} {Amarillo}
 
 <COREF ID="X8">Texas</COREF>
-{24} {Texas}
 
 <COREF ID="X9">Energy Department</COREF>
 {14} {Energy}
@@ -56,6 +55,7 @@
 {16} {board}
 
 <COREF ID="X14">The risk of that scenario</COREF>
+{28} {One approach}
 
 <COREF ID="X15">me</COREF>
 
@@ -84,6 +84,7 @@
 <COREF ID="X21">About half the aircraft</COREF>
 
 <COREF ID="X22">Oklahoma</COREF>
+{24} {Texas}
 {24} {Kansas}
 {32} {Oklahoma}
 

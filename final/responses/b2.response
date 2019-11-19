@@ -8,6 +8,8 @@
 {10} {talks}
 {11} {talks}
 {12} {talks}
+{15} {the negotiations}
+{17} {the negotiations}
 
 <COREF ID="X2">pilots</COREF>
 {12} {pilots}
@@ -34,9 +36,11 @@
 {17} {outstanding}
 
 <COREF ID="X8">The union</COREF>
+{19} {the Federal Railway Labor Act}
 
 <COREF ID="X9">the two sides</COREF>
 {19} {sides}
+{21} {the next couple}
 
 <COREF ID="X10">a 30-day cooling-off period</COREF>
 

@@ -69,6 +69,8 @@
 {20} {source}
 
 <COREF ID="X16">Robert White, </COREF>
+{25} {Mr. White}
+{30} {Mr. White}
 
 <COREF ID="X17">sweetened cost-of-living adjustments for pensioners</COREF>
 
@@ -108,6 +110,7 @@
 <COREF ID="X28">Monday</COREF>
 
 <COREF ID="X29">the two parties</COREF>
+{43} {the three years}
 {47} {the two sides}
 
 <COREF ID="X30">the job-security issue</COREF>

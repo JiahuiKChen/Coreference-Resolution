@@ -20,13 +20,13 @@
 
 <COREF ID="X7">vomiting</COREF>
 {11} {vomiting}
-{12} {severe nausea}
 {12} {vomiting}
 {14} {vomiting}
 {18} {vomiting}
 
 <COREF ID="X8">symptoms</COREF>
 {12} {Symptoms}
+{12} {severe nausea}
 
 <COREF ID="X9">the virus</COREF>
 

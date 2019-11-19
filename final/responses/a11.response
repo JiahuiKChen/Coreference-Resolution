@@ -22,8 +22,14 @@
 {23} {F-14s}
 
 <COREF ID="X5">one of them</COREF>
+{16} {that}
 {23} {the past two years}
 {27} {the rest}
+{32} {the F-14B}
+{32} {the F-14D}
+{33} {that}
+{38} {that}
+{38} {the end}
 
 <COREF ID="X6">Thursday</COREF>
 {38} {Thursday}
@@ -34,7 +40,6 @@
 {38} {gulf}
 
 <COREF ID="X8">The two-man crew</COREF>
-{35} {crew}
 {37} {crew}
 
 <COREF ID="X9">the carrier Nimitz</COREF>
@@ -43,6 +48,7 @@
 <COREF ID="X10">The three-day shutdown</COREF>
 {22} {the three-day review}
 {27} {shutdown}
+{35} {The two-man crew}
 
 <COREF ID="X11">the chief of naval operations</COREF>
 

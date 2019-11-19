@@ -19,6 +19,7 @@
 {11} {The museum's aircraft}
 {12} {Flight}
 {20} {Flight}
+{21} {the museum}
 
 <COREF ID="X7">a similar jetliner</COREF>
 
@@ -30,6 +31,7 @@
 {13} {the plane's tail}
 {18} {the plane}
 {20} {the plane}
+{24} {another plane}
 
 <COREF ID="X10">Aviation safety investigators</COREF>
 {15} {investigators}

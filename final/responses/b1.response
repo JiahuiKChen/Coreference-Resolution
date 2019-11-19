@@ -1,5 +1,6 @@
 <COREF ID="X0">Eastern Air</COREF>
 {5} {AIR}
+{9} {Eastern}
 {13} {Air}
 
 <COREF ID="X1">Date For Talks on Pay-Cut Plan</COREF>
@@ -9,8 +10,10 @@
 {13} {unions}
 
 <COREF ID="X3">wage reductions</COREF>
+{10} {wages}
 
 <COREF ID="X4">Union representatives who could be reached</COREF>
+{11} {The airline's three major labor unions}
 
 <COREF ID="X5">Philip Bakes</COREF>
 

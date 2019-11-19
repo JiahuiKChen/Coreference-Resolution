@@ -33,6 +33,7 @@
 {5} {Infection}
 
 <COREF ID="X7">organs</COREF>
+{5} {organ}
 {8} {organs}
 
 <COREF ID="X8">donor</COREF>
