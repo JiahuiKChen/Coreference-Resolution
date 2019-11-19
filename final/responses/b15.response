@@ -1,8 +1,9 @@
 <COREF ID="X0">Northwest Attendants</COREF>
+{5} {attendants}
 {6} {attendants}
+{14} {attendants}
 
 <COREF ID="X1">Airline</COREF>
-{5} {The Northwest Airlines flight attendants union}
 
 <COREF ID="X2">strike</COREF>
 {7} {strike}
@@ -10,10 +11,7 @@
 <COREF ID="X3">Easter</COREF>
 
 <COREF ID="X4">leaders of the unions representing Northwest pilots and machinists</COREF>
-{8} {The union}
 {9} {the other unions}
-{10} {union leaders}
-{14} {The attendants union}
 
 <COREF ID="X5">strategy meeting</COREF>
 {10} {meeting}

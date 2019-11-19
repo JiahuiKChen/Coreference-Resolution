@@ -8,10 +8,8 @@
 {10} {department}
 {12} {Department}
 {16} {department}
-{18} {the workers}
 
 <COREF ID="X3">Total compensation costs in private industry, including pay and benefits,</COREF>
-{8} {these costs}
 
 <COREF ID="X5">9.8%, </COREF>
 {20} {2.9% increases}
@@ -52,7 +50,6 @@
 
 <COREF ID="X12">lump-sum payments, which are one-time payments often made upon a contract's ratification</COREF>
 {17} {The payments}
-{18} {these payments}
 
 <COREF ID="X13">construction industry</COREF>
 

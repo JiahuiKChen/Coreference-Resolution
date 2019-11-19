@@ -91,7 +91,6 @@
 
 <COREF ID="X8">its attempt</COREF>
 {16} {attempt}
-{45} {its plans}
 
 <COREF ID="X9">Louis Marckesano, </COREF>
 
@@ -108,6 +107,7 @@
 {20} {application}
 {58} {application}
 {58} {application}
+{59} {application}
 
 <COREF ID="X13">TWA's bid</COREF>
 {24} {TWA's acquisition}
@@ -203,5 +203,4 @@
 {57} {Hart-Scott-Rodino regulations}
 
 <COREF ID="X26">Houston-based Texas Air Corp.</COREF>
-{59} {Texas Air's application}
 

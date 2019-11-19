@@ -15,7 +15,6 @@
 {12} {sales}
 {18} {sales}
 {18} {sales}
-{20} {domestic group profit}
 
 <COREF ID="X4">the long-term debt</COREF>
 {14} {debt}
@@ -41,7 +40,6 @@
 <COREF ID="X11">NATIONALE NEDERLANDEN N.V.</COREF>
 
 <COREF ID="X12">MIDWESTERN UNITED LIFE INSURANCE CO., one of its U.S. subsidiaries,</COREF>
-{22} {its North American presence}
 
 <COREF ID="X13">Ireland's largest insurer, </COREF>
 

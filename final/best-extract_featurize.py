@@ -101,7 +101,7 @@ def similarity(p1, p2):
     if plurality(p1, p2) == 1:
         return 10
     # If no sim vectors or containment, use combo of plurality match, ner match, and capitalization diff features
-    manual_sim = 0.80 + (0.9* ner(p1, p2)) - (0.1 * cap_diffs(p1, p2))
+    manual_sim = 0.65 + (plurality(p1, p2) * 0.7) + (0.7 * ner(p1, p2)) - (0.1 * cap_diffs(p1, p2))
     return manual_sim
 
 # Given 2 Spacy-processed phrases (noun phrases that are either Spans or Docs), returns their feature vector

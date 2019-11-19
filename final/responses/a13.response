@@ -17,17 +17,17 @@
 {12} {writ}
 
 <COREF ID="X5">Hong Kong</COREF>
+{12} {Kong}
 {12} {Novokuznetsk}
 {14} {Kong}
+{19} {Kong}
+{20} {Kong}
+{21} {Kong}
 
 <COREF ID="X6">the Aeroflot Airbus</COREF>
 {12} {Airbus}
 
 <COREF ID="X7">Aeroflot general manager for Hong Kong Vassili Tkatchenko</COREF>
-{12} {Hong Kong}
-{19} {Hong Kong}
-{20} {Hong Kong}
-{21} {Hong Kong}
 
 <COREF ID="X8">the 15-year-old son of Captain Yaroslav Kudrinsky</COREF>
 {15} {his 13-year-old sister}
