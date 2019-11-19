@@ -4,7 +4,9 @@
 {2} {disease}
 
 <COREF ID="X1">transplant</COREF>
+{3} {transplantation}
 {4} {transplant}
+{7} {renal transplants}
 
 <COREF ID="X2">Trypanosoma cruzi</COREF>
 {1} {Chagas disease}
@@ -34,6 +36,7 @@
 {8} {organs}
 
 <COREF ID="X8">donor</COREF>
+{4} {donors}
 {7} {donor}
 {8} {donor}
 

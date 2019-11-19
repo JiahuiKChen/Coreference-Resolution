@@ -1,4 +1,5 @@
 <COREF ID="X0">Trade Talks</COREF>
+{6} {TRADE}
 {10} {talks}
 {15} {talks}
 
@@ -8,6 +9,7 @@
 <COREF ID="X3">a 7 1/2-hour negotiating session</COREF>
 
 <COREF ID="X4">the two sides</COREF>
+{15} {the two countries}
 
 <COREF ID="X5">Pat Carney</COREF>
 

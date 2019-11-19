@@ -7,11 +7,11 @@
 
 <COREF ID="X1">its board</COREF>
 {7} {board}
-{22} {board}
 
 <COREF ID="X2">the Journal's April 17 article</COREF>
 {8} {article}
 {14} {article}
+{17} {the Journal's reference}
 
 <COREF ID="X3">Richard Ferris</COREF>
 {7} {Ferris}
@@ -37,8 +37,10 @@
 <COREF ID="X6">car rental company</COREF>
 
 <COREF ID="X7">board members</COREF>
+{22} {the board}
 
 <COREF ID="X8">the earnings of United Airlines</COREF>
+{13} {the airline}
 
 <COREF ID="X9">Jim Hartigan, </COREF>
 
@@ -48,6 +50,8 @@
 <COREF ID="X11">Donald Trump</COREF>
 
 <COREF ID="X12">the Century Plaza Hotel in Los Angeles</COREF>
+{16} {the Century Plaza}
+{26} {the Century Plaza}
 
 <COREF ID="X13">the "570 newly hired pilots" whom United "tried to fire" because they "refused to cross picket lines. "</COREF>
 
@@ -70,4 +74,5 @@
 {24} {We}
 {24} {we}
 {25} {We}
+{25} {they}
 

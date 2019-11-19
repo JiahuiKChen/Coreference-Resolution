@@ -6,8 +6,6 @@
 
 <COREF ID="X2">NORTHROP GRUMMAN F-14S</COREF>
 {22} {F-14s}
-{29} {now Northrop Grumman}
-{33} {Northrop Grumman shares}
 
 <COREF ID="X3">Bloomberg Business News</COREF>
 
@@ -50,6 +48,8 @@
 <COREF ID="X13">the mid 1970s</COREF>
 
 <COREF ID="X14">Grumman Corp.</COREF>
+{29} {now Northrop Grumman}
 
 <COREF ID="X15">Northrop Grumman spokesman John Vosilla</COREF>
+{33} {Northrop Grumman shares}
 

@@ -38,7 +38,6 @@
 {13} {agreement}
 {16} {agreement}
 {17} {agreement}
-{29} {agreement}
 
 <COREF ID="X5">both sides</COREF>
 
@@ -66,10 +65,11 @@
 <COREF ID="X14">a "cordial" initial meeting with Mr. Coleman last Thursday</COREF>
 
 <COREF ID="X15">Pan Am's pilots union</COREF>
-{30} {union}
 
 <COREF ID="X16">an agreement to deliver concessions to the company</COREF>
+{29} {the agreement}
 {30} {company}
 
 <COREF ID="X17">A pilot's union spokesman</COREF>
+{30} {the union's agreement}
 

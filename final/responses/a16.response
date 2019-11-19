@@ -11,7 +11,6 @@
 
 <COREF ID="X3">TWO</COREF>
 {8} {Two}
-{13} {Two}
 
 <COREF ID="X4">Macau</COREF>
 {9} {Macau}
@@ -24,6 +23,7 @@
 <COREF ID="X6">their helicopter</COREF>
 {10} {Helicopter}
 {11} {helicopter}
+{13} {Two Government Flying Service helicopters}
 {16} {helicopter}
 
 <COREF ID="X7">Zhuhai</COREF>

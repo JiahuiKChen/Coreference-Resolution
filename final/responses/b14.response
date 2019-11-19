@@ -1,6 +1,6 @@
 <COREF ID="X0">Rise in Labor Costs, Wage Agreements</COREF>
 {6} {labor costs}
-{12} {agreements}
+{17} {wage increases}
 {22} {agreements}
 
 <COREF ID="X2">the Labor Department</COREF>
@@ -12,10 +12,14 @@
 <COREF ID="X3">Total compensation costs in private industry, including pay and benefits,</COREF>
 
 <COREF ID="X5">9.8%, </COREF>
+{20} {2.9% increases}
+{20} {3.1%}
 {21} {,}
+{21} {1.9%}
 
 <COREF ID="X6">collective bargaining agreements reached last year</COREF>
 {11} {the bargaining agreements}
+{12} {The wage agreements}
 {16} {major collective bargaining agreements}
 
 <COREF ID="X7">an average 2.2% wage increase in the first year of the contract</COREF>
@@ -24,11 +28,14 @@
 {11} {contract}
 {12} {when a 1.2% increase}
 {12} {contract}
+{12} {a 1.8% annual increase}
 {13} {this year's higher wage increases}
 {16} {the average increase}
 
 <COREF ID="X8">the life of the pact</COREF>
+{11} {the first time}
 {12} {the life}
+{14} {the reason}
 
 <COREF ID="X9">pay</COREF>
 {15} {pay}
@@ -42,6 +49,7 @@
 {18} {labor}
 
 <COREF ID="X12">lump-sum payments, which are one-time payments often made upon a contract's ratification</COREF>
+{17} {The payments}
 
 <COREF ID="X13">construction industry</COREF>
 

@@ -1,6 +1,8 @@
 <COREF ID="X0">American Airlines</COREF>
 {8} {AIRLINES}
 {10} {Airlines}
+{15} {american}
+{21} {American}
 
 <COREF ID="X1">Mediation In Its Union Talks</COREF>
 {10} {talks}

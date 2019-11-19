@@ -1,4 +1,5 @@
 <COREF ID="X0">Minnesota</COREF>
+{7} {Iowa}
 
 <COREF ID="X1">Mediation</COREF>
 
@@ -11,15 +12,18 @@
 
 <COREF ID="X4">Farm-Debt Mediation</COREF>
 {8} {mediation}
-{13} {mediation}
 {15} {mediation}
 {16} {mediation}
 {17} {mediation}
 
 <COREF ID="X5">the most devastating crash in the farm economy since the Great Depression</COREF>
+{20} {the result}
+{21} {the result}
+{23} {the continuing crisis}
 
 <COREF ID="X6">Minnesota's mediation program</COREF>
 {10} {program}
+{13} {Minnesota mediation}
 {15} {program}
 
 <COREF ID="X7">creditors</COREF>
@@ -38,6 +42,7 @@
 {18} {12}
 
 <COREF ID="X11">various amendments to the Mediation Act</COREF>
+{20} {the proposed amendments}
 
 <COREF ID="X12">The program's record</COREF>
 

@@ -18,6 +18,7 @@
 {24} {production}
 
 <COREF ID="X6">a day</COREF>
+{24} {the first week}
 
 <COREF ID="X7">20 million barrels a day early this month</COREF>
 {6} {as much as one million barrels}
@@ -33,6 +34,7 @@
 
 <COREF ID="X11">its government</COREF>
 {14} {government}
+{14} {its demand}
 
 <COREF ID="X12">conciliatory gestures to OPEC</COREF>
 {11} {OPEC}
@@ -57,6 +59,7 @@
 <COREF ID="X15">OPEC's new secretary-general, </COREF>
 
 <COREF ID="X16">Sheik Zayed Al Nahyyan, </COREF>
+{12} {Sheik Zayed}
 
 <COREF ID="X17">Rilwanu Lukman, </COREF>
 
@@ -64,6 +67,7 @@
 
 <COREF ID="X19">the round of talks with Mr. Subroto</COREF>
 {20} {Subroto}
+{22} {the talks}
 
 <COREF ID="X20">the Emirates' official news agency</COREF>
 {13} {agency}
@@ -81,6 +85,10 @@
 {25} {markets}
 
 <COREF ID="X24">That</COREF>
+{18} {which}
+{18} {it}
+{22} {It}
+{22} {it}
 {24} {that}
 
 <COREF ID="X25">other exporters</COREF>
@@ -88,6 +96,7 @@
 <COREF ID="X26">the meeting</COREF>
 
 <COREF ID="X27">just over 19 million barrels a day</COREF>
+{24} {20 million barrels}
 {26} {The 19 million barrels}
 
 <COREF ID="X28">Charles L. McSpadden, </COREF>

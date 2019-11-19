@@ -15,19 +15,18 @@
 <COREF ID="X4">CROATIA</COREF>
 
 <COREF ID="X5">U.S. VICTIMS</COREF>
-{22} {victims}
 
 <COREF ID="X6">DUBROVNIK</COREF>
 {10} {Dubrovnik}
 
 <COREF ID="X7">two C-17 transport planes</COREF>
-{27} {planes}
 
 <COREF ID="X8">Saturday</COREF>
 {17} {Saturday}
 {29} {Saturday}
 
 <COREF ID="X9">Two of those who died in the crash</COREF>
+{24} {the last five years}
 {28} {crash}
 
 <COREF ID="X10">President Franjo Tudjman of Croatia</COREF>
@@ -36,6 +35,7 @@
 {26} {Zelimir Puljic}
 
 <COREF ID="X12">the families of those who have perished</COREF>
+{22} {the only victims}
 
 <COREF ID="X13">the American ambassador to Croatia</COREF>
 
@@ -44,7 +44,9 @@
 <COREF ID="X15">our friends and colleagues</COREF>
 
 <COREF ID="X16">The Air Force T-43 plane</COREF>
+{27} {the planes}
 {30} {plane}
+{31} {the aircraft}
 
 <COREF ID="X17">a rocky hill named after St. John the Baptist</COREF>
 

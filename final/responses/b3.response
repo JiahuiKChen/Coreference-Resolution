@@ -8,7 +8,6 @@
 {21} {TWA}
 {24} {TWA}
 {24} {TWA}
-{24} {TWA}
 {26} {TWA}
 {28} {TWA}
 {29} {TWA}
@@ -98,8 +97,11 @@
 <COREF ID="X10">second application</COREF>
 
 <COREF ID="X11">Department of Transportation</COREF>
+{19} {The department}
 {55} {Transportation}
 {57} {Transportation}
+{58} {the department}
+{59} {the department}
 
 <COREF ID="X12">TWA's first application</COREF>
 {20} {application}
@@ -108,6 +110,7 @@
 {59} {application}
 
 <COREF ID="X13">TWA's bid</COREF>
+{24} {TWA's acquisition}
 {25} {bid}
 {29} {bid}
 
@@ -142,7 +145,6 @@
 {52} {USAir}
 {53} {USAir}
 {53} {USAir}
-{53} {USAir}
 {54} {USAir}
 {55} {USAir}
 {56} {USAir}
@@ -156,7 +158,6 @@
 {17} {TWA}
 {18} {TWA}
 {21} {TWA}
-{24} {TWA}
 {24} {TWA}
 {24} {TWA}
 {26} {TWA}
@@ -192,6 +193,7 @@
 <COREF ID="X23">court in Pittsburgh</COREF>
 
 <COREF ID="X24">more USAir stock</COREF>
+{53} {more USAir shares}
 {53} {stock}
 {54} {stock}
 {55} {stock}

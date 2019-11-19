@@ -22,6 +22,8 @@
 {23} {F-14s}
 
 <COREF ID="X5">one of them</COREF>
+{23} {the past two years}
+{27} {the rest}
 
 <COREF ID="X6">Thursday</COREF>
 {38} {Thursday}
@@ -56,8 +58,10 @@
 {32} {engines}
 
 <COREF ID="X15">Two of the three planes that have crashed since late January</COREF>
+{35} {three people}
 
 <COREF ID="X16">later models</COREF>
 
 <COREF ID="X17">an F-14D</COREF>
+{38} {an operation}
 

@@ -4,10 +4,12 @@
 
 <COREF ID="X1">1987</COREF>
 {13} {1987}
-{18} {1987}
 
 <COREF ID="X2">a year earlier</COREF>
 {13} {the past month}
+{18} {1987's first nine months}
+{20} {last year's 106 million marks}
+{21} {the next few weeks}
 
 <COREF ID="X3">group sales</COREF>
 {12} {sales}
@@ -27,7 +29,9 @@
 <COREF ID="X8">the trade union-owned insurance group VOLKSFUERSORGE</COREF>
 {16} {Volksfuersorge}
 {16} {the insurance group}
+{16} {West Germany's second-largest retail-insurance concern}
 {17} {Volksfuersorge}
+{22} {The Netherlands' biggest insurance group}
 
 <COREF ID="X9">an insurance concern it controls</COREF>
 

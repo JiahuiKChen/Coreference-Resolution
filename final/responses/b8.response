@@ -1,6 +1,5 @@
 <COREF ID="X0">Chrysler</COREF>
 {23} {Chrysler}
-{26} {Chrysler}
 {31} {Chrysler}
 {33} {Chrysler}
 {35} {Chrysler}
@@ -30,6 +29,7 @@
 {34} {workers}
 
 <COREF ID="X7">Chrysler Corp.'s Canadian unit</COREF>
+{26} {Chrysler Canada}
 
 <COREF ID="X8">negotiations</COREF>
 {14} {negotiations}
@@ -42,6 +42,11 @@
 
 <COREF ID="X10">Ford Motor Co.</COREF>
 {39} {Co.}
+{40} {Ford}
+{42} {Ford}
+{45} {Ford}
+{49} {Ford}
+{52} {Ford}
 
 <COREF ID="X11">the United Auto Workers union</COREF>
 {15} {union}
@@ -84,7 +89,7 @@
 {35} {,}
 
 <COREF ID="X22">the two sides</COREF>
-{47} {sides}
+{29} {the end}
 
 <COREF ID="X23">local issues</COREF>
 {31} {issues}
@@ -103,6 +108,7 @@
 <COREF ID="X28">Monday</COREF>
 
 <COREF ID="X29">the two parties</COREF>
+{47} {the two sides}
 
 <COREF ID="X30">the job-security issue</COREF>
 {45} {issue}

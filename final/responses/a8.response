@@ -9,7 +9,6 @@
 
 <COREF ID="X3">FAA</COREF>
 {12} {FAA}
-{19} {FAA}
 
 <COREF ID="X4">NUMBER OF FLIGHTS</COREF>
 
@@ -29,6 +28,7 @@
 {24} {Texas}
 
 <COREF ID="X9">Energy Department</COREF>
+{14} {Energy}
 {21} {Department}
 
 <COREF ID="X10">each flight</COREF>
@@ -74,6 +74,7 @@
 {19} {count}
 
 <COREF ID="X19">air traffic controllers</COREF>
+{19} {the FAA air traffic manager}
 {21} {Pantex}
 {26} {controllers}
 

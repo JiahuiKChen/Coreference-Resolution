@@ -3,6 +3,7 @@
 <COREF ID="X1">outbreak</COREF>
 {8} {outbreak}
 {9} {outbreak}
+{10} {the outbreaks}
 
 <COREF ID="X3">Western Berlin</COREF>
 {6} {Berlin}
@@ -10,6 +11,7 @@
 <COREF ID="X4">sixties</COREF>
 
 <COREF ID="X5">Department of Infectious Diseases</COREF>
+{5} {the disease}
 
 <COREF ID="X6">we</COREF>
 {3} {we}
