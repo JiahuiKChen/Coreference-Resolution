@@ -116,7 +116,7 @@ def syn_check(p1, p2):
 
         for syn1 in s1:
             for syn2 in s2:
-                if (syn2 in s1) or (syn1 in syn2):
+                if (syn2 in s1) or (syn1 in syn2) or (syn2 in syn1):
                     return 1
         return 0
     except:

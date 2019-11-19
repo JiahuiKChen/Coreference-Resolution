@@ -85,7 +85,7 @@ def run_coref(input_file, nlp_model, model_file):
         parsed_sentence = nlp_model(sentence)
         np_chunks = list(chunk for chunk in parsed_sentence.noun_chunks)
 
-        # TODO: REMOVE ALL NP CHUNKS FROM SENTENCE, THEN PROCESS THEM FOR EXACT OR SUBSTRING MATCH, ADD IF MATCH 
+        # TODO: REMOVE ALL NP CHUNKS FROM SENTENCE, THEN PROCESS all words FOR EXACT OR SUBSTRING MATCH, ADD IF MATCH 
 
         # MENTION PAIR MODEL APPROACH
         # Pre-trained mention-pair model loaded in
