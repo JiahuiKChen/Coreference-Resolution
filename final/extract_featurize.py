@@ -7,6 +7,7 @@ import sys
 import re
 import numpy as np
 import spacy
+from nltk.corpus import wordnet as wn
 from util import get_input_file_text
 
 
@@ -101,12 +102,30 @@ def similarity(p1, p2):
     if plurality(p1, p2) == 1:
         return 10
     # If no sim vectors or containment, use combo of plurality match, ner match, and capitalization diff features
-    manual_sim = 0.80 + (0.9* ner(p1, p2)) - (0.1 * cap_diffs(p1, p2))
+    manual_sim = 0.65 + (plurality(p1, p2) * 0.7) + (0.7 * ner(p1, p2)) - (0.1 * cap_diffs(p1, p2))
     return manual_sim
+
+
+# Retrns 1 if head nouns of 2 noun phrases are synonyms, 0 otherwise
+def syn_check(p1, p2):
+    t1 = p1[-1].text.lower()
+    t2 = p2[-1].text.lower()
+    try: 
+        s1 = set(wn.synset(t1 + "n.01").lemma_names())
+        s2 = set(wn.synset(t2 + "n.01").lemma_names())
+
+        for syn1 in s1:
+            for syn2 in s2:
+                if (syn2 in s1) or (syn1 in syn2):
+                    return 1
+        return 0
+    except:
+        return 0
+
 
 # Given 2 Spacy-processed phrases (noun phrases that are either Spans or Docs), returns their feature vector
 def get_pair_features(p1, p2):
-    features = [ similarity(p1, p2), substring(p1, p2) ] #plurality(p1, p2), ner(p1, p2), cap_diffs(p1, p2) ] 
+    features = [ similarity(p1, p2), substring(p1, p2), syn_check(p1, p2)] #plurality(p1, p2), ner(p1, p2), cap_diffs(p1, p2) ] 
     return np.array(features)
 
 

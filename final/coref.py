@@ -85,6 +85,8 @@ def run_coref(input_file, nlp_model, model_file):
         parsed_sentence = nlp_model(sentence)
         np_chunks = list(chunk for chunk in parsed_sentence.noun_chunks)
 
+        # TODO: REMOVE ALL NP CHUNKS FROM SENTENCE, THEN PROCESS THEM FOR EXACT OR SUBSTRING MATCH, ADD IF MATCH 
+
         # MENTION PAIR MODEL APPROACH
         # Pre-trained mention-pair model loaded in
         #model = load(model_file)
@@ -108,10 +110,11 @@ def run_coref(input_file, nlp_model, model_file):
                 #    found_corefs[init_ref].append((np.text, s))
                 #    break
 
-                # Primitive approach that just uses similarity...
+                # SIMPLE APPRAOCH THAT CHECKS FOR SUBSTRINGS AND USES WORD VECTOR SIMILARITY 
                 pair_features = get_pair_features(potential_ref, np)
                 sim_score = pair_features[0]
                 contains = pair_features[1] 
+                synonyms = pair_features[2]
                 #match_lemmas = pair_features[2]
                 #match_ners = pair_features[3]
                 #match_caps = pair_features[4]
@@ -143,6 +146,15 @@ def run_coref(input_file, nlp_model, model_file):
                             break
                     if found: break
                 if found: break
+
+                # If head nouns are synonyms, add head noun as reference
+                if synonyms == 1:
+                    if init_ref not in found_corefs:
+                        found_corefs[init_ref] = []
+                    ref = potential_ref[-1].text
+                    found_corefs[init_ref].append((w.text, s))
+
+                # Reference if word vector similarity is above threshold
                 if sim_score > 0.80:
                     if init_ref not in found_corefs:
                         found_corefs[init_ref] = []
