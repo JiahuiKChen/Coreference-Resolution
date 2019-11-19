@@ -41,14 +41,23 @@ def parse_true_mentions(key_file):
 
 # 1 if either noun phrase is substring of the other, 0 otherwise
 def substring(p1, p2):
-    text1 = p1.text.lower()
-    text2 = p2.text.lower()
-    if text1 in text2:
-        return 1
-    elif text2 in text1:
-        return 1
-    else: 
+    #text1 = p1.text.lower()
+    #text2 = p2.text.lower()
+    # If any word in either phrase matches, return true
+    for w1 in p1:
+        for w2 in p2:
+            t1 = w1.text.lower()
+            t2 = w2.text.lower()
+            if t1 == t2:
+                return 1
+    else:
         return 0
+    #if text1 in text2:
+    #    return 1
+    #elif text2 in text1:
+    #    return 1
+    #else: 
+    #    return 0
 
 
 # Returns count of phrases that match in number/plurality 

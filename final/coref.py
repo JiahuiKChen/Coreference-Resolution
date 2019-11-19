@@ -128,23 +128,30 @@ def run_coref(input_file, nlp_model, model_file):
                 ## Same number of capitals is (minor) plus
                 #if match_caps == 0:
                 #    sim_score += 0.1
-                #if contains == 1:
-                #    if init_ref not in found_corefs:
-                #        found_corefs[init_ref] = []
-                #    found_corefs[init_ref].append((np.text, s))
-                #    break 
+
                 # Special case where there's for sure containment
                 if sim_score == 10 or contains == 1:
                     if init_ref not in found_corefs:
                         found_corefs[init_ref] = []
                     # Add in only (and all) matching words to avoid capturing too much of a phrase
-                    for w in np:
-                        for t in potential_ref:
-                            np_match = w.text.lower()
-                            ref_word = t.text.lower()
-                            if np_match == ref_word:
-                                found_corefs[init_ref].append((w.text, s))
+                    #for w in np:
+                    #    for t in potential_ref:
+                    #        np_match = w.text.lower()
+                    #        ref_word = t.text.lower()
+                    #        if np_match == ref_word:
+                    #            found_corefs[init_ref].append((w.text, s))
                     # TODO: TRY JUST ADDING THE WORD FROM NP THAT MATCHES ONLY THE LAST WORD OF INITIAL REFERENCE
+                    for w in np:
+                        found = False
+                        # Only add if the direct match is with the last word of the initial ref (head noun)
+                        head_noun = potential_ref[-1].text.lower()
+                        if w.text.lower() == head_noun:
+                            found_corefs[init_ref].append((w.text, s))
+                            found = True 
+                            break
+                    if found: break
+                if found:
+                    break
                 if sim_score > 0.75:
                     if init_ref not in found_corefs:
                         found_corefs[init_ref] = []

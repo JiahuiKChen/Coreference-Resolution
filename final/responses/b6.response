@@ -1,0 +1,16 @@
+<COREF ID="X1">Contract Offer</COREF>
+{7} {offer}
+{10} {a contract}
+{13} {the new contract}
+
+<COREF ID="X2">Strike</COREF>
+{10} {strike}
+{10} {strike}
+
+<COREF ID="X3">its technicians and news employees union</COREF>
+{8} {the company's work force}
+
+<COREF ID="X4">the union's 2,800 NBC members</COREF>
+{10} {members}
+{11} {the union's four-year contract}
+

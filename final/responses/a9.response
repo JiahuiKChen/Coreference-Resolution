@@ -1,0 +1,38 @@
+<COREF ID="X0">F14-CRASHES</COREF>
+{5} {F14-CRASHES}
+
+<COREF ID="X4">Navy</COREF>
+{12} {Navy}
+{16} {Navy}
+{16} {Navy}
+{17} {Navy}
+{20} {Navy}
+{22} {Navy}
+{26} {Navy}
+{27} {Navy}
+{30} {Navy}
+{31} {Navy}
+
+<COREF ID="X5">three days</COREF>
+{14} {three people}
+{32} {days}
+
+<COREF ID="X6">Persian Gulf</COREF>
+{18} {Gulf}
+
+<COREF ID="X8">Lt. Greg Geisen</COREF>
+{18} {Geisen}
+{27} {Geisen}
+
+<COREF ID="X11">Pratt @amp; Whitney</COREF>
+{28} {Geisen}
+{32} {Geisen}
+
+<COREF ID="X13">the mid 1970s</COREF>
+
+<COREF ID="X14">Grumman Corp.</COREF>
+{29} {now Northrop Grumman}
+
+<COREF ID="X15">Northrop Grumman spokesman John Vosilla</COREF>
+{33} {Northrop Grumman shares}
+
