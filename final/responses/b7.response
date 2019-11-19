@@ -1,0 +1,17 @@
+<COREF ID="X0">Western Union Corp.</COREF>
+{6} {Corp.}
+{6} {Western Union Telegraph Co.}
+
+<COREF ID="X1">its subsidiary, </COREF>
+
+<COREF ID="X2">labor contracts</COREF>
+{7} {contracts}
+{8} {contracts}
+
+<COREF ID="X3">the United Telegraph Workers and the Communications Workers of America</COREF>
+{11} {The United Telegraph Workers union}
+{12} {The Communications Workers}
+{12} {America}
+
+<COREF ID="X4">The agreement</COREF>
+

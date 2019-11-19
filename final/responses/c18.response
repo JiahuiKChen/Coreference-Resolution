@@ -1,0 +1,54 @@
+<COREF ID="X0">Lassa fever</COREF>
+{1} {fever}
+{2} {fever}
+{5} {fever}
+{12} {fever}
+{14} {fever}
+{14} {fever}
+
+<COREF ID="X1">UNAMSILLL</COREF>
+
+<COREF ID="X2">force</COREF>
+
+<COREF ID="X3">Daru</COREF>
+{2} {Daru}
+{10} {Daru}
+{11} {Daru}
+
+<COREF ID="X4">case</COREF>
+
+<COREF ID="X5">Freetown</COREF>
+{5} {Freetown}
+{10} {Freetown}
+{12} {Freetown}
+
+<COREF ID="X7">malaria</COREF>
+{4} {malaria}
+
+<COREF ID="X8">temperatures</COREF>
+{10} {temperatures}
+
+<COREF ID="X9">We</COREF>
+{15} {We}
+{19} {we}
+
+<COREF ID="X10">The first</COREF>
+{14} {first}
+{20} {the following:(1)How}
+{23} {the time}
+
+<COREF ID="X11">virus</COREF>
+{21} {virus}
+
+<COREF ID="X12">investigation</COREF>
+{23} {investigation}
+
+<COREF ID="X13">I</COREF>
+{20} {I}
+
+<COREF ID="X14">confirmation</COREF>
+{25} {confirmation}
+
+<COREF ID="X15">CP</COREF>
+{26} {cp}
+

@@ -1,0 +1,68 @@
+<COREF ID="X0">AIRLINE-LIABILITY</COREF>
+{10} {liability}
+
+<COREF ID="X1">04-05</COREF>
+
+<COREF ID="X2">AIRLINE CRASH-LIABILITY ACCORD</COREF>
+{10} {accord}
+{11} {accord}
+
+<COREF ID="X3">airlines</COREF>
+{12} {airlines}
+{18} {airlines}
+{18} {airlines}
+
+<COREF ID="X4">$75,000 limit</COREF>
+{13} {limit}
+{14} {limit}
+{19} {limit}
+{20} {limit}
+{22} {limit}
+
+<COREF ID="X5">Americans</COREF>
+{28} {Americans}
+
+<COREF ID="X6">United States</COREF>
+{14} {States}
+{17} {States}
+{28} {States}
+{28} {States}
+
+<COREF ID="X7">This</COREF>
+
+<COREF ID="X8">Efforts</COREF>
+
+<COREF ID="X9">U.S. officials</COREF>
+{20} {Roselawn}
+{25} {officials}
+
+<COREF ID="X10">aircraft manufacturers</COREF>
+
+<COREF ID="X11">Jeffrey N. Shane</COREF>
+
+<COREF ID="X12">many airlines</COREF>
+
+<COREF ID="X13">families</COREF>
+{20} {families}
+{25} {families}
+
+<COREF ID="X14">American Airlines</COREF>
+{22} {airlines}
+{23} {airlines}
+
+<COREF ID="X15">Barry Lambert Harris</COREF>
+
+<COREF ID="X16">U.S. airlines</COREF>
+{25} {airlines}
+
+<COREF ID="X17">fairly simple negotiations</COREF>
+{26} {negotiations}
+
+<COREF ID="X18">economic damages</COREF>
+
+<COREF ID="X19">the airline</COREF>
+{27} {airline}
+
+<COREF ID="X20">a ``fifth jurisdiction''</COREF>
+{29} {the ``fifth jurisdiction}
+

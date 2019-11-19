@@ -1,0 +1,67 @@
+<COREF ID="X0">GROUNDED-JETS</COREF>
+{5} {JETS}
+
+<COREF ID="X1">02-22</COREF>
+
+<COREF ID="X2">NAVY</COREF>
+{10} {Navy}
+{12} {Navy}
+{13} {Navy}
+{15} {Navy}
+{19} {Navy}
+{21} {Navy}
+{27} {Navy}
+{29} {Navy}
+{30} {Navy}
+{31} {Navy}
+{35} {Navy}
+{36} {Navy}
+
+<COREF ID="X3">THIRD RECENT CRASH</COREF>
+{10} {crash}
+{19} {crash}
+{19} {crash}
+{26} {crash}
+{30} {crash}
+{34} {crash}
+
+<COREF ID="X4">entire fleet of F-14 airplanes</COREF>
+
+<COREF ID="X5">Thursday</COREF>
+{16} {Sunday}
+
+<COREF ID="X6">The 72-hour ``safety stand-down''</COREF>
+
+<COREF ID="X7">an F-14 fighter</COREF>
+{31} {fighter}
+
+<COREF ID="X8">the two Naval aviators on board</COREF>
+
+<COREF ID="X9">Defense Department spokesman Kenneth Bacon</COREF>
+{24} {Bacon}
+{26} {Bacon}
+{27} {Bacon}
+{35} {Bacon}
+{36} {Bacon}
+
+<COREF ID="X10">A safety stand-down</COREF>
+{25} {down}
+
+<COREF ID="X11">the USS America</COREF>
+
+<COREF ID="X12">Carrier</COREF>
+{23} {carrier}
+{29} {carrier}
+
+<COREF ID="X13">these three crashes this year</COREF>
+{28} {the past five years}
+{33} {year}
+
+<COREF ID="X14">Adm. Jeremy Boorda</COREF>
+
+<COREF ID="X15">Deputy Defense Secretary John White</COREF>
+
+<COREF ID="X17">The oldest version of the aircraft</COREF>
+
+<COREF ID="X18">the initial years of deployment</COREF>
+
