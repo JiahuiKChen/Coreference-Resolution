@@ -19,12 +19,18 @@ NOTES:
 spacy:      https://spacy.io/
 nltk:       https://www.nltk.org/
 numpy:      https://numpy.org/
+I implemented this paper and got some of my mention-pair features here (final submission does not include this paper's appraoch):   https://www.cs.cornell.edu/home/cardie/papers/acl2002.pdf
+Some features for mention-pair vetors were taken from slide 45 of this deck:    https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1162/handouts/cs224n-lecture10-coreference.pdf
 
 
 **** TIME ESTIMATE FOR ONE DOCUMENT ****
+It takes about 20 seconds to run coref.py on only a10.input
+This is perhaps longer than usual, since loading in spacy's large english model takes some time
+and only occurs at the start of the program.
 
 
 **** CONTRIBUTIONS ****
+I worked alone, all the code and work is solely mine.
 
 
 **** PROBLEMS ****
