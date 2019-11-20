@@ -1,0 +1,43 @@
+<COREF ID="X7">area</COREF>
+{1} {area}
+{1} {Area}
+{2} {Area}
+{5} {area}
+{8} {area}
+
+<COREF ID="X1">classical swine fever</COREF>
+{1} {fever}
+
+<COREF ID="X2">Pigs</COREF>
+{8} {pigs}
+{9} {pigs}
+{13} {pigs}
+
+<COREF ID="X3">Norfolk</COREF>
+{13} {Norfolk}
+
+<COREF ID="X4">unit</COREF>
+
+<COREF ID="X5">the outbreak</COREF>
+{3} {outbreak}
+{11} {outbreak}
+
+<COREF ID="X6">start</COREF>
+
+<COREF ID="X7">area</COREF>
+{1} {area}
+{1} {Area}
+{2} {Area}
+{5} {area}
+{8} {area}
+
+<COREF ID="X8">areas</COREF>
+{8} {areas}
+{11} {areas}
+
+<COREF ID="X9">Farmers</COREF>
+{11} {Farmers}
+
+<COREF ID="X11">EU</COREF>
+{14} {EU}
+

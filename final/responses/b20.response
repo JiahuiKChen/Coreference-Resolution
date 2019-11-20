@@ -1,0 +1,116 @@
+<COREF ID="X0">OPEC</COREF>
+{3} {MDEST}
+
+<COREF ID="X1">a Price War</COREF>
+{5} {war}
+{19} {war}
+
+<COREF ID="X2">Output</COREF>
+{6} {output}
+
+<COREF ID="X3">Quota Violator</COREF>
+{7} {violator}
+
+<COREF ID="X5">a sharp rise in OPEC production</COREF>
+{13} {production}
+{14} {production}
+{15} {production}
+{24} {production}
+
+<COREF ID="X6">a day</COREF>
+{24} {the first week}
+{24} {day}
+{26} {day}
+
+<COREF ID="X7">20 million barrels a day early this month</COREF>
+{6} {as much as one million barrels}
+{24} {month}
+
+<COREF ID="X8">its own output</COREF>
+
+<COREF ID="X9">a targeted 1.5 million barrels a day</COREF>
+{15} {between 1.2 million and 1.5 million barrels}
+{24} {day}
+{26} {day}
+
+<COREF ID="X10">Saudi Arabia</COREF>
+{23} {Arabia}
+
+<COREF ID="X11">its government</COREF>
+{14} {government}
+{14} {its demand}
+
+<COREF ID="X12">conciliatory gestures to OPEC</COREF>
+{11} {OPEC}
+{12} {OPEC}
+{12} {OPEC}
+{14} {OPEC}
+{17} {OPEC}
+{18} {OPEC}
+{19} {OPEC}
+{20} {OPEC}
+{21} {OPEC}
+{22} {OPEC}
+{23} {OPEC}
+{24} {OPEC}
+{26} {OPEC}
+
+<COREF ID="X13">yesterday</COREF>
+{14} {yesterday}
+{21} {yesterday}
+
+<COREF ID="X14">Abu Dhabi</COREF>
+{20} {Dhabi}
+
+<COREF ID="X15">OPEC's new secretary-general, </COREF>
+
+<COREF ID="X16">Sheik Zayed Al Nahyyan, </COREF>
+{12} {Sheik Zayed}
+
+<COREF ID="X17">Rilwanu Lukman, </COREF>
+
+<COREF ID="X18">its assigned quota of 948,000 barrels a day</COREF>
+{24} {day}
+{26} {day}
+
+<COREF ID="X19">the round of talks with Mr. Subroto</COREF>
+{20} {Subroto}
+{22} {the talks}
+
+<COREF ID="X20">the Emirates' official news agency</COREF>
+{13} {agency}
+
+<COREF ID="X21">oil</COREF>
+{20} {oil}
+{25} {oil}
+
+<COREF ID="X22">such excess output by the Emirates</COREF>
+{17} {Emirates}
+{20} {Emirates}
+
+<COREF ID="X23">the world oil markets</COREF>
+{20} {world oil prices}
+{25} {markets}
+
+<COREF ID="X24">That</COREF>
+{18} {which}
+{18} {it}
+{19} {that}
+{22} {It}
+{22} {it}
+{24} {that}
+
+<COREF ID="X25">other exporters</COREF>
+
+<COREF ID="X26">the meeting</COREF>
+
+<COREF ID="X27">just over 19 million barrels a day</COREF>
+{24} {20 million barrels}
+{24} {day}
+{26} {The 19 million barrels}
+{26} {day}
+
+<COREF ID="X28">Charles L. McSpadden, </COREF>
+
+<COREF ID="X29">Antonio M. Szabo, </COREF>
+

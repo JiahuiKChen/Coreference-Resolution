@@ -1,0 +1,31 @@
+<COREF ID="X0">ProMED</COREF>
+{15} {ProMED}
+
+<COREF ID="X2">Psittacosis</COREF>
+{5} {psittacosis}
+{6} {the Danish Med Bul}
+{16} {psittacosis}
+
+<COREF ID="X3">one significant misleading fact and a few questionable elements</COREF>
+{1} {elements}
+{12} {only a small number}
+
+<COREF ID="X4">I</COREF>
+{9} {I}
+
+<COREF ID="X5">the source</COREF>
+{14} {source}
+
+<COREF ID="X6">transmission</COREF>
+{5} {transmission}
+{8} {transmission}
+
+<COREF ID="X7">species</COREF>
+{10} {species}
+{12} {species}
+
+<COREF ID="X8">some</COREF>
+{11} {some}
+
+<COREF ID="X9">the organism</COREF>
+

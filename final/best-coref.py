@@ -85,12 +85,16 @@ def run_coref(input_file, nlp_model, model_file):
         parsed_sentence = nlp_model(sentence)
         np_chunks = list(chunk for chunk in parsed_sentence.noun_chunks)
 
+        # TODO: REMOVE ALL NP CHUNKS FROM SENTENCE, THEN PROCESS all words FOR EXACT OR SUBSTRING MATCH, ADD IF MATCH 
+
+
         # MENTION PAIR MODEL APPROACH
         # Pre-trained mention-pair model loaded in
         #model = load(model_file)
 
         # For each np, pair with the most recent intiial reference - run pair through the mention-pair classifier 
         for np in np_chunks:
+
             # Try mention pairs with initial references (trying most recent first), until all are tried OR positive match is found
             for init_ind in range(len(possible_initials)-1, -1, -1):
                 init_ref = possible_initials[init_ind]
@@ -157,24 +161,6 @@ def run_coref(input_file, nlp_model, model_file):
                         found_corefs[init_ref] = []
                     found_corefs[init_ref].append((np.text, s))
                     break 
-
-        # Remove all np chunks from sentence
-        no_np_sentence = sentence
-        for np in np_chunks:
-            txt = np.text
-            start_ind = no_np_sentence.find(txt)
-            if start_ind != -1:
-                no_np_sentence = no_np_sentence[:start_ind] + no_np_sentence[start_ind + len(txt):]
-        # Process np chunk free sentence for exact substring/containment matches with initial references
-        sen_words = no_np_sentence.split()
-        for init_ref in possible_initials:
-            init_head = init_ref.split()[-1].lower()
-            for w in sen_words:
-                poss_ref = w.lower()
-                if init_head == poss_ref:
-                    if init_ref not in found_corefs:
-                        found_corefs[init_ref] = []
-                    found_corefs[init_ref].append((w, s))
 
     print(found_corefs)
 

@@ -1,0 +1,92 @@
+<COREF ID="X0">APMV-1</COREF>
+
+<COREF ID="X1">poultry</COREF>
+{0} {poultry}
+{0} {Poultry}
+{11} {poultry}
+
+<COREF ID="X2">mutation</COREF>
+{1} {mutation}
+
+<COREF ID="X10">viruses</COREF>
+{0} {viruses}
+{0} {viruses}
+{3} {viruses}
+{11} {viruses}
+
+<COREF ID="X4">virulence</COREF>
+{5} {virulence}
+{8} {virulence}
+{9} {virulence}
+{9} {virulence}
+{9} {virulence}
+
+<COREF ID="X5">flocks</COREF>
+{1} {flocks}
+{3} {flocks}
+{3} {flocks}
+
+<COREF ID="X6">ND</COREF>
+{3} {ND}
+
+<COREF ID="X12">virus</COREF>
+{1} {virus}
+{4} {virus}
+{5} {virus}
+{8} {virus}
+{9} {virus}
+
+<COREF ID="X8">Victoria</COREF>
+{12} {Victoria}
+{12} {Victoria}
+
+<COREF ID="X12">virus</COREF>
+{1} {virus}
+{4} {virus}
+{5} {virus}
+{8} {virus}
+{9} {virus}
+
+<COREF ID="X10">viruses</COREF>
+{0} {viruses}
+{0} {viruses}
+{3} {viruses}
+{11} {viruses}
+
+<COREF ID="X11">Australia</COREF>
+{12} {Australia}
+{12} {Australia}
+
+<COREF ID="X12">virus</COREF>
+{1} {virus}
+{4} {virus}
+{5} {virus}
+{8} {virus}
+{9} {virus}
+
+<COREF ID="X13">Strains</COREF>
+
+<COREF ID="X14">the cleavability</COREF>
+{7} {the presence}
+{7} {cleavability}
+{8} {the basis}
+{9} {the number}
+
+<COREF ID="X15">proteins</COREF>
+{6} {proteins}
+{6} {proteins}
+
+<COREF ID="X16">strains</COREF>
+{6} {strains}
+{7} {strains}
+{8} {strains}
+{8} {strains}
+{9} {strains}
+
+<COREF ID="X17">tissue</COREF>
+{7} {tissue}
+
+<COREF ID="X18">This</COREF>
+{9} {this}
+{10} {this}
+

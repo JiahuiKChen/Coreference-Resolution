@@ -1,0 +1,21 @@
+<COREF ID="X0">Trade Talks</COREF>
+{6} {TRADE}
+{10} {talks}
+{15} {talks}
+
+<COREF ID="X2">Treasury Secretary James Baker</COREF>
+{13} {Baker}
+
+<COREF ID="X3">a 7 1/2-hour negotiating session</COREF>
+
+<COREF ID="X4">the two sides</COREF>
+{15} {the two countries}
+
+<COREF ID="X5">Pat Carney</COREF>
+
+<COREF ID="X6">Canada</COREF>
+{15} {Canada}
+
+<COREF ID="X7">U.S.</COREF>
+{15} {U.S.}
+
