@@ -12,8 +12,6 @@ from joblib import dump, load
 #           list of initial references, in the order they were found (later is higher ind)
 #           text of sentence with intial references REMOVED (so np extraction gets only other NPs)
 def extract_initial_refs(sentence_txt):
-    #coref_end_reg = '(</COREF>)'
-    #coref_start_reg = '(<COREF ID.*?>)'
     coref_extract_reg = '<COREF ID.*?>(.*?)</COREF>'
     coref_with_tags_extract_reg = '(<COREF ID.*?>.*?</COREF>)'
     ref_map = {}
@@ -112,22 +110,6 @@ def run_coref(input_file, nlp_model, model_file):
                 sim_score = pair_features[0]
                 contains = pair_features[1] 
                 synonyms = pair_features[2]
-                #match_lemmas = pair_features[2]
-                #match_ners = pair_features[3]
-                #match_caps = pair_features[4]
-
-                ## Number of matching lemmas is a plus 
-                #sim_score += 0.5 * match_lemmas
-    
-                ## Containment is a huge plus
-                #sim_score += contains 
-
-                ## Matching NER is a huge plus
-                #sim_score += 0.8 * match_ners
-
-                ## Same number of capitals is (minor) plus
-                #if match_caps == 0:
-                #    sim_score += 0.1
 
                 # Special case where there's for sure containment
                 found = False
