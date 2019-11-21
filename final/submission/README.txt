@@ -19,8 +19,10 @@ NOTES:
 spacy:      https://spacy.io/
 nltk:       https://www.nltk.org/
 numpy:      https://numpy.org/
-I implemented this paper and got some of my mention-pair features here (final submission does not include this paper's appraoch):   https://www.cs.cornell.edu/home/cardie/papers/acl2002.pdf
-Some features for mention-pair vetors were taken from slide 45 of this deck:    https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1162/handouts/cs224n-lecture10-coreference.pdf
+I implemented a modified version of the method and got some of my mention-pair features from this paper:
+     https://www.cs.cornell.edu/home/cardie/papers/acl2002.pdf
+Some features for mention-pair vetors were taken from slide 45 of this deck:    
+    https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1162/handouts/cs224n-lecture10-coreference.pdf
 
 
 **** TIME ESTIMATE FOR ONE DOCUMENT ****
@@ -41,8 +43,11 @@ none...
 All code was developed and tested on lab1-17
 I used Spacy for noun phrase chunking, tokenizing, and word vector cosine similarity
 
-I implement a modified Best Match algorithm 
+I implement a modified version of the Best Match algorithm 
 (presented in "Improving Machine Learning Approaches to Coreference Resolution" by Vincent Ng and Claire Cardie),
 that only tries pairing NPs with initial references.
 
 I use cosine similarity on word vectors and a similarity threshold to determine if a pair is a mention.
+When the word vectors are empty, I use a weighted combination of features as the similarity value.
+I also consider all substrings/word matches as coreferences when they match the head noun of an initial reference.
+
